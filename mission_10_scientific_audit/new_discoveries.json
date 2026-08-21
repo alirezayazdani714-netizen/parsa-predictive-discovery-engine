@@ -1,0 +1,88 @@
+[
+  {
+    "case_id": "CASE-000004",
+    "name": "Naive RSI(14) > 80 Overbought Shorting",
+    "category": "Naive-Indicator",
+    "hypothesis": "Simple overbought RSI > 80 provides reliable short signals across crypto assets.",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "sample_size": 534,
+    "train_performance": {
+      "trades": 241,
+      "win_rate": 0.4232,
+      "net_return": -0.0022,
+      "mfe_mae": 0.96,
+      "profit_factor": 0.66
+    },
+    "validation_performance": {
+      "trades": 98,
+      "win_rate": 0.5816,
+      "net_return": -0.0008,
+      "mfe_mae": 1.42,
+      "profit_factor": 12.06
+    },
+    "oos_performance": {
+      "trades": 52,
+      "win_rate": 0.6154,
+      "net_return": 0.0023,
+      "mfe_mae": 2.03,
+      "profit_factor": 52.3
+    },
+    "final_locked_performance": {
+      "trades": 143,
+      "win_rate": 0.3636,
+      "net_return": -0.0085,
+      "mfe_mae": 0.96,
+      "profit_factor": 1.41
+    },
+    "mfe_mae_ratio": 2.03,
+    "profit_factor": 52.3,
+    "tier": "Tier 2 (Candidate Discovery)",
+    "verdict": "INTERESTING_EDGE",
+    "p_value_raw": 2.3283064365386963e-10,
+    "p_value_adjusted": 1.6298145055770874e-09
+  },
+  {
+    "case_id": "CASE-000006",
+    "name": "Triple-Confluence Range Sweep + Volume Absorption + Momentum Confirmation",
+    "category": "Meta-Confluence-Law",
+    "hypothesis": "Sweep of 30-bar range low followed by 2.2x volume surge and instant close in upper 25% of candle range produces robust asymmetric alpha.",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "sample_size": 16,
+    "train_performance": {
+      "trades": 9,
+      "win_rate": 0.4444,
+      "net_return": 0.0006,
+      "mfe_mae": 1.8,
+      "profit_factor": 7.9
+    },
+    "validation_performance": {
+      "trades": 5,
+      "win_rate": 0.4,
+      "net_return": 0.0014,
+      "mfe_mae": 3.28,
+      "profit_factor": 22.66
+    },
+    "oos_performance": {
+      "trades": 2,
+      "win_rate": 1.0,
+      "net_return": 0.0113,
+      "mfe_mae": 150.5,
+      "profit_factor": 112.77
+    },
+    "final_locked_performance": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "net_return": 0.0,
+      "mfe_mae": 0.0,
+      "profit_factor": 0.0
+    },
+    "mfe_mae_ratio": 150.5,
+    "profit_factor": 112.77,
+    "tier": "Tier 2 (Candidate Discovery)",
+    "verdict": "INTERESTING_EDGE",
+    "p_value_raw": 0.25,
+    "p_value_adjusted": 1.0
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "case_id": "CASE-000001",
+    "name": "Session Extreme Sweep with Delta Wick Rejection",
+    "category": "Liquidity-Microstructure",
+    "hypothesis": "When price pierces the prior 20-bar extreme by >0.15% but closes back inside with an exhaustion wick, probability of mean-reversion exceeds baseline.",
+    "timeframe": "15m",
+    "direction": "SHORT",
+    "sample_size": 167,
+    "train_performance": {
+      "trades": 42,
+      "win_rate": 0.3333,
+      "net_return": -0.0033,
+      "mfe_mae": 0.93,
+      "profit_factor": 1.34
+    },
+    "validation_performance": {
+      "trades": 32,
+      "win_rate": 0.5,
+      "net_return": 0.0002,
+      "mfe_mae": 2.28,
+      "profit_factor": 25.28
+    },
+    "oos_performance": {
+      "trades": 25,
+      "win_rate": 0.32,
+      "net_return": -0.0032,
+      "mfe_mae": 0.84,
+      "profit_factor": 10.44
+    },
+    "final_locked_performance": {
+      "trades": 68,
+      "win_rate": 0.2794,
+      "net_return": -0.0051,
+      "mfe_mae": 0.62,
+      "profit_factor": 0.35
+    },
+    "mfe_mae_ratio": 0.84,
+    "profit_factor": 10.44,
+    "tier": "Tier 0 (Sub-baseline Noise)",
+    "verdict": "FAILED_HYPOTHESIS",
+    "p_value_raw": 0.45,
+    "p_value_adjusted": 1.0
+  },
+  {
+    "case_id": "CASE-000002",
+    "name": "Multi-Bar Volatility Compression with Volume Expansion Breakout",
+    "category": "Volatility-Breakout",
+    "hypothesis": "When 10-bar range compresses to <1.2% of price and breaks out with volume > 2x 20-bar average, directional momentum persists.",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "sample_size": 219,
+    "train_performance": {
+      "trades": 98,
+      "win_rate": 0.2551,
+      "net_return": -0.0007,
+      "mfe_mae": 1.39,
+      "profit_factor": 0.85
+    },
+    "validation_performance": {
+      "trades": 43,
+      "win_rate": 0.2326,
+      "net_return": -0.0043,
+      "mfe_mae": 0.89,
+      "profit_factor": 0.73
+    },
+    "oos_performance": {
+      "trades": 58,
+      "win_rate": 0.4655,
+      "net_return": 0.0039,
+      "mfe_mae": 4.21,
+      "profit_factor": 66.67
+    },
+    "final_locked_performance": {
+      "trades": 20,
+      "win_rate": 0.5,
+      "net_return": 0.0026,
+      "mfe_mae": 2.44,
+      "profit_factor": 41.35
+    },
+    "mfe_mae_ratio": 4.21,
+    "profit_factor": 66.67,
+    "tier": "Tier 0 (Sub-baseline Noise)",
+    "verdict": "FAILED_HYPOTHESIS",
+    "p_value_raw": 0.45,
+    "p_value_adjusted": 1.0
+  },
+  {
+    "case_id": "CASE-000003",
+    "name": "Trend Momentum Pullback in Strong 50-EMA Regime",
+    "category": "Trend-Momentum",
+    "hypothesis": "In an established uptrend (Close > EMA50), a pullback touching EMA20 with decreasing volume yields continuation.",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "sample_size": 535,
+    "train_performance": {
+      "trades": 287,
+      "win_rate": 0.3554,
+      "net_return": -0.0031,
+      "mfe_mae": 0.88,
+      "profit_factor": 0.48
+    },
+    "validation_performance": {
+      "trades": 104,
+      "win_rate": 0.3365,
+      "net_return": -0.0028,
+      "mfe_mae": 1.26,
+      "profit_factor": 0.92
+    },
+    "oos_performance": {
+      "trades": 65,
+      "win_rate": 0.3077,
+      "net_return": -0.0024,
+      "mfe_mae": 0.91,
+      "profit_factor": 0.62
+    },
+    "final_locked_performance": {
+      "trades": 79,
+      "win_rate": 0.3544,
+      "net_return": -0.0011,
+      "mfe_mae": 1.31,
+      "profit_factor": 1.45
+    },
+    "mfe_mae_ratio": 0.91,
+    "profit_factor": 0.62,
+    "tier": "Tier 0 (Sub-baseline Noise)",
+    "verdict": "FAILED_HYPOTHESIS",
+    "p_value_raw": 0.45,
+    "p_value_adjusted": 1.0
+  },
+  {
+    "case_id": "CASE-000004",
+    "name": "Naive RSI(14) > 80 Overbought Shorting",
+    "category": "Naive-Indicator",
+    "hypothesis": "Simple overbought RSI > 80 provides reliable short signals across crypto assets.",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "sample_size": 534,
+    "train_performance": {
+      "trades": 241,
+      "win_rate": 0.4232,
+      "net_return": -0.0022,
+      "mfe_mae": 0.96,
+      "profit_factor": 0.66
+    },
+    "validation_performance": {
+      "trades": 98,
+      "win_rate": 0.5816,
+      "net_return": -0.0008,
+      "mfe_mae": 1.42,
+      "profit_factor": 12.06
+    },
+    "oos_performance": {
+      "trades": 52,
+      "win_rate": 0.6154,
+      "net_return": 0.0023,
+      "mfe_mae": 2.03,
+      "profit_factor": 52.3
+    },
+    "final_locked_performance": {
+      "trades": 143,
+      "win_rate": 0.3636,
+      "net_return": -0.0085,
+      "mfe_mae": 0.96,
+      "profit_factor": 1.41
+    },
+    "mfe_mae_ratio": 2.03,
+    "profit_factor": 52.3,
+    "tier": "Tier 2 (Candidate Discovery)",
+    "verdict": "INTERESTING_EDGE",
+    "p_value_raw": 2.3283064365386963e-10,
+    "p_value_adjusted": 1.6298145055770874e-09
+  },
+  {
+    "case_id": "CASE-000005",
+    "name": "Consecutive Climax Volume Dump Exhaustion Rebound",
+    "category": "Volume-Climax",
+    "hypothesis": "3 consecutive red candles with surging volume and closing near bottom of range followed by green wick represents seller exhaustion.",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "sample_size": 56,
+    "train_performance": {
+      "trades": 28,
+      "win_rate": 0.1429,
+      "net_return": -0.0028,
+      "mfe_mae": 3.68,
+      "profit_factor": 1.46
+    },
+    "validation_performance": {
+      "trades": 15,
+      "win_rate": 0.4,
+      "net_return": -0.0007,
+      "mfe_mae": 4.06,
+      "profit_factor": 9.72
+    },
+    "oos_performance": {
+      "trades": 10,
+      "win_rate": 0.3,
+      "net_return": 0.0038,
+      "mfe_mae": 10.48,
+      "profit_factor": 65.47
+    },
+    "final_locked_performance": {
+      "trades": 3,
+      "win_rate": 1.0,
+      "net_return": 0.0065,
+      "mfe_mae": 4.69,
+      "profit_factor": 110.2
+    },
+    "mfe_mae_ratio": 10.48,
+    "profit_factor": 65.47,
+    "tier": "Tier 0 (Sub-baseline Noise)",
+    "verdict": "FAILED_HYPOTHESIS",
+    "p_value_raw": 0.45,
+    "p_value_adjusted": 1.0
+  },
+  {
+    "case_id": "CASE-000006",
+    "name": "Triple-Confluence Range Sweep + Volume Absorption + Momentum Confirmation",
+    "category": "Meta-Confluence-Law",
+    "hypothesis": "Sweep of 30-bar range low followed by 2.2x volume surge and instant close in upper 25% of candle range produces robust asymmetric alpha.",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "sample_size": 16,
+    "train_performance": {
+      "trades": 9,
+      "win_rate": 0.4444,
+      "net_return": 0.0006,
+      "mfe_mae": 1.8,
+      "profit_factor": 7.9
+    },
+    "validation_performance": {
+      "trades": 5,
+      "win_rate": 0.4,
+      "net_return": 0.0014,
+      "mfe_mae": 3.28,
+      "profit_factor": 22.66
+    },
+    "oos_performance": {
+      "trades": 2,
+      "win_rate": 1.0,
+      "net_return": 0.0113,
+      "mfe_mae": 150.5,
+      "profit_factor": 112.77
+    },
+    "final_locked_performance": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "net_return": 0.0,
+      "mfe_mae": 0.0,
+      "profit_factor": 0.0
+    },
+    "mfe_mae_ratio": 150.5,
+    "profit_factor": 112.77,
+    "tier": "Tier 2 (Candidate Discovery)",
+    "verdict": "INTERESTING_EDGE",
+    "p_value_raw": 0.25,
+    "p_value_adjusted": 1.0
+  },
+  {
+    "case_id": "CASE-000007",
+    "name": "Failed High Breakout Trap (Bull Trap Reversal)",
+    "category": "Liquidity-Trap",
+    "hypothesis": "Candle breaks 40-bar high with above-average volume but immediately the next candle closes below previous breakout level.",
+    "timeframe": "15m",
+    "direction": "SHORT",
+    "sample_size": 88,
+    "train_performance": {
+      "trades": 21,
+      "win_rate": 0.381,
+      "net_return": -0.0009,
+      "mfe_mae": 1.59,
+      "profit_factor": 5.43
+    },
+    "validation_performance": {
+      "trades": 8,
+      "win_rate": 0.625,
+      "net_return": 0.0022,
+      "mfe_mae": 3.2,
+      "profit_factor": 30.85
+    },
+    "oos_performance": {
+      "trades": 23,
+      "win_rate": 0.3478,
+      "net_return": -0.0009,
+      "mfe_mae": 1.29,
+      "profit_factor": 9.14
+    },
+    "final_locked_performance": {
+      "trades": 36,
+      "win_rate": 0.2778,
+      "net_return": -0.0058,
+      "mfe_mae": 0.6,
+      "profit_factor": 6.17
+    },
+    "mfe_mae_ratio": 1.29,
+    "profit_factor": 9.14,
+    "tier": "Tier 0 (Sub-baseline Noise)",
+    "verdict": "FAILED_HYPOTHESIS",
+    "p_value_raw": 0.45,
+    "p_value_adjusted": 1.0
+  }
+]

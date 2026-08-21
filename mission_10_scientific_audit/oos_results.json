@@ -1,0 +1,51 @@
+[
+  {
+    "trades": 25,
+    "win_rate": 0.32,
+    "net_return": -0.0032,
+    "mfe_mae": 0.84,
+    "profit_factor": 10.44
+  },
+  {
+    "trades": 58,
+    "win_rate": 0.4655,
+    "net_return": 0.0039,
+    "mfe_mae": 4.21,
+    "profit_factor": 66.67
+  },
+  {
+    "trades": 65,
+    "win_rate": 0.3077,
+    "net_return": -0.0024,
+    "mfe_mae": 0.91,
+    "profit_factor": 0.62
+  },
+  {
+    "trades": 52,
+    "win_rate": 0.6154,
+    "net_return": 0.0023,
+    "mfe_mae": 2.03,
+    "profit_factor": 52.3
+  },
+  {
+    "trades": 10,
+    "win_rate": 0.3,
+    "net_return": 0.0038,
+    "mfe_mae": 10.48,
+    "profit_factor": 65.47
+  },
+  {
+    "trades": 2,
+    "win_rate": 1.0,
+    "net_return": 0.0113,
+    "mfe_mae": 150.5,
+    "profit_factor": 112.77
+  },
+  {
+    "trades": 23,
+    "win_rate": 0.3478,
+    "net_return": -0.0009,
+    "mfe_mae": 1.29,
+    "profit_factor": 9.14
+  }
+]

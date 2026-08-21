@@ -1,0 +1,9 @@
+{
+  "audit_title": "PARSA_SCIENTIFIC_DETECTIVE_MULTIPLE_TESTING",
+  "total_candles_audited": 45000,
+  "total_real_trade_evaluations": 1615,
+  "hypotheses_tested_count": 7,
+  "family_wise_error_control": "Bonferroni & Benjamini-Hochberg FDR",
+  "overfit_cases_detected": 5,
+  "law_candidates_confirmed": 0
+}

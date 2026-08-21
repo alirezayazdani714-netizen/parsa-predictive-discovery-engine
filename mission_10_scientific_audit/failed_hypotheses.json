@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "CASE-000001",
+    "name": "Session Extreme Sweep with Delta Wick Rejection",
+    "reason": "Sub-baseline win rate (32.0%) and negative net expectancy (-0.32%) after fees."
+  },
+  {
+    "case_id": "CASE-000002",
+    "name": "Multi-Bar Volatility Compression with Volume Expansion Breakout",
+    "reason": "Sub-baseline win rate (46.6%) and negative net expectancy (0.39%) after fees."
+  },
+  {
+    "case_id": "CASE-000003",
+    "name": "Trend Momentum Pullback in Strong 50-EMA Regime",
+    "reason": "Sub-baseline win rate (30.8%) and negative net expectancy (-0.24%) after fees."
+  },
+  {
+    "case_id": "CASE-000005",
+    "name": "Consecutive Climax Volume Dump Exhaustion Rebound",
+    "reason": "Sub-baseline win rate (30.0%) and negative net expectancy (0.38%) after fees."
+  },
+  {
+    "case_id": "CASE-000007",
+    "name": "Failed High Breakout Trap (Bull Trap Reversal)",
+    "reason": "Sub-baseline win rate (34.8%) and negative net expectancy (-0.09%) after fees."
+  }
+]

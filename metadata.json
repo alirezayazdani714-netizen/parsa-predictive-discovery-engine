@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Parsa Infrastructure Core",
+  "description": "Establishes the core infrastructure, GitHub integration, AI monitoring access, and auditing APIs for the PARSA development environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

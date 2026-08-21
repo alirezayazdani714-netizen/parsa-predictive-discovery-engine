@@ -1,0 +1,173 @@
+[
+  {
+    "discovery_id": "DISC-01",
+    "name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "version": "1.2.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0005",
+    "description": "Candle body > 85% of total span with volume & trade velocity expansion > 1.8x ATR",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-02",
+    "name": "Kinetic Volume-Absorption Decoupling",
+    "version": "1.1.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0001",
+    "description": "Volume surge > 2.0x average with compressed price spread < 0.7 ATR and taker buy ratio > 65%",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-03",
+    "name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0002",
+    "description": "Altcoin breakout > 2.5% over 10 bars with elevated trades while BTC is range-bound",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-04",
+    "name": "Asymmetric Taker Delta Absorption Law",
+    "version": "2.0.0",
+    "source_file": "scripts/parsa_mission11_forensic_auditor.py",
+    "source_func": "evaluate_taker_delta_law",
+    "description": "Dominant taker buy volume > 70% of total volume with overall volume surge > 1.5x",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-05",
+    "name": "Post-Climax Liquidity Vacuum Retest",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0003",
+    "description": "Extreme volume climax bar (vol > 2.5x) followed by dry-up bar (vol < 0.5x) holding support",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-06",
+    "name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0004",
+    "description": "Upper rejection shadow > 60% of candle range on elevated taker sell volume -> Short",
+    "direction": "DOWN"
+  },
+  {
+    "discovery_id": "DISC-07",
+    "name": "Multi-Bar Volatility Expansion Acceleration",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission14_anti_fabrication_gate.py",
+    "source_func": "condition_fn_hyp_005",
+    "description": "3 consecutive expanding range bars with expanding taker buy aggression > 60%",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-08",
+    "name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission14_anti_fabrication_gate.py",
+    "source_func": "condition_fn_hyp_004",
+    "description": "Spike in quote-volume per trade > 2.2x historical average with sub-ATR compressed range",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-09",
+    "name": "Bollinger Compression Squeeze Volatility Breakout",
+    "version": "1.1.0",
+    "source_file": "scripts/massive_100k_discovery_search.py",
+    "source_func": "evaluate_bollinger_compression_breakout",
+    "description": "Candle closes above 20-bar 2.0-std upper band following multi-bar low bandwidth",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-10",
+    "name": "Microstructure Delta Exhaustion Reversal",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission14_anti_fabrication_gate.py",
+    "source_func": "condition_fn_hyp_002",
+    "description": "Elevated sell volume absorbing into tight lower wick followed by strong close",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-11",
+    "name": "Cumulative Taker Delta Price-Action Divergence",
+    "version": "1.0.0",
+    "source_file": "scripts/binance_live_truth_runner.py",
+    "source_func": "evaluate_delta_divergence",
+    "description": "Price making 10-bar lower low while taker buy delta percentage makes distinct higher low",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-12",
+    "name": "Triple-Bar Kinetic Thrust Acceleration",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_kinetic_thrust",
+    "description": "3 consecutive green bars with closes in the upper 80% and increasing volume on each bar",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-13",
+    "name": "Liquidity Sweep Reversal at 24-Bar High",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_sweep_reversal",
+    "description": "High pierces 24-bar high but closes back inside range with sub-40% taker buy -> Short",
+    "direction": "DOWN"
+  },
+  {
+    "discovery_id": "DISC-14",
+    "name": "Quote-Volume Aggression Imbalance Spike",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission11_forensic_auditor.py",
+    "source_func": "evaluate_quote_aggression",
+    "description": "Taker Buy Quote / Quote Volume > 75% on above-average trade count",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-15",
+    "name": "Sub-ATR Compression Coiling Breakout",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_disc_0006",
+    "description": "3 consecutive bars inside < 0.5 ATR followed by wide expansion bar breaking 10-bar high",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-16",
+    "name": "Climactic Hammer Absorption at Support",
+    "version": "1.0.0",
+    "source_file": "scripts/binance_live_truth_runner.py",
+    "source_func": "evaluate_hammer_absorption",
+    "description": "Lower wick > 65% of range with volume > 2.0x 20-MA following 5-bar downtrend",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-17",
+    "name": "Velocity Trade Gap-and-Go Acceleration",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_gap_and_go",
+    "description": "Open higher than previous high with trade velocity > 2.0x 15-MA and positive close",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-18",
+    "name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission11_forensic_auditor.py",
+    "source_func": "evaluate_altcoin_decoupling",
+    "description": "Altcoin taker buy ratio > 65% with volume expansion while BTC volume is declining",
+    "direction": "UP"
+  },
+  {
+    "discovery_id": "DISC-19",
+    "name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "version": "1.0.0",
+    "source_file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "source_func": "condition_fn_fractal_contraction",
+    "description": "ATR(7) / ATR(21) < 0.65 followed by sudden taker buy expansion > 60%",
+    "direction": "UP"
+  }
+]

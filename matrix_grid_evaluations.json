@@ -1,0 +1,5474 @@
+[
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 3,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 3,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 4,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 4,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 5,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 6,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 11,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 4,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 10,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 4,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 8,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 2,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 3,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 7,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 4,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "5m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "15m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "30m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "45m",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-01",
+    "discovery_name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-02",
+    "discovery_name": "Kinetic Volume-Absorption Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-03",
+    "discovery_name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "signals_count": 3,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-04",
+    "discovery_name": "Asymmetric Taker Delta Absorption Law",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-05",
+    "discovery_name": "Post-Climax Liquidity Vacuum Retest",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-06",
+    "discovery_name": "Asymmetric Upper-Shadow Wick Exhaustion",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-07",
+    "discovery_name": "Multi-Bar Volatility Expansion Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-08",
+    "discovery_name": "Asymmetric Trade-Size Imbalance Block Accumulation",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-09",
+    "discovery_name": "Bollinger Compression Squeeze Volatility Breakout",
+    "signals_count": 1,
+    "status": "SIGNALS_EVALUATED"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-10",
+    "discovery_name": "Microstructure Delta Exhaustion Reversal",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-11",
+    "discovery_name": "Cumulative Taker Delta Price-Action Divergence",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-12",
+    "discovery_name": "Triple-Bar Kinetic Thrust Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-13",
+    "discovery_name": "Liquidity Sweep Reversal at 24-Bar High",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-14",
+    "discovery_name": "Quote-Volume Aggression Imbalance Spike",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-15",
+    "discovery_name": "Sub-ATR Compression Coiling Breakout",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-16",
+    "discovery_name": "Climactic Hammer Absorption at Support",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-17",
+    "discovery_name": "Velocity Trade Gap-and-Go Acceleration",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-18",
+    "discovery_name": "Relative Altcoin Orderflow Imbalance Decoupling",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  },
+  {
+    "asset": "BMTUSDT",
+    "timeframe": "1h",
+    "discovery_id": "DISC-19",
+    "discovery_name": "Fractal Range Contraction with Asymmetric Bid Skew",
+    "signals_count": 0,
+    "status": "NO VALID SIGNAL \u2014 DISCOVERY CONDITION NOT PRESENT"
+  }
+]

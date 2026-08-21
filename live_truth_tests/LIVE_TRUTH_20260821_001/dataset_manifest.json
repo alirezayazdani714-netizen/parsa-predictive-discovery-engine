@@ -1,0 +1,118 @@
+{
+  "testId": "LIVE_TRUTH_20260821_001",
+  "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+  "totalFiles": 11,
+  "creationTimestamp": 1787323671847,
+  "manifestEntries": [
+    {
+      "filename": "test_protocol.json",
+      "sha256": "23c086c1ba3391f0201f1fc8499dcd1bf457bacecebff7b53624d724f33965d7",
+      "sizeBytes": 1256,
+      "recordCount": 55,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "raw_market_data.jsonl",
+      "sha256": "1325a020fd7c7e006994ed1d1356e2c5351d595046c6c94f409ba1b860331ff1",
+      "sizeBytes": 319678,
+      "recordCount": 1171,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "predictions_locked.jsonl",
+      "sha256": "5fea0dd482f9724fdb3bb62ad6dc48de340dc143161437c895c80dc4dd3c618b",
+      "sizeBytes": 21216304,
+      "recordCount": 35130,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "actual_results.jsonl",
+      "sha256": "3f8682bc203ab691f2a9ef47fa9edcea62da019dd041ccb9f7d0fc23888e7ef0",
+      "sizeBytes": 3386289,
+      "recordCount": 9410,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "prediction_vs_actual.jsonl",
+      "sha256": "08878a3d650bab9e00e8ccaae6054efe841232450450c391d42ef3d58d261180",
+      "sizeBytes": 1984805,
+      "recordCount": 9410,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "live_truth_audit.jsonl",
+      "sha256": "bd245eda3dcc912e8bb1e972028d862b9d793e23adffa0419f8128b93cba9218",
+      "sizeBytes": 442,
+      "recordCount": 5,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "discovery_performance.json",
+      "sha256": "a70b37272ae60a0b924b1cda6665516ecee87348daae70b025f9663c8495c8c1",
+      "sizeBytes": 2028,
+      "recordCount": 92,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "horizon_performance.json",
+      "sha256": "7a0b6e544023ba958e5ad661012f1abb5611aa14d46f87165bedc2c81c7c8dac",
+      "sizeBytes": 654,
+      "recordCount": 38,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "rule_contribution.json",
+      "sha256": "17680f6c57cfa5079c60de966f97365128e89989a39a2eba8f71a9507efa3fef",
+      "sizeBytes": 1001,
+      "recordCount": 42,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "error_analysis.json",
+      "sha256": "620958a62d43d89aa71b3d5acc7d2ba7a83c40c6fe8a25b3e5cc7f76679c3897",
+      "sizeBytes": 1242,
+      "recordCount": 47,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    },
+    {
+      "filename": "final_report.md",
+      "sha256": "f742bc2bf8a8213b91256e316b81c2ef93da2e7fd53c0061a59a0d77dd7e6f75",
+      "sizeBytes": 2555,
+      "recordCount": 50,
+      "creationTime": 1787323671847,
+      "testId": "LIVE_TRUTH_20260821_001",
+      "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+      "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9"
+    }
+  ]
+}

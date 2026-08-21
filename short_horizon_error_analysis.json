@@ -1,0 +1,55 @@
+{
+  "errorTaxonomy": {
+    "totalErrorsEvaluated": 396,
+    "errorBreakdown": [
+      {
+        "category": "Timing Error",
+        "count": 132,
+        "percentage": 33.33,
+        "description": "Direction correct but breakout/reversal target completed 8-15 minutes after horizon expiry (especially in 5m/15m windows)."
+      },
+      {
+        "category": "False Signal",
+        "count": 78,
+        "percentage": 19.70,
+        "description": "Micro sweep in 5m candle reversed immediately due to lack of higher-timeframe order flow absorption."
+      },
+      {
+        "category": "Regime Shift",
+        "count": 52,
+        "percentage": 13.13,
+        "description": "Intra-hour volatility burst or sudden BTC dominance surge during open trade."
+      },
+      {
+        "category": "Signal Latency",
+        "count": 44,
+        "percentage": 11.11,
+        "description": "Multi-candle indicator confirmation lag eating up the initial 50% of the 5m/15m move."
+      },
+      {
+        "category": "Rule Conflict",
+        "count": 36,
+        "percentage": 9.09,
+        "description": "Disagreement between 15m delta absorption and 1h trend-following EMAs."
+      },
+      {
+        "category": "Liquidity Gap",
+        "count": 28,
+        "percentage": 7.07,
+        "description": "Bid-ask spread slippage and thin orderbook depth triggering premature invalidation."
+      },
+      {
+        "category": "Overfitting",
+        "count": 18,
+        "percentage": 4.55,
+        "description": "Static Fibonacci/RSI threshold sensitivity collapsing on volatile mid-caps."
+      },
+      {
+        "category": "Other",
+        "count": 8,
+        "percentage": 2.02,
+        "description": "Exchange API micro-delays and unexplained tick anomalies."
+      }
+    ]
+  }
+}

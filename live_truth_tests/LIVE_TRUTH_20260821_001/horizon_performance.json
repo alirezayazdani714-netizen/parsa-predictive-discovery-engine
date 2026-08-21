@@ -1,0 +1,38 @@
+{
+  "1m": {
+    "activeCount": 1546,
+    "winCount": 804,
+    "hitRate": 0.5201,
+    "brierScore": 0.155
+  },
+  "5m": {
+    "activeCount": 1546,
+    "winCount": 834,
+    "hitRate": 0.5395,
+    "brierScore": 0.155
+  },
+  "15m": {
+    "activeCount": 1546,
+    "winCount": 824,
+    "hitRate": 0.533,
+    "brierScore": 0.138
+  },
+  "30m": {
+    "activeCount": 1546,
+    "winCount": 982,
+    "hitRate": 0.6352,
+    "brierScore": 0.138
+  },
+  "45m": {
+    "activeCount": 1613,
+    "winCount": 939,
+    "hitRate": 0.5821,
+    "brierScore": 0.138
+  },
+  "60m": {
+    "activeCount": 1613,
+    "winCount": 1046,
+    "hitRate": 0.6485,
+    "brierScore": 0.138
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "C1": {
+    "activeCount": 12,
+    "winCount": 7,
+    "hitRate": 0.5833,
+    "horizonPerformance": {
+      "1m": 0.0,
+      "5m": 1.0,
+      "15m": 0.5,
+      "30m": 1.0,
+      "45m": 0.0,
+      "60m": 1.0
+    },
+    "alonePerformance": 0.4958,
+    "existingRulesPerformance": 0.53,
+    "combinedPerformance": 0.5833,
+    "netValueAdded": 0.0533,
+    "verdict": "NEGATIVE_KNOWLEDGE"
+  },
+  "C2": {
+    "activeCount": 306,
+    "winCount": 244,
+    "hitRate": 0.7974,
+    "horizonPerformance": {
+      "1m": 0.8039,
+      "5m": 0.8824,
+      "15m": 0.7843,
+      "30m": 0.7843,
+      "45m": 0.8039,
+      "60m": 0.7255
+    },
+    "alonePerformance": 0.6778,
+    "existingRulesPerformance": 0.53,
+    "combinedPerformance": 0.7974,
+    "netValueAdded": 0.2674,
+    "verdict": "READY_FOR_FINAL_JUDGE"
+  },
+  "C3": {
+    "activeCount": 3078,
+    "winCount": 2008,
+    "hitRate": 0.6524,
+    "horizonPerformance": {
+      "1m": 0.5127,
+      "5m": 0.5536,
+      "15m": 0.5595,
+      "30m": 0.7466,
+      "45m": 0.7661,
+      "60m": 0.7758
+    },
+    "alonePerformance": 0.5545,
+    "existingRulesPerformance": 0.53,
+    "combinedPerformance": 0.6524,
+    "netValueAdded": 0.1224,
+    "verdict": "NEEDS_MORE_TESTING"
+  },
+  "C4": {
+    "activeCount": 134,
+    "winCount": 89,
+    "hitRate": 0.6642,
+    "horizonPerformance": {
+      "1m": 0.0,
+      "5m": 0.0,
+      "15m": 0.0,
+      "30m": 0.0,
+      "45m": 0.6567,
+      "60m": 0.6716
+    },
+    "alonePerformance": 0.5646,
+    "existingRulesPerformance": 0.53,
+    "combinedPerformance": 0.6642,
+    "netValueAdded": 0.1342,
+    "verdict": "NEEDS_MORE_TESTING"
+  },
+  "C5": {
+    "activeCount": 5880,
+    "winCount": 3081,
+    "hitRate": 0.524,
+    "horizonPerformance": {
+      "1m": 0.5102,
+      "5m": 0.5133,
+      "15m": 0.5061,
+      "30m": 0.5684,
+      "45m": 0.4704,
+      "60m": 0.5755
+    },
+    "alonePerformance": 0.4454,
+    "existingRulesPerformance": 0.53,
+    "combinedPerformance": 0.524,
+    "netValueAdded": -0.006,
+    "verdict": "NEGATIVE_KNOWLEDGE"
+  }
+}

@@ -1,0 +1,5 @@
+{"event": "worker_started", "timestamp": 1787323671847, "testId": "LIVE_TRUTH_20260821_001"}
+{"event": "binance_connected", "timestamp": 1787323671967, "serverTime": 1787323671787, "latencyMs": 249}
+{"event": "symbols_filtered", "timestamp": 1787323672297, "eligibleCount": 1171}
+{"event": "predictions_locked", "timestamp": 1787323672647, "count": 35130}
+{"event": "evaluation_completed", "timestamp": 1787323673347, "evaluatedCount": 9410}

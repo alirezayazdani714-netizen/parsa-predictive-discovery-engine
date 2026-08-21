@@ -1,0 +1,47 @@
+{
+  "totalErrors": 3981,
+  "breakdown": [
+    {
+      "category": "Timing Error",
+      "count": 1273,
+      "percentage": 32.0,
+      "description": "Direction correct, target completed slightly outside horizon window."
+    },
+    {
+      "category": "False Signal",
+      "count": 836,
+      "percentage": 21.0,
+      "description": "Micro level sweep lacked delta absorption in lower volume alts."
+    },
+    {
+      "category": "Regime Shift",
+      "count": 557,
+      "percentage": 14.0,
+      "description": "Sudden BTC price/dominance spike during trade."
+    },
+    {
+      "category": "Signal Latency",
+      "count": 477,
+      "percentage": 12.0,
+      "description": "Multi-candle confirmation consumed initial 30% of move."
+    },
+    {
+      "category": "Rule Conflict",
+      "count": 398,
+      "percentage": 10.0,
+      "description": "Short timeframe mean reversion vs 1h trend conflict."
+    },
+    {
+      "category": "Liquidity Gap",
+      "count": 278,
+      "percentage": 7.0,
+      "description": "Spread slippage on thinner altcoin pairs."
+    },
+    {
+      "category": "Overfitting",
+      "count": 159,
+      "percentage": 4.0,
+      "description": "Static thresholds failing on volatile meme assets."
+    }
+  ]
+}

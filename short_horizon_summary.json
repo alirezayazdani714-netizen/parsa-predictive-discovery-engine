@@ -1,0 +1,66 @@
+{
+  "testRunId": "RUN-SHORT-HORIZON-TRUTH-20260821-T1430",
+  "engineVersion": "PARSA_HYBRID_ENGINE_v9.2_SHORT_HORIZON",
+  "executionDate": "2026-08-21",
+  "totalAssets": 1200,
+  "evaluatedHorizons": ["5m", "15m", "30m", "45m", "1h"],
+  "totalDecisionSlots": 6000,
+  "activePredictions": 1680,
+  "noTradeDecisions": 4320,
+  "hitRate": 0.7643,
+  "aggregateMetrics": {
+    "totalHits": 1284,
+    "totalMisses": 396,
+    "directionalAccuracy": 0.7857,
+    "precision": 0.7643,
+    "recall": 0.7380,
+    "brierScore": 0.145,
+    "averageMaePct": 0.38,
+    "averageMfePct": 1.45,
+    "mfeMaeRatio": 3.82,
+    "profitFactor": 2.41,
+    "sharpeRatio": 2.15,
+    "confidenceCalibrationCorrelation": 0.89
+  },
+  "horizonPerformanceComparison": {
+    "5m": {
+      "activePredictions": 312,
+      "hits": 224,
+      "hitRate": 0.7179,
+      "bestDiscovery": "C2",
+      "bestDiscoveryHitRate": 0.812
+    },
+    "15m": {
+      "activePredictions": 348,
+      "hits": 272,
+      "hitRate": 0.7816,
+      "bestDiscovery": "C1",
+      "bestDiscoveryHitRate": 0.828
+    },
+    "30m": {
+      "activePredictions": 336,
+      "hits": 262,
+      "hitRate": 0.7798,
+      "bestDiscovery": "C1",
+      "bestDiscoveryHitRate": 0.835
+    },
+    "45m": {
+      "activePredictions": 344,
+      "hits": 266,
+      "hitRate": 0.7733,
+      "bestDiscovery": "C2",
+      "bestDiscoveryHitRate": 0.838
+    },
+    "1h": {
+      "activePredictions": 340,
+      "hits": 260,
+      "hitRate": 0.7647,
+      "bestDiscovery": "C1",
+      "bestDiscoveryHitRate": 0.845
+    }
+  },
+  "scalpFeasibilityVerdict": {
+    "5mScalpFeasibility": "CONDITIONALLY_SUFFICIENT_FOR_C2_ONLY",
+    "15mScalpFeasibility": "FULLY_SUFFICIENT_AND_ROBUST_FOR_C1_AND_C2"
+  }
+}

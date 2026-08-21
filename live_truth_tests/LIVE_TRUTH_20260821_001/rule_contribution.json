@@ -1,0 +1,42 @@
+{
+  "C1": {
+    "pairedRule": "RULE_4_ORDER_FLOW_DELTA",
+    "alone": 0.672,
+    "rulesAlone": 0.548,
+    "combined": 0.5833,
+    "netValueAdded": 0.0353,
+    "verdict": "READY_FOR_FINAL_JUDGE"
+  },
+  "C2": {
+    "pairedRule": "RULE_2_LIQUIDITY_REJECTION",
+    "alone": 0.658,
+    "rulesAlone": 0.536,
+    "combined": 0.7974,
+    "netValueAdded": 0.2614,
+    "verdict": "READY_FOR_FINAL_JUDGE"
+  },
+  "C3": {
+    "pairedRule": "RULE_8_DYNAMIC_SUPPORT_ABSORPTION",
+    "alone": 0.584,
+    "rulesAlone": 0.512,
+    "combined": 0.6524,
+    "netValueAdded": 0.1404,
+    "verdict": "NEEDS_MORE_TESTING"
+  },
+  "C4": {
+    "pairedRule": "RULE_5_SECTOR_MOMENTUM_FLOW",
+    "alone": 0.512,
+    "rulesAlone": 0.518,
+    "combined": 0.6642,
+    "netValueAdded": 0.1462,
+    "verdict": "NEEDS_MORE_TESTING"
+  },
+  "C5": {
+    "pairedRule": "RULE_1_TREND_FOLLOWING_MOMENTUM",
+    "alone": 0.528,
+    "rulesAlone": 0.522,
+    "combined": 0.524,
+    "netValueAdded": 0.002,
+    "verdict": "NEGATIVE_KNOWLEDGE"
+  }
+}

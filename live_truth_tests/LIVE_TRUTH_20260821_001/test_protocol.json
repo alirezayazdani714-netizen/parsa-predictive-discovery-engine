@@ -1,0 +1,55 @@
+{
+  "protocolVersion": "1.0.0-LIVE-TRUTH",
+  "testId": "LIVE_TRUTH_20260821_001",
+  "engineVersion": "PARSA_HYBRID_ENGINE_v9.3_LIVE_WORKER",
+  "gitCommitSha": "8f3b2a19e5d471029cba4839f2010e6a4b12c8e9",
+  "rulesTested": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "horizons": [
+    "1m",
+    "5m",
+    "15m",
+    "30m",
+    "45m",
+    "60m"
+  ],
+  "thresholds": {
+    "1m": {
+      "longMinReturnPct": 0.15,
+      "shortMinReturnPct": -0.15,
+      "stopLossPct": 0.25
+    },
+    "5m": {
+      "longMinReturnPct": 0.35,
+      "shortMinReturnPct": -0.35,
+      "stopLossPct": 0.45
+    },
+    "15m": {
+      "longMinReturnPct": 0.6,
+      "shortMinReturnPct": -0.6,
+      "stopLossPct": 0.7
+    },
+    "30m": {
+      "longMinReturnPct": 0.9,
+      "shortMinReturnPct": -0.9,
+      "stopLossPct": 1.0
+    },
+    "45m": {
+      "longMinReturnPct": 1.2,
+      "shortMinReturnPct": -1.2,
+      "stopLossPct": 1.35
+    },
+    "60m": {
+      "longMinReturnPct": 1.5,
+      "shortMinReturnPct": -1.5,
+      "stopLossPct": 1.65
+    }
+  },
+  "winCondition": "Direction matches and actualReturn exceeds threshold without hitting stopLoss first",
+  "antiGuessingPolicy": "NO_TRADE is strictly enforced when statistical confluence is below 0.65 threshold"
+}

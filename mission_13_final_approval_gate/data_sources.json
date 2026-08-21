@@ -1,0 +1,1055 @@
+[
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BTCUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "ba919ee8c9fe7246413dfb3df359a909d6dec0c11b051708ffc7753e6adf8078"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BTCUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "700cc1c26ef496bb27ac1483e3b86e8adf2920c9209c732ba49dec1e2cbdb974"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BTCUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "b205fe0937be03346b000b0d3f3ac4a4a079c00d8f4f4b9e441314173ea798ee"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETHUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "53bfa9ad428dccdaecce65c6d2b30c92ab4ec1d7b63d1867cfe528c0db48dbf8"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETHUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "9c4a47d05f048f1072a34aa45c9d1428e1802fd451497b475ab4b99fb673277c"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETHUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "cbf7f577f7fbeab040ff65b4e9a2abe17ae2578ef960a6c541722cf64fbc3589"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BNBUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "d4f80a503b1060555071c4c61ede370026aebd5a1546629a23511ba9550700c3"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BNBUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "49142b7b3432f2befa2ae01bf3efc8a43c7206a7831117feffde0be1cd2bd886"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "BNBUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "e45914ef01e767ca9a0957f4b8fd55ce8fa3e20b92ef62a62298df1178eb15c5"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SOLUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "5a1a6693a6f9f657b8b0a144686c74fb02ececa46625138c974b1ef0e66b4971"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SOLUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "d76383e17950e08f912909cc304fa449170e4f1d3919d67d4e1ddbf5b014992c"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SOLUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "b58701df5a86f6fcf822ed4dcf03611e6ade295780a55afb6170a3af18060348"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "XRPUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "3142499c456e6ab08295b790eac59bd3b1e40cbfd1535617ae90dde26b2f85f1"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "XRPUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "1324b31f0babfdf742e514728886b535c47a24373415028a6cd7658f9e8c3eb9"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "XRPUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "1f176c3b882d6f1867b391de878f1fffbf0376eb04bff35872ddbf434686583d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ADAUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "ba541f22e6f0b4cf607f78cd5ba3c7694b9adcc93d42bacd30daa985f4cb82b5"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ADAUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "e458a9defea6602f359730abab91d325b35c95a0782e2a5b1d0eb786c6a91a03"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ADAUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "8de262037f7c0beb232904b586ee2a7157fee557b5b78086851542a3f256791d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOGEUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "a2195dc58b599a8e0bd220373db79f54cb914996d0601d265193125ebc326e80"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOGEUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "7a122141bd2bfdf457b0a32a33fdf8d6debcfa1e99f81788b3bd0609c4b3e417"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOGEUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "1a2916d040dca3deb963bd1cad3ea1fc27b08d9aeebf01a113431a038610fddc"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AVAXUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "58b91d0bb1d5f56a4c7a42835f6aa1fe3ff4421014ddc9ef0ef8800617ae5a98"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AVAXUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "6e49caf91a2e669b5e44e2eb01368be45d1580d5dba66b3a2a3acc2c80bd99de"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AVAXUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "8dbe5a28b4b7b097b8d2210bb779930f42e71c67d051b5468264c10fbfc21f4f"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LINKUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "4a63226df23549f5dd0ee04248d7b50975fdcbcfd73d6d522d5f1a4af080c10d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LINKUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "0a8d83950a4923dd91b4b0c4511c1e7af3c3ea1eece7f85c32a063ca77a3f64d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LINKUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "5584753238c66eec876b32a63cb613061607d027f5d6593682266f90927fcffb"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MATICUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2024-08-30 17:00:00",
+    "last_datetime_utc": "2024-09-10 02:45:00",
+    "sha256_checksum": "d081d1b11ec4211924b118d05523afeac1927ba4a948156bdec16b7f83bc263e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MATICUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2024-07-30 11:00:00",
+    "last_datetime_utc": "2024-09-10 02:00:00",
+    "sha256_checksum": "290fad28192486e7715642d5b5a68e804aabef0b36eb30b0b7a1313db3bd9087"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MATICUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2021-12-16 00:00:00",
+    "last_datetime_utc": "2024-09-10 00:00:00",
+    "sha256_checksum": "c6e8a5b48ba39953b85ac167365a9bad6e70f7e276b69e24c1ed0b6538c20f46"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LTCUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "4f6da2afb0c7888b1610206f7318b94c6dca9cfb53b335376de9c42ce20401cd"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LTCUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "d49740bbb8d07e53a812378fb520ea593bf3514ccd9234082dee4d8994b3c61e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "LTCUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "27603d1ff23af11095340e1fc5762b09a2967f3358aa1a2c458b6bc70f90e787"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "NEARUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "e9d0edd6b032153294a4c94d453f423545de19cf6768e2f4075aef9e48343c74"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "NEARUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "58d001d5aad79ca46bf6df29b95c824573b35cf08a45a892a01b5f447a23e405"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "NEARUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "55882b66f466c5365a35f70779c37b5e5699f99be2a2f5c7fb4d0bd3138058d3"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOTUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "eef0d864339f054cb6ca9b1b586520276b3b1e7550299265f23959cfe734f3b7"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOTUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "afbb099a7081d992b56ad3c672db5bb2722b3453dfcca1372a7ba9a91171e611"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "DOTUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "d600b9bfcdd1dffa1d0deb90a3f85e39c10626c8c5f1f0412a81b9405afb332b"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "UNIUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "c0beed2e9c4b5386a602fb5ea2af5ccb648fbac799d6991a55744a3e38df7941"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "UNIUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "2c6595d6b1d1b2a80447d3c837652e1d215c65db6b2c7cf81e5bb8dea54663d2"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "UNIUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "839bd2ee0d0ff71afd11a1daa471a6d8935d2238658633ed321d184c0e6e3aae"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ATOMUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "b4e15238858fe6dbb2bac378abff7e3575565bac5734682fe852e1097cb299b8"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ATOMUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "b4f2888de9cba5249a4d3eadf71807ce9efed235342db59ec70973f0de82aa93"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ATOMUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "ad49d8418a862ad43450ad2d0418fc62b8c556f6c58f9cd10eb57fedb4038dc0"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SUIUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "9d4c4e7eee13ae1e343e68c5e66b2e81bd8c9c37d9fddac88156ed21d4cc3f0b"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SUIUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "14bf6484b2a7d95e6c701dd86d67331b6995374f7463acfd6d0d011dab6b18e2"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SUIUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "2f6cf484cb0adfac617cc5b42aa9a2d993bea177a8e9fa5ae62f25dacc9854c8"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "APTUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "74cec7d0484f7cb45ac04fc747b3064b09af5a9d9ca3f762f4c1fa3637c28409"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "APTUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "cd3f8dd5f839339e23256fcb0f5b88a4a8e007634ae9642436857a124692ff2d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "APTUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "ba7de82ce772f653779fc687c5c072a4e6c5074ebacad46b776f0dbf4247934c"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ARBUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "ed9426e853f3d6d0e19640c917d74c3a851dfba683edcf8239f93bf12479d0a4"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ARBUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "b4301fb0036685891838b2a7225c6e331f9bcdc5afed80561321ec16126c03a0"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ARBUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "7acb7d885af5b9d4e778317b1255e340099611dd3e1f66571eeff73680201862"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "OPUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "5911130faa02b09a42b1fd08ace9dcad4d5ff7a116aa344ed862a14027154505"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "OPUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "760f535f7f678601a3007b575f72f02bc00f19568550f0ceb710781b680cfe6f"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "OPUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "949d37a6c9629d498a08f6fb8bd6148b2e9a41d695122a4c8f1c2320fabfc958"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "INJUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "5021919d26a6ee653254ccdd8f0ea3a1552cc9d915c3bce7b1a8171c2ebb67be"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "INJUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "0146272ec08c8e2eb189edcade6f7ba75e1dc33e48df5b37bdf1011685deb921"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "INJUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "bea8c215c12c93bd24960d051a21774a17b252c74b138e9005e95ca07523435a"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "TIAUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "2da123ff57aa241537bdd4eaa08f88b711c97a7823779806b801535424a0dd92"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "TIAUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "d34fdda76aeac4c3aeeb1db95b863f157058b5a0a669fdb7df80de4b70f9146e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "TIAUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "1929faa4329726a84004d23e0cb026af7ea69b6f6500087638e190ee07cc7207"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RENDERUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "7f25ebfa70cc3c410ff1b87b6f0b932d9e75d92fba95d200bc8afa94424d9a62"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RENDERUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "d7599df4cd31f3beb98d922218d8fdb9d5387c64f46a3fc79f9f60828d943e0f"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RENDERUSDT",
+    "timeframe": "1d",
+    "row_count": 757,
+    "first_datetime_utc": "2024-07-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "8bafe4c5cae2a79084d974685207406f2abb3136c396e6da44080dbddfc973fa"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FTMUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2025-01-02 17:00:00",
+    "last_datetime_utc": "2025-01-13 02:45:00",
+    "sha256_checksum": "e6c9cc424cdd820a31ae0c83e4de890e4f1a1c005ad1ce8da9d134d47427353e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FTMUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2024-12-02 11:00:00",
+    "last_datetime_utc": "2025-01-13 02:00:00",
+    "sha256_checksum": "8b69a70961ffc0a8a54887610568d5b3e255f5dfdc1fe2627c87c423639b80c7"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FTMUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2022-04-20 00:00:00",
+    "last_datetime_utc": "2025-01-13 00:00:00",
+    "sha256_checksum": "9e5d301820d5f72ddca5a9cd0dec37e8515ffaf3b96a840503936b9f4241e034"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ICPUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "2e3147018b2ed65fad11cf8d63cc5b0257363af1b69a8fc297198da352cf55d0"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ICPUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "308b3a04790bba02e04b3d310a37ec51cf6aecb4541dfbce7fdf64b51b547d40"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ICPUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "1c9c5f049e533e2f2d9ec14d400c59da2f6d88cae3d61b445b6ea88f63fd48b2"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "STXUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "8eae04662368ba6fd538eca21832398c3ecf31efa5a945f663d81c3c6f2c94df"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "STXUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "579222b881d556832fb1ccc207ff25daae7ff9d1eb9cecf9ed691780997a995a"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "STXUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "53b94af4c7cb75e244a78a5771cf1e10fa6d30d98132e4d06d3317403982cb45"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FILUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "5d9b79b14c466da06085753dd58810f67cfc910480f581dca52f72ceed813784"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FILUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "984be01b0b4aaa15a558629788394cf66dcf6d113dea4a589a0b14587c0e1080"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FILUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "dea28f06a5ad4a2a53e50bbb92686d71d5e85bcb0db2beecaa738804a2d9b5a1"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ALGOUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "f19aca4ef1a3d3e884cf334927da6f64a13b363e9a94a99b004496473f632b03"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ALGOUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "c0fe0f58dd21d5ee708bdde4c06a19e5eb067ec69f2cb571d62c286bd27de81e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ALGOUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "659c6cf0fe2b24079f6337d8fb698e0dd14b61c5e56e894bd0663f507cebfed6"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "PEPEUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "bc8bec1329f87375cbcb287232b510f8f10d99f2a520ecff5d8bd03c315b5843"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "PEPEUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "574ff078c877a858b6860923cb2ccebb2bebb2716419c406c55b9fe361b09239"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "PEPEUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "a8a86ef780d2d4bdd2b10d3748b0edc03fbb8e60c36f04d0f5d31ba738c43a74"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SHIBUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "04bf4e37c0581f2e718f951bbc28c40b62dee1451e40ce02008c42434ef1bbee"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SHIBUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "597caca6688bbf41b8f174099c36b38f97bf2676d87ec380288af43834f3d289"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SHIBUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "3447d9a265ac639b4fdff283dacc27200144ecb814b1989f4115ddb3179aa332"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETCUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "ddc902fad5f10432e4cc2dccefa13ed26457b3c74c6facdd44837101688e780d"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETCUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "108d842f3ca0d035e41636ce535c2ebca98a4b336074371b377525d5e7db196f"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "ETCUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "2180abe141a2b8252eda0d51f7ab172ec0161f7394c5996bc95909aa864d5231"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AAVEUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "7b0e352e3d0479460560a4fa7e9b424a3d700ca79f37634f1113190e83d3474f"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AAVEUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "484755d764a553af3d7b5ea1d3d09b95ca70b6351ddc37928ee02c0bfa53ad9e"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "AAVEUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "52c786c837d8563811472ca94230f9f3c4af72325205eed91c40777aaca782d9"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "CRVUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "9fb63bd2fb90b62461b78d2f956beb251fc8ce299903708148de78f3e2723ac0"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "CRVUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "ea35e77f828ec8cef3529fab1a53bc2cab3589ccb67a6717748763d46f6714e8"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "CRVUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "a6a49fd184c713b8ac440b5741cd2c2f0eb10d2bec637c8dc6182f72c81554d8"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MKRUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2025-09-04 17:00:00",
+    "last_datetime_utc": "2025-09-15 02:45:00",
+    "sha256_checksum": "c22d1e7e106abf831ce1f03725f8de40b973b5db3b4a659df042bf9cfaf8fc00"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MKRUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2025-08-04 11:00:00",
+    "last_datetime_utc": "2025-09-15 02:00:00",
+    "sha256_checksum": "30ea417dc69e5e111e92f3f698212a7f4c6519fcf49acdca6f9ceab6984006ba"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "MKRUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2022-12-21 00:00:00",
+    "last_datetime_utc": "2025-09-15 00:00:00",
+    "sha256_checksum": "8700e3b2e18f0de030a468ad366880d86108150b7bf0c285b60e0c8092e36035"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "GALAUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "26ff1f5784e141bfe0bc2e441d3f0e259c2654acd17a505a13553240c0651d99"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "GALAUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "2faa62b6d464e748cc2bff3e595a09983a1a39068c69d9fde0f5a1642995dc4a"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "GALAUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "05b41ad6c956dd11394febd5182c7e3c6a580b8500a70e79bc42e837844efd13"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SEIUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "f0dd0e77b756ac104c8ef1d9ce55b52a6ab01c500540a8339e9d2e1599fccdff"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SEIUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "86f466f209462c22846ab8bfbfb33d78f69658cc1b8332615816f1becb2f22b0"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "SEIUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "b7b1105169e3f9e78b51447450d71c0f2091ad42e4f8654c2ee0d65c0272405b"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FETUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "6f4048059c02315aa32bf08fe27e1e3cc9b9d4980757b1f42f4ee134517c9bd3"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FETUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "711f9544126181eae35d74c5b262961299df290f79157d55e6298d49d8eba93a"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FETUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "de27ac242eb650450e8422e81fc0f886bc6dd3ee0c336d89ab698e227d1291d6"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RUNEUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "d321f137a5fa2e3e0e8223730d76fb1f85d63c177a36232f0f966bdd4fb2bed7"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RUNEUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "4e8b3a56bfa57e401fc0f8fe206b5c4b10c6a13ae6b61c66b9a8edf2bf86ddb7"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "RUNEUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "b9376a01a8f89bcb93083d122d8edb03cd201593f276a319477249525e5edfa7"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "WLDUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "22e37f8964cb72fbdea403efcbaa421670d4c10f8fe95c28570e8b70a9503baa"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "WLDUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "4aecfd642f0a5bf15f0f90d2f0f934789a8d3800a1865dc2ab1fe00b2afe6c67"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "WLDUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "a4149cd0cd60544ca0bd9166db95b35cd374f991f730082e1a0cc7d4d59793a9"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FLOKIUSDT",
+    "timeframe": "15m",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-08-11 08:45:00",
+    "last_datetime_utc": "2026-08-21 18:30:00",
+    "sha256_checksum": "788cfbf7ba676ae59c7b1a1c3b5f7c98930157039a3543b5f75b7a190c1dfcdb"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FLOKIUSDT",
+    "timeframe": "1h",
+    "row_count": 1000,
+    "first_datetime_utc": "2026-07-11 03:00:00",
+    "last_datetime_utc": "2026-08-21 18:00:00",
+    "sha256_checksum": "bae749503b825645d114495c58dc5a54c57494833b4263f3fafd52fa164c30fc"
+  },
+  {
+    "source": "Binance Public REST API v3",
+    "symbol": "FLOKIUSDT",
+    "timeframe": "1d",
+    "row_count": 1000,
+    "first_datetime_utc": "2023-11-26 00:00:00",
+    "last_datetime_utc": "2026-08-21 00:00:00",
+    "sha256_checksum": "ef7faa0a9c1cd0fb14c9eacaee934621a66a633cce36eb88e7f6d1a0fed0f951"
+  }
+]

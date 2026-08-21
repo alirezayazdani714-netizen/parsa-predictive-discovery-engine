@@ -1,0 +1,22 @@
+{
+  "total_historical_predictions": 365,
+  "correct_directional_predictions": 201,
+  "incorrect_directional_predictions": 164,
+  "no_trade_filter_decisions": 116392,
+  "directional_accuracy_percentage": 55.07,
+  "cost_adjusted_win_rate_percentage": 53.42,
+  "net_expectancy_overall": "+0.38%",
+  "net_return_after_friction": "+1.38% (Cumulative Across Universe)",
+  "max_prediction_drawdown": "2.84%",
+  "long_predictions": {
+    "count": 360,
+    "wins": 198,
+    "accuracy": "55.0%"
+  },
+  "short_predictions": {
+    "count": 5,
+    "wins": 3,
+    "accuracy": "60.0%"
+  },
+  "no_trade_filtration_efficiency": "99.69% noise elimination"
+}

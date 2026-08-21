@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M12-DISC-0005",
+    "name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "score": 85,
+    "metrics": {
+      "trades": 43,
+      "win_rate": 0.5581,
+      "loss_rate": 0.4419,
+      "avg_return": 0.00611,
+      "median_return": 0.00348,
+      "net_expectancy": 0.00461,
+      "gross_profit": 0.334,
+      "gross_loss": 0.1355,
+      "profit_factor": 2.46,
+      "max_drawdown": 0.0661,
+      "mfe": 0.01576,
+      "mae": 0.00562,
+      "mfe_mae": 2.8,
+      "sharpe": 24.31,
+      "sortino": 70.58,
+      "consecutive_wins": 6,
+      "consecutive_losses": 6
+    }
+  }
+]

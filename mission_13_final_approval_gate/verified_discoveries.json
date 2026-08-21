@@ -1,0 +1,50 @@
+[
+  {
+    "id": "M12-DISC-0001",
+    "name": "Kinetic Absorption Decoupling with Imbalance Expansion",
+    "score": 30,
+    "metrics": {
+      "trades": 5,
+      "win_rate": 0.6,
+      "loss_rate": 0.4,
+      "avg_return": 0.00234,
+      "median_return": 0.00487,
+      "net_expectancy": 0.00084,
+      "gross_profit": 0.0203,
+      "gross_loss": 0.0161,
+      "profit_factor": 1.26,
+      "max_drawdown": 0.0083,
+      "mfe": 0.0077,
+      "mae": 0.00452,
+      "mfe_mae": 1.7,
+      "sharpe": 7.35,
+      "sortino": 214.25,
+      "consecutive_wins": 3,
+      "consecutive_losses": 1
+    }
+  },
+  {
+    "id": "M12-DISC-0002",
+    "name": "Cross-Asset Alpha Acceleration in BTC Chop",
+    "score": 30,
+    "metrics": {
+      "trades": 19,
+      "win_rate": 0.5263,
+      "loss_rate": 0.4737,
+      "avg_return": 0.0071,
+      "median_return": 0.00379,
+      "net_expectancy": 0.0056,
+      "gross_profit": 0.2483,
+      "gross_loss": 0.1419,
+      "profit_factor": 1.75,
+      "max_drawdown": 0.0865,
+      "mfe": 0.02846,
+      "mae": 0.01488,
+      "mfe_mae": 1.91,
+      "sharpe": 17.18,
+      "sortino": 39.54,
+      "consecutive_wins": 5,
+      "consecutive_losses": 3
+    }
+  }
+]

@@ -1,0 +1,1055 @@
+[
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ba919ee8c9fe7246..."
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "700cc1c26ef496bb..."
+  },
+  {
+    "asset": "BTCUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b205fe0937be0334..."
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "53bfa9ad428dccda..."
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "9c4a47d05f048f10..."
+  },
+  {
+    "asset": "ETHUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "cbf7f577f7fbeab0..."
+  },
+  {
+    "asset": "BNBUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d4f80a503b106055..."
+  },
+  {
+    "asset": "BNBUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "49142b7b3432f2be..."
+  },
+  {
+    "asset": "BNBUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "e45914ef01e767ca..."
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "5a1a6693a6f9f657..."
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d76383e17950e08f..."
+  },
+  {
+    "asset": "SOLUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b58701df5a86f6fc..."
+  },
+  {
+    "asset": "XRPUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "3142499c456e6ab0..."
+  },
+  {
+    "asset": "XRPUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "1324b31f0babfdf7..."
+  },
+  {
+    "asset": "XRPUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "1f176c3b882d6f18..."
+  },
+  {
+    "asset": "ADAUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ba541f22e6f0b4cf..."
+  },
+  {
+    "asset": "ADAUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "e458a9defea6602f..."
+  },
+  {
+    "asset": "ADAUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "8de262037f7c0beb..."
+  },
+  {
+    "asset": "DOGEUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "a2195dc58b599a8e..."
+  },
+  {
+    "asset": "DOGEUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "7a122141bd2bfdf4..."
+  },
+  {
+    "asset": "DOGEUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "1a2916d040dca3de..."
+  },
+  {
+    "asset": "AVAXUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "58b91d0bb1d5f56a..."
+  },
+  {
+    "asset": "AVAXUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "6e49caf91a2e669b..."
+  },
+  {
+    "asset": "AVAXUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "8dbe5a28b4b7b097..."
+  },
+  {
+    "asset": "LINKUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "4a63226df23549f5..."
+  },
+  {
+    "asset": "LINKUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "0a8d83950a4923dd..."
+  },
+  {
+    "asset": "LINKUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "5584753238c66eec..."
+  },
+  {
+    "asset": "MATICUSDT",
+    "timeframe": "15m",
+    "start": "2024-08-30",
+    "end": "2024-09-10",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d081d1b11ec42119..."
+  },
+  {
+    "asset": "MATICUSDT",
+    "timeframe": "1h",
+    "start": "2024-07-30",
+    "end": "2024-09-10",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "290fad28192486e7..."
+  },
+  {
+    "asset": "MATICUSDT",
+    "timeframe": "1d",
+    "start": "2021-12-16",
+    "end": "2024-09-10",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "c6e8a5b48ba39953..."
+  },
+  {
+    "asset": "LTCUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "4f6da2afb0c7888b..."
+  },
+  {
+    "asset": "LTCUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d49740bbb8d07e53..."
+  },
+  {
+    "asset": "LTCUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "27603d1ff23af110..."
+  },
+  {
+    "asset": "NEARUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "e9d0edd6b0321532..."
+  },
+  {
+    "asset": "NEARUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "58d001d5aad79ca4..."
+  },
+  {
+    "asset": "NEARUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "55882b66f466c536..."
+  },
+  {
+    "asset": "DOTUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "eef0d864339f054c..."
+  },
+  {
+    "asset": "DOTUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "afbb099a7081d992..."
+  },
+  {
+    "asset": "DOTUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d600b9bfcdd1dffa..."
+  },
+  {
+    "asset": "UNIUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "c0beed2e9c4b5386..."
+  },
+  {
+    "asset": "UNIUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2c6595d6b1d1b2a8..."
+  },
+  {
+    "asset": "UNIUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "839bd2ee0d0ff71a..."
+  },
+  {
+    "asset": "ATOMUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b4e15238858fe6db..."
+  },
+  {
+    "asset": "ATOMUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b4f2888de9cba524..."
+  },
+  {
+    "asset": "ATOMUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ad49d8418a862ad4..."
+  },
+  {
+    "asset": "SUIUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "9d4c4e7eee13ae1e..."
+  },
+  {
+    "asset": "SUIUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "14bf6484b2a7d95e..."
+  },
+  {
+    "asset": "SUIUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2f6cf484cb0adfac..."
+  },
+  {
+    "asset": "APTUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "74cec7d0484f7cb4..."
+  },
+  {
+    "asset": "APTUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "cd3f8dd5f839339e..."
+  },
+  {
+    "asset": "APTUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ba7de82ce772f653..."
+  },
+  {
+    "asset": "ARBUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ed9426e853f3d6d0..."
+  },
+  {
+    "asset": "ARBUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b4301fb003668589..."
+  },
+  {
+    "asset": "ARBUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "7acb7d885af5b9d4..."
+  },
+  {
+    "asset": "OPUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "5911130faa02b09a..."
+  },
+  {
+    "asset": "OPUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "760f535f7f678601..."
+  },
+  {
+    "asset": "OPUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "949d37a6c9629d49..."
+  },
+  {
+    "asset": "INJUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "5021919d26a6ee65..."
+  },
+  {
+    "asset": "INJUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "0146272ec08c8e2e..."
+  },
+  {
+    "asset": "INJUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "bea8c215c12c93bd..."
+  },
+  {
+    "asset": "TIAUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2da123ff57aa2415..."
+  },
+  {
+    "asset": "TIAUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d34fdda76aeac4c3..."
+  },
+  {
+    "asset": "TIAUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "1929faa4329726a8..."
+  },
+  {
+    "asset": "RENDERUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "7f25ebfa70cc3c41..."
+  },
+  {
+    "asset": "RENDERUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d7599df4cd31f3be..."
+  },
+  {
+    "asset": "RENDERUSDT",
+    "timeframe": "1d",
+    "start": "2024-07-26",
+    "end": "2026-08-21",
+    "rows": 757,
+    "source": "Binance REST v3",
+    "checksum": "8bafe4c5cae2a790..."
+  },
+  {
+    "asset": "FTMUSDT",
+    "timeframe": "15m",
+    "start": "2025-01-02",
+    "end": "2025-01-13",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "e6c9cc424cdd820a..."
+  },
+  {
+    "asset": "FTMUSDT",
+    "timeframe": "1h",
+    "start": "2024-12-02",
+    "end": "2025-01-13",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "8b69a70961ffc0a8..."
+  },
+  {
+    "asset": "FTMUSDT",
+    "timeframe": "1d",
+    "start": "2022-04-20",
+    "end": "2025-01-13",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "9e5d301820d5f72d..."
+  },
+  {
+    "asset": "ICPUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2e3147018b2ed65f..."
+  },
+  {
+    "asset": "ICPUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "308b3a04790bba02..."
+  },
+  {
+    "asset": "ICPUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "1c9c5f049e533e2f..."
+  },
+  {
+    "asset": "STXUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "8eae04662368ba6f..."
+  },
+  {
+    "asset": "STXUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "579222b881d55683..."
+  },
+  {
+    "asset": "STXUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "53b94af4c7cb75e2..."
+  },
+  {
+    "asset": "FILUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "5d9b79b14c466da0..."
+  },
+  {
+    "asset": "FILUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "984be01b0b4aaa15..."
+  },
+  {
+    "asset": "FILUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "dea28f06a5ad4a2a..."
+  },
+  {
+    "asset": "ALGOUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "f19aca4ef1a3d3e8..."
+  },
+  {
+    "asset": "ALGOUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "c0fe0f58dd21d5ee..."
+  },
+  {
+    "asset": "ALGOUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "659c6cf0fe2b2407..."
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "bc8bec1329f87375..."
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "574ff078c877a858..."
+  },
+  {
+    "asset": "PEPEUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "a8a86ef780d2d4bd..."
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "04bf4e37c0581f2e..."
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "597caca6688bbf41..."
+  },
+  {
+    "asset": "SHIBUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "3447d9a265ac639b..."
+  },
+  {
+    "asset": "ETCUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ddc902fad5f10432..."
+  },
+  {
+    "asset": "ETCUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "108d842f3ca0d035..."
+  },
+  {
+    "asset": "ETCUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2180abe141a2b825..."
+  },
+  {
+    "asset": "AAVEUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "7b0e352e3d047946..."
+  },
+  {
+    "asset": "AAVEUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "484755d764a553af..."
+  },
+  {
+    "asset": "AAVEUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "52c786c837d85638..."
+  },
+  {
+    "asset": "CRVUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "9fb63bd2fb90b624..."
+  },
+  {
+    "asset": "CRVUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ea35e77f828ec8ce..."
+  },
+  {
+    "asset": "CRVUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "a6a49fd184c713b8..."
+  },
+  {
+    "asset": "MKRUSDT",
+    "timeframe": "15m",
+    "start": "2025-09-04",
+    "end": "2025-09-15",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "c22d1e7e106abf83..."
+  },
+  {
+    "asset": "MKRUSDT",
+    "timeframe": "1h",
+    "start": "2025-08-04",
+    "end": "2025-09-15",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "30ea417dc69e5e11..."
+  },
+  {
+    "asset": "MKRUSDT",
+    "timeframe": "1d",
+    "start": "2022-12-21",
+    "end": "2025-09-15",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "8700e3b2e18f0de0..."
+  },
+  {
+    "asset": "GALAUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "26ff1f5784e141bf..."
+  },
+  {
+    "asset": "GALAUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "2faa62b6d464e748..."
+  },
+  {
+    "asset": "GALAUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "05b41ad6c956dd11..."
+  },
+  {
+    "asset": "SEIUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "f0dd0e77b756ac10..."
+  },
+  {
+    "asset": "SEIUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "86f466f209462c22..."
+  },
+  {
+    "asset": "SEIUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b7b1105169e3f9e7..."
+  },
+  {
+    "asset": "FETUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "6f4048059c02315a..."
+  },
+  {
+    "asset": "FETUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "711f9544126181ea..."
+  },
+  {
+    "asset": "FETUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "de27ac242eb65045..."
+  },
+  {
+    "asset": "RUNEUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "d321f137a5fa2e3e..."
+  },
+  {
+    "asset": "RUNEUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "4e8b3a56bfa57e40..."
+  },
+  {
+    "asset": "RUNEUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "b9376a01a8f89bcb..."
+  },
+  {
+    "asset": "WLDUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "22e37f8964cb72fb..."
+  },
+  {
+    "asset": "WLDUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "4aecfd642f0a5bf1..."
+  },
+  {
+    "asset": "WLDUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "a4149cd0cd60544c..."
+  },
+  {
+    "asset": "FLOKIUSDT",
+    "timeframe": "15m",
+    "start": "2026-08-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "788cfbf7ba676ae5..."
+  },
+  {
+    "asset": "FLOKIUSDT",
+    "timeframe": "1h",
+    "start": "2026-07-11",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "bae749503b825645..."
+  },
+  {
+    "asset": "FLOKIUSDT",
+    "timeframe": "1d",
+    "start": "2023-11-26",
+    "end": "2026-08-21",
+    "rows": 1000,
+    "source": "Binance REST v3",
+    "checksum": "ef7faa0a9c1cd0fb..."
+  }
+]

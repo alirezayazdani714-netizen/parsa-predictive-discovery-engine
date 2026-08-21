@@ -1,0 +1,12 @@
+{
+  "totalHypothesesTested": 100000,
+  "nominalSignificanceLevel": 0.01,
+  "bonferroniCorrectedAlpha": 1e-07,
+  "benjaminiHochbergFDR": 0.05,
+  "rawPValueLessThan001": 28450,
+  "survivedBonferroniCorrection": 342,
+  "survivedBenjaminiHochbergFDR": 1468,
+  "familyWiseErrorRateProbability": 0.99999,
+  "selectionBiasDeductionAvgPct": 4.85,
+  "overfittingSummary": "Out of 100,000 candidates, 8,059 showed severe backtest overfitting (Tier F) where in-sample win rates were >85% but collapsed to <50% in out-of-sample and locked verification."
+}

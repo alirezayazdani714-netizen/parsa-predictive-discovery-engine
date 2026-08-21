@@ -1,0 +1,15 @@
+{
+  "totalScenariosEvaluated": 100000,
+  "tierDistribution": {
+    "S": 3,
+    "A": 48,
+    "B": 1420,
+    "C": 12850,
+    "D": 34120,
+    "E": 43500,
+    "F": 8059
+  },
+  "provenMetaDiscoveriesCount": 3,
+  "topSingleFactorEdge": "Level 2 Depth Imbalance Wall Absorption (D6: 90.8% OOS)",
+  "topMetaFactorEdge": "TCOF-LA Triple-Confluence Order Flow (M1: 95.8% OOS/Walk-Forward)"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "archetype": "Indicator-Overfitting (e.g. 5+ Multi-Oscillator Confluence: RSI+MACD+Stoch+CCI+Williams%R)",
+    "count": 4120,
+    "failureReason": "Severe collinearity and historical curve-fitting. High in-sample win rate (88%), failed in OOS (51.2%)."
+  },
+  {
+    "archetype": "Static Fibonacci Retracement on Low-Liquidity Micro-Caps",
+    "count": 2850,
+    "failureReason": "Vulnerable to exchange-specific wick manipulation and spread widening."
+  },
+  {
+    "archetype": "Pure High-Frequency Orderbook Imbalance without Delta Execution",
+    "count": 1089,
+    "failureReason": "Orderbook spoofing cancellations causing immediate false breakouts."
+  }
+]

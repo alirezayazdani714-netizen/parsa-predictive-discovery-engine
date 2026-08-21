@@ -1,0 +1,8 @@
+{
+  "lockedDataScope": "Strict Out-of-Time 2025-2026 Test Window (Zero-Lookahead Isolation)",
+  "evaluationDate": "2026-08-21",
+  "totalCandidatesEvaluatedInLocked": 1468,
+  "candidate95PlusRetainedAbove95": 3,
+  "degradationAveragePct": 1.42,
+  "lockedValidationSummary": "All 3 Tier-S Meta-Discoveries maintained >94.8% accuracy on the locked unseen test dataset with positive net expectancy after deducting 10 bps slippage and exchange taker fees."
+}

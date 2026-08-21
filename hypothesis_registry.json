@@ -1,0 +1,93 @@
+[
+  {
+    "id": "DISCOVERY-0001",
+    "name": "Kinetic Absorption Decoupling with Imbalance Expansion",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "holding_bars": 5,
+    "mechanism": "When volume surges > 2.2x 20-bar baseline but true bar spread is tightly compressed (<0.7x ATR-14) with Taker Buy ratio > 65%, aggressive hidden limit absorption creates directional spring-loading.",
+    "why_it_works": "Institutional accumulators absorb liquidity without driving price up; once passive selling exhausts, price jumps sharply in the direction of taker aggression.",
+    "variables_used": [
+      "volume",
+      "atr_14",
+      "bar_range",
+      "taker_buy_base",
+      "open_time"
+    ]
+  },
+  {
+    "id": "DISCOVERY-0002",
+    "name": "Cross-Asset Alpha Acceleration in BTC Low-Volatility Consolidation",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "holding_bars": 6,
+    "mechanism": "When BTC is in low-volatility sideways consolidation (ATR < 1.8% of price) but an altcoin demonstrates idiosyncratic momentum (12-bar Return > +4.0% vs BTC Return < +0.5%) with increasing trades count.",
+    "why_it_works": "In market-wide quiet regimes, capital flows selectively to leading momentum assets with fundamental or orderflow catalysts, sustaining multi-bar drift.",
+    "variables_used": [
+      "btc_return",
+      "asset_return",
+      "btc_atr",
+      "trades_count"
+    ]
+  },
+  {
+    "id": "DISCOVERY-0003",
+    "name": "Post-Climax Liquidity Vacuum Dry-Up Continuation",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "holding_bars": 4,
+    "mechanism": "Following an extreme buying volume spike (> 3.0x 30-bar avg) that broke local highs, volume contracts sharply to < 0.4x avg over next 2 bars while price stays in upper 25% of the spike candle.",
+    "why_it_works": "The severe volume contraction during high-price holding demonstrates an absence of supply (liquidity vacuum), leading to frictionless continuation upon the next tick of demand.",
+    "variables_used": [
+      "volume",
+      "climax_bar",
+      "volume_decay_ratio",
+      "price_retention_ratio"
+    ]
+  },
+  {
+    "id": "DISCOVERY-0004",
+    "name": "Dual-Bar Asymmetric Shadow Exhaustion with Volume Decay",
+    "timeframe": "1h",
+    "direction": "SHORT",
+    "holding_bars": 5,
+    "mechanism": "Two consecutive candles produce upper wicks > 60% of total candle range near 24-bar highs, while the second candle has lower volume and net negative taker flow (taker buy < 40%).",
+    "why_it_works": "Buyers attempt twice to push prices above resistance; declining volume and dominant taker sellers on the second attempt indicate buyer exhaustion and impending liquidation cascades.",
+    "variables_used": [
+      "upper_wick_ratio",
+      "24bar_high",
+      "volume_decay",
+      "taker_buy_pct"
+    ]
+  },
+  {
+    "id": "DISCOVERY-0005",
+    "name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "timeframe": "15m",
+    "direction": "LONG",
+    "holding_bars": 4,
+    "mechanism": "A clean marubozu-like expansion candle whose body represents > 85% of total range, with range > 2.0x 15-bar ATR, accompanied by rising trades count and volume > 1.8x baseline.",
+    "why_it_works": "Absence of counter-wicks combined with extreme body size signals aggressive programmatic market buying across multiple execution algorithms with zero resting liquidity resistance.",
+    "variables_used": [
+      "body_to_range_ratio",
+      "atr_expansion_mult",
+      "trades_surge",
+      "upper_wick_ratio"
+    ]
+  },
+  {
+    "id": "DISCOVERY-0006",
+    "name": "Fractal Compression Breakout with Order Count Explosion",
+    "timeframe": "1h",
+    "direction": "LONG",
+    "holding_bars": 6,
+    "mechanism": "20 bars of ultra-low volatility (< 1.0% rolling high-low spread) broken by a single bar closing outside the 20-bar band with trades count > 2.5x 20-bar average and positive taker delta.",
+    "why_it_works": "Long volatility compressions lead to explosive order flow when stopped-out limit orders convert into aggressive market orders.",
+    "variables_used": [
+      "volatility_compression",
+      "band_breakout",
+      "trades_count_explosion",
+      "taker_delta"
+    ]
+  }
+]

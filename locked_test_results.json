@@ -1,0 +1,56 @@
+[
+  {
+    "trades": 0,
+    "win_rate": 0.0,
+    "raw_return": 0.0,
+    "net_return": 0.0,
+    "mfe_mae": 0.0,
+    "profit_factor": 0.0,
+    "max_drawdown": 0.0
+  },
+  {
+    "trades": 3,
+    "win_rate": 0.0,
+    "raw_return": -0.01025,
+    "net_return": -0.01175,
+    "mfe_mae": 2.1,
+    "profit_factor": 0.0,
+    "max_drawdown": 0.0312
+  },
+  {
+    "trades": 0,
+    "win_rate": 0.0,
+    "raw_return": 0.0,
+    "net_return": 0.0,
+    "mfe_mae": 0.0,
+    "profit_factor": 0.0,
+    "max_drawdown": 0.0
+  },
+  {
+    "trades": 2,
+    "win_rate": 0.5,
+    "raw_return": -0.00524,
+    "net_return": -0.00673,
+    "mfe_mae": 0.51,
+    "profit_factor": 6.39,
+    "max_drawdown": 0.0148
+  },
+  {
+    "trades": 44,
+    "win_rate": 0.5455,
+    "raw_return": 0.00201,
+    "net_return": 0.00051,
+    "mfe_mae": 1.39,
+    "profit_factor": 55.65,
+    "max_drawdown": 0.0386
+  },
+  {
+    "trades": 9,
+    "win_rate": 0.6667,
+    "raw_return": 0.01906,
+    "net_return": 0.01756,
+    "mfe_mae": 5.23,
+    "profit_factor": 83.27,
+    "max_drawdown": 0.014
+  }
+]

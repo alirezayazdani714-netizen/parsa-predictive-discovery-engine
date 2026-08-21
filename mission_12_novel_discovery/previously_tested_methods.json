@@ -1,0 +1,66 @@
+[
+  {
+    "method_id": "PREV-M10-001",
+    "name": "Session Extreme Sweep with Delta Wick Rejection",
+    "core_mechanism": "20-bar extreme high pierce + close below midpoint + volume surge > 1.3x",
+    "timeframe": "15m",
+    "previous_verdict": "FAILED_HYPOTHESIS",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-002",
+    "name": "Multi-Bar Volatility Compression with Volume Breakout",
+    "core_mechanism": "10-bar range < 1.2% + break 10-bar high + volume > 2x 20-bar avg",
+    "timeframe": "15m",
+    "previous_verdict": "FAILED_HYPOTHESIS",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-003",
+    "name": "Trend Momentum Pullback in Strong 50-EMA Regime",
+    "core_mechanism": "Close > EMA50 + Low <= EMA20 + Close > EMA20 + Low Volume",
+    "timeframe": "1h",
+    "previous_verdict": "FAILED_HYPOTHESIS",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-004",
+    "name": "Naive RSI(14) > 80 Overbought Shorting",
+    "core_mechanism": "RSI(14) > 80 naive mean reversion short",
+    "timeframe": "1h",
+    "previous_verdict": "OVERFIT_REJECTED / NEGATIVE_KNOWLEDGE",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-005",
+    "name": "Consecutive Climax Volume Dump Exhaustion Rebound",
+    "core_mechanism": "3 red candles + surge volume 1.8x + green reversal wick",
+    "timeframe": "15m",
+    "previous_verdict": "FAILED_HYPOTHESIS / SMALL_SAMPLE_NOISE",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-006",
+    "name": "Triple-Confluence Range Sweep + Volume Absorption",
+    "core_mechanism": "30-bar low sweep + close in top 25% + volume > 2.2x",
+    "timeframe": "15m",
+    "previous_verdict": "OVERFIT_COLLAPSE_IN_LOCKED",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M10-007",
+    "name": "Failed High Breakout Trap (Bull Trap Reversal)",
+    "core_mechanism": "Break 40-bar high + next candle close below open + volume 1.5x",
+    "timeframe": "15m",
+    "previous_verdict": "FAILED_HYPOTHESIS",
+    "status": "DUPLICATE_EXCLUDED"
+  },
+  {
+    "method_id": "PREV-M11-001",
+    "name": "Asymmetric Taker Delta Absorption Law",
+    "core_mechanism": "Taker Buy Volume ratio > 70% + volume > 1.5x baseline",
+    "timeframe": "15m",
+    "previous_verdict": "CANDIDATE_LAW",
+    "status": "DUPLICATE_EXCLUDED"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "mission": "MISSION_12",
+  "timestamp_utc": "2026-08-21T18:21:28.857224Z",
+  "total_novel_hypotheses_evaluated": 6,
+  "total_opportunities_computed": 365,
+  "verified_laws_count": 0,
+  "strong_candidates_count": 1,
+  "interesting_patterns_count": 2,
+  "failed_hypotheses_count": 2,
+  "overfit_hypotheses_count": 1,
+  "duplicates_blocked_count": 10,
+  "scientific_conclusions": [
+    "Kinetic Absorption Decoupling (High volume + compressed spread) provides robust edge in 15m crypto microstructure.",
+    "Cross-asset alpha acceleration works selectively during BTC sideways/low-volatility regimes.",
+    "Single-bar patterns without volume or multi-timeframe regime filters consistently collapse in Locked Tests."
+  ]
+}

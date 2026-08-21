@@ -1,0 +1,12 @@
+[
+  {
+    "id": "DISCOVERY-0003",
+    "name": "Post-Climax Liquidity Vacuum Dry-Up Continuation",
+    "reason": "Sub-baseline OOS WR (50.0%) or negative net return (0.10%) after 15 bps fee/slippage."
+  },
+  {
+    "id": "DISCOVERY-0004",
+    "name": "Dual-Bar Asymmetric Shadow Exhaustion with Volume Decay",
+    "reason": "Sub-baseline OOS WR (0.0%) or negative net return (0.00%) after 15 bps fee/slippage."
+  }
+]

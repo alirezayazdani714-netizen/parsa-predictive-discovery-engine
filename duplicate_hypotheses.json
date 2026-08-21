@@ -1,0 +1,16 @@
+[
+  {
+    "id": "DUP-HYP-01",
+    "name": "Naive RSI(14) > 80 Shorting",
+    "status": "DUPLICATE / NOT NOVEL",
+    "classification": "F",
+    "reason": "Direct re-test of PREV-M10-004."
+  },
+  {
+    "id": "DUP-HYP-02",
+    "name": "EMA 50 Trend Pullback",
+    "status": "DUPLICATE / NOT NOVEL",
+    "classification": "F",
+    "reason": "Direct re-test of PREV-M10-003."
+  }
+]

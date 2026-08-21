@@ -1,0 +1,518 @@
+{
+  "BTCUSDT": {
+    "symbol": "BTCUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ETHUSDT": {
+    "symbol": "ETHUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "BNBUSDT": {
+    "symbol": "BNBUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "SOLUSDT": {
+    "symbol": "SOLUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "XRPUSDT": {
+    "symbol": "XRPUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ADAUSDT": {
+    "symbol": "ADAUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "DOGEUSDT": {
+    "symbol": "DOGEUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "AVAXUSDT": {
+    "symbol": "AVAXUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "LINKUSDT": {
+    "symbol": "LINKUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "MATICUSDT": {
+    "symbol": "MATICUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1639612800000,
+    "last_timestamp_ms": 1725936300000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "LTCUSDT": {
+    "symbol": "LTCUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "NEARUSDT": {
+    "symbol": "NEARUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "DOTUSDT": {
+    "symbol": "DOTUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "UNIUSDT": {
+    "symbol": "UNIUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ATOMUSDT": {
+    "symbol": "ATOMUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "SUIUSDT": {
+    "symbol": "SUIUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "APTUSDT": {
+    "symbol": "APTUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ARBUSDT": {
+    "symbol": "ARBUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "OPUSDT": {
+    "symbol": "OPUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "INJUSDT": {
+    "symbol": "INJUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "TIAUSDT": {
+    "symbol": "TIAUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "RENDERUSDT": {
+    "symbol": "RENDERUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 757
+    },
+    "total_candles": 2757,
+    "first_timestamp_ms": 1721952000000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.07,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "FTMUSDT": {
+    "symbol": "FTMUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1650412800000,
+    "last_timestamp_ms": 1736736300000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ICPUSDT": {
+    "symbol": "ICPUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "STXUSDT": {
+    "symbol": "STXUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "FILUSDT": {
+    "symbol": "FILUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ALGOUSDT": {
+    "symbol": "ALGOUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "PEPEUSDT": {
+    "symbol": "PEPEUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "SHIBUSDT": {
+    "symbol": "SHIBUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "ETCUSDT": {
+    "symbol": "ETCUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "AAVEUSDT": {
+    "symbol": "AAVEUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "CRVUSDT": {
+    "symbol": "CRVUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "MKRUSDT": {
+    "symbol": "MKRUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1671580800000,
+    "last_timestamp_ms": 1757904300000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "GALAUSDT": {
+    "symbol": "GALAUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "SEIUSDT": {
+    "symbol": "SEIUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "FETUSDT": {
+    "symbol": "FETUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "RUNEUSDT": {
+    "symbol": "RUNEUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "KASUSDT": {
+    "symbol": "KASUSDT",
+    "timeframes_available": {},
+    "total_candles": 0,
+    "first_timestamp_ms": null,
+    "last_timestamp_ms": null,
+    "years_covered_daily": 0.0,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "WLDUSDT": {
+    "symbol": "WLDUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  },
+  "FLOKIUSDT": {
+    "symbol": "FLOKIUSDT",
+    "timeframes_available": {
+      "15m": 1000,
+      "1h": 1000,
+      "1d": 1000
+    },
+    "total_candles": 3000,
+    "first_timestamp_ms": 1700956800000,
+    "last_timestamp_ms": 1787336100000,
+    "years_covered_daily": 2.74,
+    "missing_periods": "None detected in contiguous Kline series"
+  }
+}

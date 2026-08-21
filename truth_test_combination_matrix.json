@@ -1,0 +1,54 @@
+{
+  "combinationMatrix": [
+    {
+      "discoveryCode": "C1",
+      "pairedExistingRule": "RULE_4_ORDER_FLOW_DELTA",
+      "aloneDiscovery": 0.684,
+      "aloneRule": 0.551,
+      "combinedHitRate": 0.816,
+      "netAddedValue": 0.265,
+      "synergyType": "HIGH_COMPLEMENTARY_AMPLIFICATION",
+      "verdict": "STRONG_CANDIDATE_COMBINATION"
+    },
+    {
+      "discoveryCode": "C2",
+      "pairedExistingRule": "RULE_2_LIQUIDITY_REJECTION",
+      "aloneDiscovery": 0.662,
+      "aloneRule": 0.542,
+      "combinedHitRate": 0.794,
+      "netAddedValue": 0.252,
+      "synergyType": "HIGH_ACCURACY_FALSE_BREAKOUT_FILTER",
+      "verdict": "STRONG_CANDIDATE_COMBINATION"
+    },
+    {
+      "discoveryCode": "C3",
+      "pairedExistingRule": "RULE_8_DYNAMIC_SUPPORT_ABSORPTION",
+      "aloneDiscovery": 0.625,
+      "aloneRule": 0.510,
+      "combinedHitRate": 0.748,
+      "netAddedValue": 0.238,
+      "synergyType": "CROSS_ASSET_MEAN_REVERSION_CAPTURE",
+      "verdict": "CONDITIONALLY_EFFECTIVE_NEEDS_CRISIS_FILTER"
+    },
+    {
+      "discoveryCode": "C4",
+      "pairedExistingRule": "RULE_5_SECTOR_MOMENTUM_FLOW",
+      "aloneDiscovery": 0.578,
+      "aloneRule": 0.524,
+      "combinedHitRate": 0.672,
+      "netAddedValue": 0.148,
+      "synergyType": "MACRO_SECTOR_ROTATION_ACCELERATOR",
+      "verdict": "LONG_HORIZON_VIABLE_ONLY"
+    },
+    {
+      "discoveryCode": "C5",
+      "pairedExistingRule": "RULE_1_TREND_FOLLOWING_MOMENTUM",
+      "aloneDiscovery": 0.540,
+      "aloneRule": 0.528,
+      "combinedHitRate": 0.618,
+      "netAddedValue": 0.090,
+      "synergyType": "SUB_THRESHOLD_COMPLEXITY_OVERHEAD",
+      "verdict": "BELOW_10PCT_THRESHOLD_REJECTED"
+    }
+  ]
+}

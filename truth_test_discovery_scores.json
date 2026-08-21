@@ -1,0 +1,94 @@
+{
+  "discoveries": [
+    {
+      "code": "C1",
+      "name": "BB Compression + ATR Compression + Multi-TF + CVD",
+      "performanceAlone": 0.684,
+      "performanceExistingRules": 0.551,
+      "performanceCombined": 0.816,
+      "incrementalImprovement": 0.265,
+      "reliabilityScore": 9.4,
+      "horizonBreakdown": {
+        "45m": 0.762,
+        "1h": 0.845,
+        "1d": 0.812,
+        "1w": 0.741
+      },
+      "averagePerformance": 0.790,
+      "bestHorizon": "1h",
+      "verdict": "READY_FOR_FINAL_JUDGE"
+    },
+    {
+      "code": "C2",
+      "name": "Session Extreme Sweep + RSI/Delta Divergence + Rejection + VWAP",
+      "performanceAlone": 0.662,
+      "performanceExistingRules": 0.542,
+      "performanceCombined": 0.794,
+      "incrementalImprovement": 0.252,
+      "reliabilityScore": 9.1,
+      "horizonBreakdown": {
+        "45m": 0.838,
+        "1h": 0.804,
+        "1d": 0.725,
+        "1w": 0.612
+      },
+      "averagePerformance": 0.745,
+      "bestHorizon": "45m",
+      "verdict": "READY_FOR_FINAL_JUDGE"
+    },
+    {
+      "code": "C3",
+      "name": "BTC Downside Dislocation + Lead-Lag + Volume Siphon + VWAP Mean Reversion",
+      "performanceAlone": 0.625,
+      "performanceExistingRules": 0.510,
+      "performanceCombined": 0.748,
+      "incrementalImprovement": 0.238,
+      "reliabilityScore": 8.3,
+      "horizonBreakdown": {
+        "45m": 0.634,
+        "1h": 0.728,
+        "1d": 0.825,
+        "1w": 0.760
+      },
+      "averagePerformance": 0.737,
+      "bestHorizon": "1d",
+      "verdict": "NEEDS_MORE_TESTING"
+    },
+    {
+      "code": "C4",
+      "name": "ETH/BTC Structural Break + BTC Dominance + Relative Volume + L1 Beta Rotation",
+      "performanceAlone": 0.578,
+      "performanceExistingRules": 0.524,
+      "performanceCombined": 0.672,
+      "incrementalImprovement": 0.148,
+      "reliabilityScore": 7.4,
+      "horizonBreakdown": {
+        "45m": 0.541,
+        "1h": 0.615,
+        "1d": 0.742,
+        "1w": 0.791
+      },
+      "averagePerformance": 0.672,
+      "bestHorizon": "1w",
+      "verdict": "NEEDS_MORE_TESTING"
+    },
+    {
+      "code": "C5",
+      "name": "Multi-TF EMA Alignment + Hidden RSI Divergence + Fibonacci + Volume",
+      "performanceAlone": 0.540,
+      "performanceExistingRules": 0.528,
+      "performanceCombined": 0.618,
+      "incrementalImprovement": 0.090,
+      "reliabilityScore": 5.8,
+      "horizonBreakdown": {
+        "45m": 0.572,
+        "1h": 0.631,
+        "1d": 0.648,
+        "1w": 0.620
+      },
+      "averagePerformance": 0.618,
+      "bestHorizon": "1d",
+      "verdict": "NEGATIVE_KNOWLEDGE"
+    }
+  ]
+}

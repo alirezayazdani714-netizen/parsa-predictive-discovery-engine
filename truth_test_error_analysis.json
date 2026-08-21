@@ -1,0 +1,56 @@
+{
+  "errorTaxonomy": {
+    "totalErrorsEvaluated": 292,
+    "errorBreakdown": [
+      {
+        "category": "K_TIMING_ERROR",
+        "count": 88,
+        "percentage": 30.14,
+        "rootCause": "Target reached outside the fixed evaluation window (e.g. at 55m for 45m horizon).",
+        "mitigation": "Introduce adaptive volatility-adjusted dynamic horizon windows."
+      },
+      {
+        "category": "H_FALSE_BREAKOUT",
+        "count": 56,
+        "percentage": 19.18,
+        "rootCause": "Liquidity vacuum in low-volume pairs causing false expansion spikes.",
+        "mitigation": "Enforce strict minimum 24h quote volume of $5M."
+      },
+      {
+        "category": "B_REGIME_MISCLASSIFICATION",
+        "count": 45,
+        "percentage": 15.41,
+        "rootCause": "Rapid regime shift during high-impact macro news or sudden BTC flash spikes.",
+        "mitigation": "Real-time volatility regime breaker lock."
+      },
+      {
+        "category": "G_SIGNAL_LATENCY",
+        "count": 38,
+        "percentage": 13.01,
+        "rootCause": "Multi-timeframe confirmation lag eating up the initial 35% of move.",
+        "mitigation": "Sub-candle order flow momentum early triggers."
+      },
+      {
+        "category": "E_RULE_CONFLICT",
+        "count": 28,
+        "percentage": 9.59,
+        "rootCause": "Disagreement between higher timeframe trend rules and lower timeframe mean-reversion discoveries.",
+        "mitigation": "Hierarchical timeframe arbitration rule."
+      },
+      {
+        "category": "I_CRISIS_CASCADE",
+        "count": 22,
+        "percentage": 7.53,
+        "rootCause": "Systemic liquidations bypassing technical mean-reversion levels.",
+        "mitigation": "Absolute circuit breaker on altcoins when BTC drops >3% in 15m."
+      },
+      {
+        "category": "F_OVERFITTING_SENSITIVITY",
+        "count": 15,
+        "percentage": 5.14,
+        "rootCause": "Fixed fibonacci/divergence thresholds failing on volatile meme coins.",
+        "mitigation": "Remove rigid static indicator thresholds."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "testRunId": "RUN-MULTI-HORIZON-TRUTH-20260821-T1200",
+  "engineVersion": "PARSA_HYBRID_ENGINE_v9.1_STAGE9_FINAL",
+  "timestamp": "2026-08-21T12:00:00Z",
+  "datasetVersion": "CRYPTO-1200-UNIFIED-2026Q3",
+  "totalAssetsMonitored": 1200,
+  "horizons": ["45m", "1h", "1d", "1w"],
+  "totalDecisionSlots": 4800,
+  "summary": {
+    "totalPredictionsMade": 1344,
+    "noTradeCount": 3456,
+    "noTradeRatio": 0.72,
+    "totalCorrect": 1052,
+    "totalIncorrect": 292,
+    "overallHitRate": 0.7827,
+    "overallDirectionalAccuracy": 0.8015,
+    "overallBrierScore": 0.138,
+    "meanAbsoluteErrorPct": 0.52,
+    "mfeMaeRatio": 4.18
+  },
+  "sampleAuditEntries": [
+    {
+      "asset": "BTC/USDT",
+      "horizon": "1h",
+      "entryReference": 64120.50,
+      "predictedDirection": "LONG",
+      "expectedReturnPct": 0.72,
+      "actualReturnPct": 0.88,
+      "confidence": 0.86,
+      "discovery": "C1",
+      "existingRule": "RULE_4_ORDER_FLOW_DELTA",
+      "mode": "COMBINED",
+      "regime": "BULLISH_COMPRESSION",
+      "hit": true,
+      "mae": 0.18,
+      "mfe": 1.05
+    },
+    {
+      "asset": "ETH/USDT",
+      "horizon": "45m",
+      "entryReference": 2685.20,
+      "predictedDirection": "SHORT",
+      "expectedReturnPct": -1.24,
+      "actualReturnPct": -1.35,
+      "confidence": 0.81,
+      "discovery": "C2",
+      "existingRule": "RULE_2_LIQUIDITY_REJECTION",
+      "mode": "COMBINED",
+      "regime": "FAILED_AUCTION_SWEEP",
+      "hit": true,
+      "mae": 0.22,
+      "mfe": 1.48
+    },
+    {
+      "asset": "SOL/USDT",
+      "horizon": "1d",
+      "entryReference": 142.30,
+      "predictedDirection": "LONG",
+      "expectedReturnPct": 4.10,
+      "actualReturnPct": 4.65,
+      "confidence": 0.83,
+      "discovery": "C3",
+      "existingRule": "RULE_8_DYNAMIC_SUPPORT_ABSORPTION",
+      "mode": "COMBINED",
+      "regime": "CROSS_ASSET_DISLOCATION",
+      "hit": true,
+      "mae": 0.85,
+      "mfe": 5.12
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "testRunId": "RUN-MULTI-HORIZON-TRUTH-20260821-T1200",
+  "engineVersion": "PARSA_HYBRID_ENGINE_v9.1_STAGE9_FINAL",
+  "executionDate": "2026-08-21",
+  "totalAssets": 1200,
+  "evaluatedHorizons": ["45m", "1h", "1d", "1w"],
+  "totalEvaluations": 4800,
+  "activePredictions": 1344,
+  "noTradeDecisions": 3456,
+  "hitRate": 0.7827,
+  "aggregateMetrics": {
+    "winCount": 1052,
+    "lossCount": 292,
+    "precision": 0.7827,
+    "recall": 0.7512,
+    "falsePositiveRate": 0.2173,
+    "falseNegativeRate": 0.0815,
+    "averageMfe": 2.84,
+    "averageMae": 0.68,
+    "mfeMaeRatio": 4.18,
+    "averageProfitFactor": 2.56,
+    "sharpeRatio": 2.24,
+    "brierScore": 0.138
+  },
+  "verdictCounts": {
+    "READY_FOR_FINAL_JUDGE": 2,
+    "NEEDS_MORE_TESTING": 2,
+    "NEGATIVE_KNOWLEDGE": 1
+  }
+}

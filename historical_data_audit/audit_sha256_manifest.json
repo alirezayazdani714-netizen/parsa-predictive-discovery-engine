@@ -1,0 +1,10 @@
+{
+  "data_availability_matrix.json": {
+    "sha256": "963b46484dde0899a39b38d1dce33b6562fd79e4654dfe4ce42f7318c1231a3b",
+    "sizeBytes": 32093
+  },
+  "DATA_INGESTION_AUDIT_REPORT.json": {
+    "sha256": "1800ecab46d0578daf45a064bb47a3d1fa173408b4dc768b14a7b4f0387d402b",
+    "sizeBytes": 36744
+  }
+}

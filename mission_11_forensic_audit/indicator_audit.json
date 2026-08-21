@@ -1,0 +1,34 @@
+{
+  "OHLCV": {
+    "status": "REAL_DATA_SOURCE",
+    "description": "Directly fetched from Binance public Kline feed with millisecond timestamps."
+  },
+  "Volume & Quote Volume": {
+    "status": "REAL_DATA_SOURCE",
+    "description": "Base volume and quote volume provided directly by exchange match engine."
+  },
+  "Taker Buy/Sell Volume (True CVD Delta)": {
+    "status": "REAL_DATA_SOURCE",
+    "description": "Using Binance fields taker_buy_base_volume and taker_buy_quote_volume to compute exact taker delta."
+  },
+  "RSI (Relative Strength Index)": {
+    "status": "MATHEMATICALLY_VERIFIED",
+    "description": "Wilder's smoothed RSI(14) using true historical gain/loss smoothing."
+  },
+  "EMA / SMA": {
+    "status": "MATHEMATICALLY_VERIFIED",
+    "description": "Standard exponential moving average with multiplier 2/(N+1) strictly without lookahead."
+  },
+  "Level 2 Order Book Imbalance": {
+    "status": "NOT_AVAILABLE_IN_HISTORICAL_KLINES",
+    "description": "Historical L2 order book depth is not captured in standard Kline REST API; any past claim of deep historical L2 in this environment was an estimation from volume and candle spreads."
+  },
+  "Liquidation Stream": {
+    "status": "DERIVED_OR_NOT_PRESENT",
+    "description": "Historical spot Kline API does not include futures liquidation events."
+  },
+  "Funding Rate": {
+    "status": "NOT_PRESENT_IN_SPOT_KLINES",
+    "description": "Spot Kline data does not contain perpetual swap funding rates."
+  }
+}

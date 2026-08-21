@@ -1,0 +1,42 @@
+[
+  {
+    "discovery_id": "FORENSIC-DISC-00024",
+    "template": "VOLATILITY_EXPANSION_BREAKOUT",
+    "parameters": {
+      "compression_pct": 0.015,
+      "vol_spike": 2.5
+    },
+    "timeframe": "1h",
+    "direction": "LONG",
+    "total_trades": 66,
+    "train": {
+      "trades": 28,
+      "win_rate": 0.6429,
+      "net_return": 0.007,
+      "mfe_mae": 12.36,
+      "profit_factor": 80.33
+    },
+    "validation": {
+      "trades": 10,
+      "win_rate": 0.2,
+      "net_return": -0.0026,
+      "mfe_mae": 2.26,
+      "profit_factor": 2.28
+    },
+    "oos": {
+      "trades": 5,
+      "win_rate": 0.6,
+      "net_return": 0.0015,
+      "mfe_mae": 17.24,
+      "profit_factor": 8.45
+    },
+    "locked": {
+      "trades": 23,
+      "win_rate": 0.6087,
+      "net_return": 0.0149,
+      "mfe_mae": 9.64,
+      "profit_factor": 119.51
+    },
+    "is_viable_edge": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "audit_title": "PARSA_MISSION_11_FORENSIC_REPRODUCTION_AUDIT",
+  "timestamp_utc": "2026-08-21T17:51:28.025440Z",
+  "auditor_role": "INDEPENDENT_SCIENTIFIC_DETECTIVE",
+  "total_candles_audited": 45000,
+  "total_claims_audited": 5,
+  "total_cases_reproduced": 7,
+  "total_systematic_hypotheses_evaluated": 40,
+  "verified_laws_count": 0,
+  "verdict_95_percent_claim": "NO_VERIFIED_95_PERCENT_LAW_FOUND_ON_REAL_CONTINUOUS_DATA"
+}

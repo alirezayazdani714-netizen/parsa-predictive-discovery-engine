@@ -1,0 +1,10 @@
+{
+  "split_structure": "STRICT_CHRONOLOGICAL_SPLIT",
+  "train_fraction": 0.5,
+  "validation_fraction": 0.2,
+  "oos_fraction": 0.15,
+  "locked_fraction": 0.15,
+  "lookahead_leakage_detected": false,
+  "future_normalization_bias": false,
+  "verification_notes": "All indicators computed with rolling backward historical windows (i >= lookback) with strictly no access to index > i during signal decision."
+}

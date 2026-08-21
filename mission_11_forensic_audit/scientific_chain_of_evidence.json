@@ -1,0 +1,45 @@
+{
+  "chain_integrity": "CONTINUOUS_VERIFIED",
+  "steps": [
+    {
+      "step": "RAW DATA",
+      "evidence": "45000 real Binance Kline rows fetched"
+    },
+    {
+      "step": "INGESTION",
+      "evidence": "Direct millisecond timestamps and volume delta extraction"
+    },
+    {
+      "step": "FEATURE ENGINEERING",
+      "evidence": "Pure historical lag calculations (EMA, Bollinger, Taker Delta)"
+    },
+    {
+      "step": "HYPOTHESIS",
+      "evidence": "40 explicit condition functions formulated"
+    },
+    {
+      "step": "EXPERIMENT",
+      "evidence": "Simulated forward execution over fixed holding windows"
+    },
+    {
+      "step": "OOS",
+      "evidence": "Evaluated on 15% unseen chronological segment"
+    },
+    {
+      "step": "WALK-FORWARD",
+      "evidence": "Validation on 20% intermediate slice"
+    },
+    {
+      "step": "LOCKED TEST",
+      "evidence": "Final 15% terminal slice verification"
+    },
+    {
+      "step": "STATISTICAL TEST",
+      "evidence": "Sample size filter (N >= 30), MFE/MAE ratio, Net Expectancy after 15 bps fee/slippage"
+    },
+    {
+      "step": "FINAL DISCOVERY",
+      "evidence": "0 verified empirical laws promoted"
+    }
+  ]
+}

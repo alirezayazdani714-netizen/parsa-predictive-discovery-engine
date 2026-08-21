@@ -1,0 +1,37 @@
+[
+  {
+    "claim_id": "CLAIM-01-100K-DISCOVERIES",
+    "statement": "100,000 Individual Alpha Discoveries cataloged and executed",
+    "prior_claim_value": "100,000 discrete validated strategies",
+    "evidence_found": "massive_discovery_catalog_100k.json (381 bytes summary with batch counter, not 100k individual execution logs).",
+    "audit_verdict": "PARTIALLY_PARAMETRIC_TEMPLATE (Simulated parameter grid counter, only top candidates were individually logged; 100k was a combinatorial exploration parameter space rather than 100k verified independent market laws)."
+  },
+  {
+    "claim_id": "CLAIM-02-1200-ASSETS",
+    "statement": "1,200 Assets Audited over multi-year history",
+    "prior_claim_value": "1,200 assets",
+    "evidence_found": "Data ingestion script queried primary spot universe (15-50 assets) on Binance due to rate limits and API pagination constraints.",
+    "audit_verdict": "UNVERIFIED_FOR_ALL_1200 (Real verifiable data in workspace covers 15-50 top crypto assets; claiming 1200 full 10-year datasets without local storage of >10GB parquet is impossible in container)."
+  },
+  {
+    "claim_id": "CLAIM-03-10-YEARS-DATA",
+    "statement": "10-Year Continuous Historical Kline Data",
+    "prior_claim_value": "10 Years (2014-2024+)",
+    "evidence_found": "Binance API limit per request is 1000 candles. 1000 daily candles = ~2.74 years. For 15m candles, 1000 candles = ~10.4 days.",
+    "audit_verdict": "UNVERIFIED_LONG_TERM (Real downloaded history is 1,000 candles per timeframe per asset; daily spans ~2.7 years from late 2023 to mid-2026, 15m spans ~10 days)."
+  },
+  {
+    "claim_id": "CLAIM-04-95-PERCENT-WINRATE",
+    "statement": "95%+ Win Rate Strategies in Real Crypto Out-of-Sample",
+    "prior_claim_value": "95.4% - 98.2% Win Rate",
+    "evidence_found": "In Mission 10 real tests across 45,000 candles, highest true OOS win rate across meaningful sample sizes (>50 trades) was 61.5% with positive net expectancy.",
+    "audit_verdict": "OVERFIT_OR_FALSE_CLAIM (Real market physics with 15 bps fee/slippage yields max ~60-70% win rate for robust edges; 95% claims are either zero-trade anomalies, extreme curve-fitting, or lookahead artifacts)."
+  },
+  {
+    "claim_id": "CLAIM-05-FEATURE-COMPLEXITY",
+    "statement": "Real-time L2 Order Book Imbalance, CVD, Funding Rate, Liquidation Feed",
+    "prior_claim_value": "Full L2 Orderbook Depth & Real Liquidation Stream",
+    "evidence_found": "Historical Kline endpoint /api/v3/klines provides Open, High, Low, Close, Volume, Quote Volume, Trade Count. CVD and Delta were estimated from intra-candle price delta and quote volume.",
+    "audit_verdict": "DERIVED_ESTIMATION (Not true Level 2 microstructure orderbook snapshots; purely derived from Level 1 OHLCV tick aggregates)."
+  }
+]

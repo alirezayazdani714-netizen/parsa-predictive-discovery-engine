@@ -1,0 +1,23 @@
+[
+  {
+    "claim_id": "CLAIM-02-1200-ASSETS",
+    "statement": "1,200 Assets Audited over multi-year history",
+    "prior_claim_value": "1,200 assets",
+    "evidence_found": "Data ingestion script queried primary spot universe (15-50 assets) on Binance due to rate limits and API pagination constraints.",
+    "audit_verdict": "UNVERIFIED_FOR_ALL_1200 (Real verifiable data in workspace covers 15-50 top crypto assets; claiming 1200 full 10-year datasets without local storage of >10GB parquet is impossible in container)."
+  },
+  {
+    "claim_id": "CLAIM-03-10-YEARS-DATA",
+    "statement": "10-Year Continuous Historical Kline Data",
+    "prior_claim_value": "10 Years (2014-2024+)",
+    "evidence_found": "Binance API limit per request is 1000 candles. 1000 daily candles = ~2.74 years. For 15m candles, 1000 candles = ~10.4 days.",
+    "audit_verdict": "UNVERIFIED_LONG_TERM (Real downloaded history is 1,000 candles per timeframe per asset; daily spans ~2.7 years from late 2023 to mid-2026, 15m spans ~10 days)."
+  },
+  {
+    "claim_id": "CLAIM-04-95-PERCENT-WINRATE",
+    "statement": "95%+ Win Rate Strategies in Real Crypto Out-of-Sample",
+    "prior_claim_value": "95.4% - 98.2% Win Rate",
+    "evidence_found": "In Mission 10 real tests across 45,000 candles, highest true OOS win rate across meaningful sample sizes (>50 trades) was 61.5% with positive net expectancy.",
+    "audit_verdict": "OVERFIT_OR_FALSE_CLAIM (Real market physics with 15 bps fee/slippage yields max ~60-70% win rate for robust edges; 95% claims are either zero-trade anomalies, extreme curve-fitting, or lookahead artifacts)."
+  }
+]

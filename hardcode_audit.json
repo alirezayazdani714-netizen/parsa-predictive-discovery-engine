@@ -1,0 +1,177 @@
+{
+  "repo_scripts_scanned": [
+    "./scripts/binance_live_truth_runner.py",
+    "./scripts/massive_100k_discovery_search.py",
+    "./scripts/data_ingestion_audit.py",
+    "./scripts/parsa_scientific_detective.py",
+    "./scripts/parsa_mission11_forensic_auditor.py"
+  ],
+  "suspect_high_winrate_flags": {
+    "./metadata.json": {
+      "size_bytes": 318,
+      "suspect_high_winrate_claims": []
+    },
+    "./truth_test_raw_results.json": {
+      "size_bytes": 1936,
+      "suspect_high_winrate_claims": []
+    },
+    "./truth_test_summary.json": {
+      "size_bytes": 788,
+      "suspect_high_winrate_claims": []
+    },
+    "./truth_test_discovery_scores.json": {
+      "size_bytes": 2622,
+      "suspect_high_winrate_claims": []
+    },
+    "./truth_test_combination_matrix.json": {
+      "size_bytes": 1682,
+      "suspect_high_winrate_claims": []
+    },
+    "./truth_test_error_analysis.json": {
+      "size_bytes": 2066,
+      "suspect_high_winrate_claims": []
+    },
+    "./short_horizon_raw_results.json": {
+      "size_bytes": 2509,
+      "suspect_high_winrate_claims": []
+    },
+    "./short_horizon_summary.json": {
+      "size_bytes": 1717,
+      "suspect_high_winrate_claims": []
+    },
+    "./short_horizon_discovery_matrix.json": {
+      "size_bytes": 5353,
+      "suspect_high_winrate_claims": []
+    },
+    "./short_horizon_error_analysis.json": {
+      "size_bytes": 1783,
+      "suspect_high_winrate_claims": []
+    },
+    "./discovery_preservation_catalog.json": {
+      "size_bytes": 12299,
+      "suspect_high_winrate_claims": [
+        "95.4%",
+        "95.8%"
+      ]
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/test_protocol.json": {
+      "size_bytes": 1256,
+      "suspect_high_winrate_claims": []
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/discovery_performance.json": {
+      "size_bytes": 2028,
+      "suspect_high_winrate_claims": []
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/horizon_performance.json": {
+      "size_bytes": 654,
+      "suspect_high_winrate_claims": []
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/rule_contribution.json": {
+      "size_bytes": 1001,
+      "suspect_high_winrate_claims": []
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/error_analysis.json": {
+      "size_bytes": 1242,
+      "suspect_high_winrate_claims": []
+    },
+    "./live_truth_tests/LIVE_TRUTH_20260821_001/dataset_manifest.json": {
+      "size_bytes": 4587,
+      "suspect_high_winrate_claims": []
+    },
+    "./massive_discovery_audit/candidate_95_plus.json": {
+      "size_bytes": 2912,
+      "suspect_high_winrate_claims": [
+        "96.2%",
+        "95.8%"
+      ]
+    },
+    "./massive_discovery_audit/proven_meta_discoveries.json": {
+      "size_bytes": 2912,
+      "suspect_high_winrate_claims": [
+        "96.2%",
+        "95.8%"
+      ]
+    },
+    "./massive_discovery_audit/top_100_discoveries.json": {
+      "size_bytes": 37245,
+      "suspect_high_winrate_claims": []
+    },
+    "./massive_discovery_audit/multiple_testing_report.json": {
+      "size_bytes": 543,
+      "suspect_high_winrate_claims": []
+    },
+    "./massive_discovery_audit/final_locked_test_report.json": {
+      "size_bytes": 453,
+      "suspect_high_winrate_claims": []
+    },
+    "./massive_discovery_audit/rejected_or_unstable_discoveries.json": {
+      "size_bytes": 670,
+      "suspect_high_winrate_claims": []
+    },
+    "./massive_discovery_audit/massive_discovery_catalog_100k.json": {
+      "size_bytes": 381,
+      "suspect_high_winrate_claims": [
+        "95.8%"
+      ]
+    },
+    "./historical_data_audit/data_availability_matrix.json": {
+      "size_bytes": 32093,
+      "suspect_high_winrate_claims": []
+    },
+    "./historical_data_audit/DATA_INGESTION_AUDIT_REPORT.json": {
+      "size_bytes": 36744,
+      "suspect_high_winrate_claims": [
+        "100%"
+      ]
+    },
+    "./historical_data_audit/audit_sha256_manifest.json": {
+      "size_bytes": 299,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/real_discovery_results.json": {
+      "size_bytes": 8384,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/scientific_cases.json": {
+      "size_bytes": 8384,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/new_discoveries.json": {
+      "size_bytes": 2396,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/parsa_law_candidates.json": {
+      "size_bytes": 2,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/failed_hypotheses.json": {
+      "size_bytes": 1002,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/replicated_discoveries.json": {
+      "size_bytes": 2,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/oos_results.json": {
+      "size_bytes": 871,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/walk_forward_results.json": {
+      "size_bytes": 866,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/final_locked_test.json": {
+      "size_bytes": 860,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/scientific_memory.json": {
+      "size_bytes": 8384,
+      "suspect_high_winrate_claims": []
+    },
+    "./mission_10_scientific_audit/multiple_testing_report.json": {
+      "size_bytes": 306,
+      "suspect_high_winrate_claims": []
+    }
+  },
+  "hardcoded_result_detection": "Detected past claims of 95%+ in metadata/summary markdown; code execution confirms actual empirical OOS win rates are between 30% and 65%."
+}

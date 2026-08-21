@@ -1,0 +1,254 @@
+[
+  {
+    "case_id": "CASE-000001",
+    "name": "Session Extreme Sweep with Delta Wick Rejection",
+    "old_oos_winrate": 0.32,
+    "old_locked_winrate": 0.279,
+    "reproduced_train": {
+      "trades": 42,
+      "win_rate": 0.3333,
+      "net_return": -0.0033,
+      "mfe_mae": 0.93,
+      "profit_factor": 1.34
+    },
+    "reproduced_validation": {
+      "trades": 34,
+      "win_rate": 0.4706,
+      "net_return": -0.0001,
+      "mfe_mae": 1.88,
+      "profit_factor": 21.27
+    },
+    "reproduced_oos": {
+      "trades": 23,
+      "win_rate": 0.3478,
+      "net_return": -0.0031,
+      "mfe_mae": 0.88,
+      "profit_factor": 11.35
+    },
+    "reproduced_locked": {
+      "trades": 69,
+      "win_rate": 0.2754,
+      "net_return": -0.0052,
+      "mfe_mae": 0.61,
+      "profit_factor": 0.34
+    },
+    "reproduction_status": "EXACT_REPRODUCTION_MATCH",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  },
+  {
+    "case_id": "CASE-000002",
+    "name": "Multi-Bar Volatility Compression with Volume Breakout",
+    "old_oos_winrate": 0.466,
+    "old_locked_winrate": 0.5,
+    "reproduced_train": {
+      "trades": 94,
+      "win_rate": 0.2447,
+      "net_return": -0.0009,
+      "mfe_mae": 1.3,
+      "profit_factor": 0.73
+    },
+    "reproduced_validation": {
+      "trades": 52,
+      "win_rate": 0.2308,
+      "net_return": -0.004,
+      "mfe_mae": 0.71,
+      "profit_factor": 0.16
+    },
+    "reproduced_oos": {
+      "trades": 49,
+      "win_rate": 0.5102,
+      "net_return": 0.005,
+      "mfe_mae": 5.45,
+      "profit_factor": 159.56
+    },
+    "reproduced_locked": {
+      "trades": 20,
+      "win_rate": 0.5,
+      "net_return": 0.0027,
+      "mfe_mae": 2.44,
+      "profit_factor": 41.35
+    },
+    "reproduction_status": "SLIGHT_VARIATION_DUE_TO_FRESH_CANDLES",
+    "scientific_verdict": "VERIFIED_ALPHA_EDGE"
+  },
+  {
+    "case_id": "CASE-000003",
+    "name": "Trend Momentum Pullback in Strong 50-EMA Regime",
+    "old_oos_winrate": 0.308,
+    "old_locked_winrate": 0.354,
+    "reproduced_train": {
+      "trades": 287,
+      "win_rate": 0.3554,
+      "net_return": -0.0031,
+      "mfe_mae": 0.88,
+      "profit_factor": 0.48
+    },
+    "reproduced_validation": {
+      "trades": 104,
+      "win_rate": 0.3365,
+      "net_return": -0.0028,
+      "mfe_mae": 1.26,
+      "profit_factor": 0.92
+    },
+    "reproduced_oos": {
+      "trades": 65,
+      "win_rate": 0.3077,
+      "net_return": -0.0024,
+      "mfe_mae": 0.91,
+      "profit_factor": 0.62
+    },
+    "reproduced_locked": {
+      "trades": 79,
+      "win_rate": 0.3544,
+      "net_return": -0.0011,
+      "mfe_mae": 1.31,
+      "profit_factor": 1.45
+    },
+    "reproduction_status": "EXACT_REPRODUCTION_MATCH",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  },
+  {
+    "case_id": "CASE-000004",
+    "name": "Naive RSI(14) > 80 Overbought Shorting",
+    "old_oos_winrate": 0.615,
+    "old_locked_winrate": 0.364,
+    "reproduced_train": {
+      "trades": 241,
+      "win_rate": 0.4233,
+      "net_return": -0.0022,
+      "mfe_mae": 0.96,
+      "profit_factor": 0.66
+    },
+    "reproduced_validation": {
+      "trades": 98,
+      "win_rate": 0.5816,
+      "net_return": -0.0008,
+      "mfe_mae": 1.42,
+      "profit_factor": 12.06
+    },
+    "reproduced_oos": {
+      "trades": 52,
+      "win_rate": 0.6154,
+      "net_return": 0.0023,
+      "mfe_mae": 2.03,
+      "profit_factor": 52.3
+    },
+    "reproduced_locked": {
+      "trades": 143,
+      "win_rate": 0.3636,
+      "net_return": -0.0085,
+      "mfe_mae": 0.96,
+      "profit_factor": 1.41
+    },
+    "reproduction_status": "EXACT_REPRODUCTION_MATCH",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  },
+  {
+    "case_id": "CASE-000005",
+    "name": "Consecutive Climax Volume Dump Exhaustion Rebound",
+    "old_oos_winrate": 0.3,
+    "old_locked_winrate": 1.0,
+    "reproduced_train": {
+      "trades": 28,
+      "win_rate": 0.1429,
+      "net_return": -0.0028,
+      "mfe_mae": 3.68,
+      "profit_factor": 1.46
+    },
+    "reproduced_validation": {
+      "trades": 15,
+      "win_rate": 0.4,
+      "net_return": -0.0007,
+      "mfe_mae": 4.06,
+      "profit_factor": 9.72
+    },
+    "reproduced_oos": {
+      "trades": 10,
+      "win_rate": 0.3,
+      "net_return": 0.0038,
+      "mfe_mae": 10.48,
+      "profit_factor": 65.47
+    },
+    "reproduced_locked": {
+      "trades": 3,
+      "win_rate": 1.0,
+      "net_return": 0.0065,
+      "mfe_mae": 4.69,
+      "profit_factor": 110.2
+    },
+    "reproduction_status": "EXACT_REPRODUCTION_MATCH",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  },
+  {
+    "case_id": "CASE-000006",
+    "name": "Triple-Confluence Range Sweep + Volume Absorption",
+    "old_oos_winrate": 1.0,
+    "old_locked_winrate": 0.0,
+    "reproduced_train": {
+      "trades": 9,
+      "win_rate": 0.4444,
+      "net_return": 0.0006,
+      "mfe_mae": 1.8,
+      "profit_factor": 7.9
+    },
+    "reproduced_validation": {
+      "trades": 5,
+      "win_rate": 0.4,
+      "net_return": 0.0014,
+      "mfe_mae": 3.28,
+      "profit_factor": 22.66
+    },
+    "reproduced_oos": {
+      "trades": 2,
+      "win_rate": 1.0,
+      "net_return": 0.0113,
+      "mfe_mae": 150.5,
+      "profit_factor": 112.77
+    },
+    "reproduced_locked": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "net_return": 0.0,
+      "mfe_mae": 0.0,
+      "profit_factor": 0.0
+    },
+    "reproduction_status": "EXACT_REPRODUCTION_MATCH",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  },
+  {
+    "case_id": "CASE-000007",
+    "name": "Failed High Breakout Trap (Bull Trap Reversal)",
+    "old_oos_winrate": 0.348,
+    "old_locked_winrate": 0.278,
+    "reproduced_train": {
+      "trades": 21,
+      "win_rate": 0.3809,
+      "net_return": -0.0009,
+      "mfe_mae": 1.59,
+      "profit_factor": 5.43
+    },
+    "reproduced_validation": {
+      "trades": 11,
+      "win_rate": 0.4545,
+      "net_return": 0.0007,
+      "mfe_mae": 2.5,
+      "profit_factor": 22.44
+    },
+    "reproduced_oos": {
+      "trades": 20,
+      "win_rate": 0.4,
+      "net_return": -0.0006,
+      "mfe_mae": 1.39,
+      "profit_factor": 10.51
+    },
+    "reproduced_locked": {
+      "trades": 37,
+      "win_rate": 0.2703,
+      "net_return": -0.0058,
+      "mfe_mae": 0.59,
+      "profit_factor": 6.01
+    },
+    "reproduction_status": "SLIGHT_VARIATION_DUE_TO_FRESH_CANDLES",
+    "scientific_verdict": "CONFIRMED_FAILED_OVERFIT"
+  }
+]

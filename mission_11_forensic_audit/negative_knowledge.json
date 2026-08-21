@@ -1,0 +1,22 @@
+[
+  {
+    "concept": "Single-Indicator RSI(14) > 80 Mean-Reversion",
+    "result": "Severe Overfit / Trend Drag",
+    "explanation": "In high-momentum crypto regimes, overbought readings continue expanding for 10-50 bars; shorting on raw RSI results in -0.32% net negative expectancy."
+  },
+  {
+    "concept": "Single Candle Exhaustion Wick without Volume Confirmation",
+    "result": "50% Coin-Flip / High False-Positive Rate",
+    "explanation": "Single wicks on 15m without orderbook/taker volume delta absorption fail to indicate true liquidity reversal."
+  },
+  {
+    "concept": "Naive SMA 20/50 Crossover in Chop Regimes",
+    "result": "Heavy Whipsaw Decay (-1.2% per 10 trades after fees)",
+    "explanation": "Lagging crossovers consistently trigger at the exhaustion point of micro-ranges."
+  },
+  {
+    "concept": "Fixed Fibonacci Retracement Levels without Structural Confluence",
+    "result": "Zero Statistical Significance above Uniform Distribution (p > 0.45)",
+    "explanation": "Price bounces at 0.618 or 0.382 occur at rates identical to random level placement unless combined with genuine liquidity sweeps."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "discovery_id": "DISC-M6-001",
+    "name": "Short-Horizon Momentum Divergence (5m)",
+    "source_data": "Binance REST API (Aug 2024)",
+    "code_source": "scripts/binance_live_truth_runner.py",
+    "experiment_params": "RSI(7) divergence + 5m holding 3 bars",
+    "timestamps_assets": "BTCUSDT, ETHUSDT (Aug 2024)",
+    "prior_result_read": false,
+    "pre_encoded_mechanism": true,
+    "independently_regenerated": true,
+    "classification": "CODE_PRESEEDED",
+    "reproduction_outcome": "REPRODUCTION_FAILED (Gross win-rate collapses after 15 bps fee)"
+  },
+  {
+    "discovery_id": "DISC-M7-001",
+    "name": "Bollinger Compression Breakout (15m)",
+    "source_data": "Binance REST API (Jan-Aug 2024)",
+    "code_source": "scripts/massive_100k_discovery_search.py",
+    "experiment_params": "BB Width < 10th percentile + Breakout",
+    "timestamps_assets": "10 Altcoins (2024)",
+    "prior_result_read": false,
+    "pre_encoded_mechanism": true,
+    "independently_regenerated": true,
+    "classification": "CODE_PRESEEDED",
+    "reproduction_outcome": "REPRODUCTION_FAILED (Negative net expectancy after realistic friction)"
+  },
+  {
+    "discovery_id": "DISC-M8-001",
+    "name": "Taker Buy Delta Absorption (15m)",
+    "source_data": "Binance REST API (Nov 2023 - Aug 2026)",
+    "code_source": "scripts/parsa_scientific_detective.py",
+    "experiment_params": "Taker ratio > 0.70 + Volume surge in Range",
+    "timestamps_assets": "25 Crypto Pairs",
+    "prior_result_read": true,
+    "pre_encoded_mechanism": true,
+    "independently_regenerated": true,
+    "classification": "REUSED_FROM_PRIOR_RESULT",
+    "reproduction_outcome": "REPRODUCED (Maintains directional bias but low OOS margin)"
+  },
+  {
+    "discovery_id": "DISC-M10-001",
+    "name": "RSI(14) > 80 Mean Reversion Shorting",
+    "source_data": "Binance REST API (Nov 2023 - Aug 2026)",
+    "code_source": "scripts/parsa_scientific_detective.py",
+    "experiment_params": "RSI(14) > 80 Short entry",
+    "timestamps_assets": "30 Assets 1h",
+    "prior_result_read": true,
+    "pre_encoded_mechanism": true,
+    "independently_regenerated": true,
+    "classification": "REPRODUCED",
+    "reproduction_outcome": "REPRODUCED_REFUTATION (Confirmed failure / negative alpha -0.71%)"
+  },
+  {
+    "discovery_id": "DISC-M12-0005",
+    "name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "source_data": "Binance Public REST API v3",
+    "code_source": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "experiment_params": "Body ratio > 0.85, Vol > 1.8x, Trades > 1.5x, ATR > 1.8x",
+    "timestamps_assets": "39 Crypto Assets 15m (116,757 candles)",
+    "prior_result_read": false,
+    "pre_encoded_mechanism": true,
+    "independently_regenerated": true,
+    "classification": "CODE_PRESEEDED",
+    "reproduction_outcome": "REPRODUCED (OOS WR 55.8%, Locked WR 54.5%, Net Exp +0.46%)"
+  }
+]

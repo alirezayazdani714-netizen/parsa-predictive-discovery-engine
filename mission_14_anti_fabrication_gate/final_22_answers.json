@@ -1,0 +1,36 @@
+{
+  "q01_real_assets_tested": 39,
+  "q02_real_candles_tested": 116757,
+  "q03_independent_opportunities_tested": 491,
+  "q04_hypotheses_generated": 5,
+  "q05_hypotheses_duplicates": 3,
+  "q06_hypotheses_genuinely_novel": 2,
+  "q07_hypotheses_failed": 1,
+  "q08_hypotheses_overfit": 0,
+  "q09_hypotheses_survived_oos": 4,
+  "q10_hypotheses_survived_locked": 2,
+  "q11_hypotheses_survived_friction": 4,
+  "q12_actual_directional_accuracy": "55.07% across 365 historical opportunities",
+  "q13_net_trading_performance": "+0.38% per opportunity after 15 bps fee and slippage",
+  "q14_strongest_evidence_discovery": "HYP-001 / DISC-0005 (Wide-Body Trend Acceleration) with 55.8% OOS WR and +0.46% Net Expectancy",
+  "q15_largest_statistical_uncertainty": "HYP-004 (Trade-Size Imbalance) due to lower sample size (N=18)",
+  "q16_false_claims_identified": [
+    "CLAIM-M6-001 (Momentum Divergence 68.4% WR was unadjusted for slippage and collapsed to 51.4%)",
+    "CLAIM-M7-001 (Multi-Timeframe Bollinger Breakout was overfit and collapsed to 48.2%)"
+  ],
+  "q17_unproven_claims": [
+    "Multi-year bear market robustness across 2022 full winter remains unproven due to REST limit window",
+    "Real-money microsecond execution latency and orderbook queue positioning remain unproven in backtesting"
+  ],
+  "q18_independently_reproduced_discoveries": [
+    "DISC-M12-0005 (Wide-Body Trend Acceleration with Zero Counter-Wick)",
+    "DISC-M8-0001 (Taker Buy Delta Absorption Law directional bias)",
+    "Refutation of RSI > 80 Overbought Shorting"
+  ],
+  "q19_copied_or_derived_discoveries": [
+    "All discoveries in M6-M12 originated from human-preseeded algorithmic condition functions, not blind AI searches"
+  ],
+  "q20_enough_evidence_to_approve_law": "NO. Zero (0) candidates achieve Class A Law status.",
+  "q21_paper_trading_readiness": "YES (PAPER-TRADING APPROVED for HYP-001 candidate only)",
+  "q22_real_money_trading_readiness": "NOT_APPROVED (Strictly forbidden without 90-day forward paper execution verification)"
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "id": "HYP-004",
+    "name": "Asymmetric Trade-Size Imbalance Compression (Novel)",
+    "reason": "Sub-50% OOS WR or negative net expectancy"
+  }
+]

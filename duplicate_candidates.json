@@ -1,0 +1,17 @@
+[
+  {
+    "id": "HYP-001",
+    "name": "Wide-Body Trend Acceleration with Zero Counter-Wick",
+    "reason": "Matches WIDE_BODY_ACCELERATION_V1"
+  },
+  {
+    "id": "HYP-002",
+    "name": "Microstructure Delta Exhaustion Reversal",
+    "reason": "Matches TAKER_DELTA_ABSORPTION_V1"
+  },
+  {
+    "id": "HYP-003",
+    "name": "Cross-Asset Alpha Momentum in BTC Sideways Regime",
+    "reason": "Matches INTER_ASSET_ACCELERATION_V1"
+  }
+]

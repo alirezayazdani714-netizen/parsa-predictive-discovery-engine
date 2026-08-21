@@ -1,0 +1,38 @@
+[
+  {
+    "file": "scripts/binance_live_truth_runner.py",
+    "line": "42-88",
+    "function": "fetch_or_simulate_fallback",
+    "problem": "Presence of fallback synthetic random walk candle generator if network timeout occurs",
+    "severity": "HIGH",
+    "evidence": "def generate_mock_klines() was defined as fallback in M6 early scaffold",
+    "repair": "Completely removed all synthetic fallbacks. Enforce hard-fail and mark DATA_UNAVAILABLE if API fails."
+  },
+  {
+    "file": "scripts/massive_100k_discovery_search.py",
+    "line": "112-145",
+    "function": "evaluate_bollinger_compression_breakout",
+    "problem": "Look-ahead bias in slippage modeling (assumed execution at bar Close instead of Open of next bar)",
+    "severity": "MEDIUM",
+    "evidence": "trade['entry'] = candles[i]['close'] without accounting for next-bar open spread gap",
+    "repair": "Corrected entry to candle[i+1]['open'] with variable slippage model (5 to 15 bps)."
+  },
+  {
+    "file": "scripts/parsa_scientific_detective.py",
+    "line": "205-230",
+    "function": "audit_hardcoded_literals",
+    "problem": "Permissive statistical threshold in early runs (N < 20 marked as candidate)",
+    "severity": "LOW",
+    "evidence": "candidate_laws permitted sample sizes < 30 in exploratory sweeps",
+    "repair": "Enforced strict N >= 30 OOS and N_total >= 100 sample size thresholds for any candidacy."
+  },
+  {
+    "file": "scripts/parsa_mission12_novel_discovery_lab.py",
+    "line": "150-180",
+    "function": "backtest_hypothesis_on_candles",
+    "problem": "Pre-seeded human hypothesis condition functions labeled as automated discoveries",
+    "severity": "MEDIUM",
+    "evidence": "condition_fn definitions hardcoded domain-knowledge indicator thresholds prior to search",
+    "repair": "Explicitly re-classified all such methods as CODE_PRESEEDED / TESTED_HYPOTHESIS, not BLIND_DISCOVERY."
+  }
+]

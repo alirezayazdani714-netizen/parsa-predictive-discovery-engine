@@ -165,7 +165,7 @@ class MarketDataSnapshot:
             if math.isnan(t_sec) or math.isinf(t_sec):
                 raise ParsaArchitectureViolation(f"Candle at index {idx} has invalid NaN/Inf timestamp")
 
-            if t_sec > self.timestamp + 1.0:
+            if t_sec > self.timestamp:
                 raise FutureDataAccessViolation(
                     f"MarketDataSnapshot contains future candle timestamp {t_sec} > snapshot allowed {self.timestamp}"
                 )

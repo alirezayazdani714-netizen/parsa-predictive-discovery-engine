@@ -46,8 +46,8 @@ class GuardianEngine:
         if self.sink_path and os.path.exists(self.sink_path):
             try:
                 self.load_sink_from_file(self.sink_path)
-            except Exception:
-                pass
+            except Exception as e:
+                raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Corrupted Guardian evidence sink file '{self.sink_path}': {str(e)}") from e
 
     @property
     def findings(self) -> List[GuardianFinding]:
@@ -383,7 +383,7 @@ class GuardianEngine:
         for c in snapshot.candles:
             t = c.get("open_time", c.get("timestamp", 0))
             t_sec = t / 1000.0 if t > 1e11 else float(t)
-            if t_sec > prediction_timestamp + 1.0:
+            if t_sec > prediction_timestamp:
                 return self.add_finding(
                     check_id="CHK-01",
                     severity="CRITICAL",

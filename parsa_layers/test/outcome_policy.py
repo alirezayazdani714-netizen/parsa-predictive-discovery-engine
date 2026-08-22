@@ -151,13 +151,13 @@ class OutcomePolicy:
                 c_close_sec = c_open_sec
 
             # Check 1: Future Data beyond Horizon Maturity Window or eval_time
-            if c_open_sec > window_end + 1.0 or c_close_sec > window_end + 1.0 or c_open_sec > eval_time + 1.0:
+            if c_open_sec > window_end or c_close_sec > window_end or c_open_sec > eval_time:
                 raise FutureDataAccessViolation(
                     f"CRITICAL VIOLATION: Forward candle at index {idx} (open_time={c_open_sec}s, close_time={c_close_sec}s) exceeds horizon window [{window_start}, {window_end}] for prediction '{prediction.prediction_id}'"
                 )
 
             # Check 2: Candle timestamp strictly prior to prediction timestamp
-            if c_close_sec < window_start - 1.0 and c_open_sec < window_start - 1.0:
+            if c_close_sec < window_start and c_open_sec < window_start:
                 raise DataUnavailableError(
                     f"STATUS = DATA_UNAVAILABLE: Forward candle at index {idx} (open_time={c_open_sec}s, close_time={c_close_sec}s) is before prediction start timestamp ({window_start}s)"
                 )

@@ -71,8 +71,8 @@ class ExecutorEngine:
                 open_time_ms = int(row[0])
                 open_time_sec = open_time_ms / 1000.0
 
-                # HARD RUNTIME GUARD: Future Leakage Check
-                if open_time_sec > max_allowed_time + 1.0:  # Allow 1s clock tolerance
+                # HARD RUNTIME GUARD: Exact Future Leakage Check (Zero Tolerance)
+                if open_time_sec > max_allowed_time:
                     raise FutureDataAccessViolation(
                         f"CRITICAL VIOLATION: Ingested candle open_time ({open_time_sec}) exceeds allowed execution timestamp ({max_allowed_time})"
                     )
@@ -142,7 +142,7 @@ class ExecutorEngine:
                     raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Candle {idx} lacks timestamp")
                 open_time_sec = raw_t / 1000.0 if raw_t > 1e11 else float(raw_t)
 
-                if open_time_sec > max_allowed_time + 1.0:
+                if open_time_sec > max_allowed_time:
                     raise FutureDataAccessViolation(
                         f"CRITICAL VIOLATION: Ingested candle open_time ({open_time_sec}) exceeds allowed execution timestamp ({max_allowed_time})"
                     )

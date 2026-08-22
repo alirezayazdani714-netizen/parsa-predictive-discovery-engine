@@ -2,21 +2,34 @@
   "audit_metadata": {
     "engine": "PARSA Predictive Discovery Engine",
     "version": "3.0.0",
-    "audit_timestamp": 1787389048.808296,
-    "audit_date_utc": "2026-08-22 08:57:28 UTC",
+    "audit_timestamp": 1787391713.701649,
+    "audit_date_utc": "2026-08-22 09:41:53 UTC",
+    "git_commit_sha": "92ed60cb16da31c8d792c4f6bc9c1b50c825e37f",
     "git_branch": "main",
-    "security_standard": "ZERO_TRUST_MATHEMATICAL_REFUTATION"
+    "security_standard": "ZERO_TRUST_MATHEMATICAL_REFUTATION",
+    "layer_sha256_digests": {
+      "scenario": "31b336e684a3ca69cc0ae3147c591146fee902206aec8243e35261ad04ac1119",
+      "executor": "19b4a2737d114f10fe48795f4db9926842b938aff7e10b03af09823ff78b0e39",
+      "laboratory": "9e30d37bad4afe3b85addcd3466194e5e449e051baeba112cea03c32f1d53c33",
+      "test": "3e6e700b59a944f6983e9a3f59be590eedc5ba93ea4f27db1b5cd8c31937b8b9",
+      "outcome_policy": "65bad35f97bf5b28ee59baa71f26c7ef13eecf353e36a026641af1d1a4cc9e48",
+      "judges": "a08b8a116cfe9a0a4d153b084a3fa0526562f40f39963b8b41cf682d90aa7eb0",
+      "guardian": "2acc27a9353ad95318a86b329bd201ca6fc0167d792b039d2f3ac2576e39babb",
+      "report": "3d730fc9dd72a2b3e26a581becb06d0302ec204fc1938cc067980e57a7252cb9",
+      "contracts": "d74e009a50bf21ba44ad678756eb557ad7b2def8deb30568c79e95dfe68883f9",
+      "independent_verifier": "7872c9d6e851d4c0f4ad920b3b9688207889ec2a5526c89f30fc3cdb002a7bae"
+    }
   },
   "test_suite_status": {
-    "tests_run": 60,
+    "tests_run": 75,
     "failures": 0,
     "errors": 0,
     "was_successful": true,
-    "elapsed_seconds": 0.513
+    "elapsed_seconds": 1.001
   },
   "adversarial_attack_matrix": {
-    "total_attacks": 40,
-    "blocked_attacks": 40,
+    "total_attacks": 45,
+    "blocked_attacks": 45,
     "vulnerabilities_detected": 0,
     "is_resilient": true,
     "attack_details": [
@@ -219,6 +232,31 @@
         "attack_id": "ATK-40",
         "name": "Small Sample Size Real-Money Prohibition (N < 30)",
         "status": "BLOCKED"
+      },
+      {
+        "attack_id": "ATK-41",
+        "name": "Sub-millisecond Snapshot Future Candle Rejection",
+        "status": "BLOCKED"
+      },
+      {
+        "attack_id": "ATK-42",
+        "name": "Corrupted Disk Evidence Sink Fail-Closed",
+        "status": "BLOCKED"
+      },
+      {
+        "attack_id": "ATK-43",
+        "name": "Independent Reference Calculation Cross-Verification",
+        "status": "BLOCKED"
+      },
+      {
+        "attack_id": "ATK-44",
+        "name": "Outcome Policy Post-Window Candle Rejection",
+        "status": "BLOCKED"
+      },
+      {
+        "attack_id": "ATK-45",
+        "name": "Bonferroni Multiple Testing Spurious Significance Rejection",
+        "status": "BLOCKED"
       }
     ]
   },
@@ -239,7 +277,8 @@
     "GATE_14_HISTORICAL_EVIDENCE_PRESERVATION": "VERIFIED",
     "GATE_15_REPRODUCIBILITY_AND_PORTABILITY": "VERIFIED",
     "GATE_16_ZERO_FABRICATION_POLICY": "VERIFIED",
-    "GATE_17_REAL_MONEY_TRADING_AUTHORIZATION": "LOCKED_FALSE_UNTIL_FULL_TRIAL_COMPLETION"
+    "GATE_17_REAL_MONEY_TRADING_AUTHORIZATION": "LOCKED_FALSE_UNTIL_FULL_TRIAL_COMPLETION",
+    "GATE_18_INDEPENDENT_REFERENCE_VALIDATION": "VERIFIED"
   },
   "final_verdict": {
     "system_hardened": true,

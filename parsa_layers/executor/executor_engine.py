@@ -62,58 +62,123 @@ class ExecutorEngine:
                     raise DataUnavailableError(f"Binance API returned HTTP status {response.status}")
                 raw_data = response.read().decode('utf-8')
                 raw_candles = json.loads(raw_data)
-        except (FutureDataAccessViolation, DataUnavailableError):
+
+            if not raw_candles or not isinstance(raw_candles, list):
+                raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Empty or malformed candle array for {symbol}")
+
+            parsed_candles: List[Dict[str, Any]] = []
+            for row in raw_candles:
+                open_time_ms = int(row[0])
+                open_time_sec = open_time_ms / 1000.0
+
+                # HARD RUNTIME GUARD: Future Leakage Check
+                if open_time_sec > max_allowed_time + 1.0:  # Allow 1s clock tolerance
+                    raise FutureDataAccessViolation(
+                        f"CRITICAL VIOLATION: Ingested candle open_time ({open_time_sec}) exceeds allowed execution timestamp ({max_allowed_time})"
+                    )
+
+                # Candle sanity checks (CHK-03: Authentic OHLCV)
+                open_p = float(row[1])
+                high_p = float(row[2])
+                low_p = float(row[3])
+                close_p = float(row[4])
+                volume = float(row[5])
+
+                if not (low_p <= open_p <= high_p and low_p <= close_p <= high_p and volume >= 0):
+                    raise DataUnavailableError(f"Corrupted or non-authentic candle structure detected for {symbol} at {open_time_ms}")
+
+                parsed_candles.append({
+                    "open_time": open_time_ms,
+                    "open": open_p,
+                    "high": high_p,
+                    "low": low_p,
+                    "close": close_p,
+                    "volume": volume,
+                    "close_time": int(row[6]),
+                    "trades": int(row[8])
+                })
+
+            return MarketDataSnapshot(
+                experiment_id=self.experiment_id,
+                timestamp=max_allowed_time,
+                source="BINANCE_PUBLIC_REST_API_V3",
+                asset=symbol,
+                timeframe=interval,
+                candles=parsed_candles
+            )
+        except FutureDataAccessViolation:
             # Critical architecture exceptions must propagate directly
+            raise
+        except DataUnavailableError:
             raise
         except Exception as e:
             # ABSOLUTE NO-MOCK: Never fall back to mock data
             raise DataUnavailableError(
                 f"STATUS = DATA_UNAVAILABLE: Failed to retrieve authentic Binance data for {symbol}: {str(e)}"
+            ) from e
+
+    @enforce_layer("EXECUTOR")
+    def ingest_bounded_candles(
+        self,
+        symbol: str,
+        raw_candles: List[Dict[str, Any]],
+        interval: str = "15m",
+        allowed_timestamp: Optional[float] = None
+    ) -> MarketDataSnapshot:
+        """
+        Ingests bounded authentic market candles, enforcing runtime look-ahead bounds.
+        """
+        now = time.time()
+        max_allowed_time = allowed_timestamp if allowed_timestamp is not None else now
+
+        try:
+            if not raw_candles or not isinstance(raw_candles, list):
+                raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Empty or malformed candle array for {symbol}")
+
+            parsed_candles: List[Dict[str, Any]] = []
+            for idx, c in enumerate(raw_candles):
+                raw_t = c.get("open_time", c.get("timestamp", c.get("time", None)))
+                if raw_t is None:
+                    raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Candle {idx} lacks timestamp")
+                open_time_sec = raw_t / 1000.0 if raw_t > 1e11 else float(raw_t)
+
+                if open_time_sec > max_allowed_time + 1.0:
+                    raise FutureDataAccessViolation(
+                        f"CRITICAL VIOLATION: Ingested candle open_time ({open_time_sec}) exceeds allowed execution timestamp ({max_allowed_time})"
+                    )
+
+                open_p = float(c["open"])
+                high_p = float(c["high"])
+                low_p = float(c["low"])
+                close_p = float(c["close"])
+                volume = float(c.get("volume", 0.0))
+
+                if not (low_p <= open_p <= high_p and low_p <= close_p <= high_p and volume >= 0):
+                    raise DataUnavailableError(f"Corrupted candle structure detected for {symbol} at index {idx}")
+
+                parsed_candles.append({
+                    "open_time": raw_t,
+                    "open": open_p,
+                    "high": high_p,
+                    "low": low_p,
+                    "close": close_p,
+                    "volume": volume
+                })
+
+            return MarketDataSnapshot(
+                experiment_id=self.experiment_id,
+                timestamp=max_allowed_time,
+                source="BOUNDED_AUTHENTIC_FEED",
+                asset=symbol,
+                timeframe=interval,
+                candles=parsed_candles
             )
-
-        if not raw_candles or not isinstance(raw_candles, list):
-            raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Empty or malformed candle array for {symbol}")
-
-        parsed_candles: List[Dict[str, Any]] = []
-        for row in raw_candles:
-            open_time_ms = int(row[0])
-            open_time_sec = open_time_ms / 1000.0
-
-            # HARD RUNTIME GUARD: Future Leakage Check
-            if open_time_sec > max_allowed_time + 1.0:  # Allow 1s clock tolerance
-                raise FutureDataAccessViolation(
-                    f"CRITICAL VIOLATION: Ingested candle open_time ({open_time_sec}) exceeds allowed execution timestamp ({max_allowed_time})"
-                )
-
-            # Candle sanity checks (CHK-03: Authentic OHLCV)
-            open_p = float(row[1])
-            high_p = float(row[2])
-            low_p = float(row[3])
-            close_p = float(row[4])
-            volume = float(row[5])
-
-            if not (low_p <= open_p <= high_p and low_p <= close_p <= high_p and volume >= 0):
-                raise DataUnavailableError(f"Corrupted or non-authentic candle structure detected for {symbol} at {open_time_ms}")
-
-            parsed_candles.append({
-                "open_time": open_time_ms,
-                "open": open_p,
-                "high": high_p,
-                "low": low_p,
-                "close": close_p,
-                "volume": volume,
-                "close_time": int(row[6]),
-                "trades": int(row[8])
-            })
-
-        return MarketDataSnapshot(
-            experiment_id=self.experiment_id,
-            timestamp=max_allowed_time,
-            source="BINANCE_PUBLIC_REST_API_V3",
-            asset=symbol,
-            timeframe=interval,
-            candles=parsed_candles
-        )
+        except FutureDataAccessViolation:
+            raise
+        except DataUnavailableError:
+            raise
+        except Exception as e:
+            raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: {str(e)}") from e
 
     @enforce_layer("EXECUTOR")
     def generate_and_lock_prediction(

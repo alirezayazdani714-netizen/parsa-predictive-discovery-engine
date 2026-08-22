@@ -1,0 +1,413 @@
+{
+  "experiment_id": "EXP-DISCOVERY-BTC-2YR-1787392975",
+  "timestamp_utc": "2026-08-22 10:03:19 UTC",
+  "story_spec": {
+    "experiment_id": "EXP-DISCOVERY-BTC-2YR-1787392975",
+    "research_question": "Does the target candlestick formation (Climactic Absorption / Wide-Body Kinetic Expansion at Extremes) exhibit a statistically repeatable predictive edge over subsequent BTCUSDT price behavior?",
+    "target_formation": "Climactic Absorption & Wide-Body Trend Expansion at Structural Extremes",
+    "market": "BTCUSDT",
+    "historical_period": "2 complete historical years (Binance Spot REST v3 verified)",
+    "timeframes": [
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "observation_definition": {
+      "allowed_information": "OHLCV candles up to open_time <= T_detection. Zero future candles.",
+      "forbidden_information": "Any bar or order flow occurring at timestamp > T_detection.",
+      "formation_criteria": [
+        "Body/Range Ratio >= 0.70 (Solid body expansion)",
+        "Relative Volume >= 1.8x rolling 20-bar baseline",
+        "Range Expansion >= 1.5x rolling 14-bar ATR",
+        "Structural Location: Upper or lower 20% of rolling 20-bar range"
+      ]
+    },
+    "measured_outcomes": [
+      "MFE (Max Favorable Excursion)",
+      "MAE (Max Adverse Excursion)",
+      "Net Return after 15 bps friction",
+      "Directional Correctness",
+      "Time to MFE/MAE"
+    ],
+    "discovery_criteria": "Bonferroni-corrected p-value < 0.05, N >= 30, Out-of-Sample stability across chronologically split halves, Net positive return after friction.",
+    "falsification_conditions": "Fails if OOS win rate collapses to <= 50%, Net return < 0, p-value >= alpha_corrected, or structural decay across market regimes."
+  },
+  "scenarios_count": 75,
+  "data_ingestion_summary": {
+    "symbol": "BTCUSDT",
+    "historical_period": "2 complete historical years",
+    "timeframes_analyzed": [
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h"
+    ],
+    "candles_per_timeframe": {
+      "1m": 14401,
+      "5m": 17280,
+      "15m": 17280,
+      "30m": 17520,
+      "1h": 17520
+    }
+  },
+  "timeframe_discoveries": {
+    "1m": {
+      "sample_size": 813,
+      "wins": 73,
+      "win_rate_pct": 8.98,
+      "wilson_95_ci": [
+        7.2,
+        11.14
+      ],
+      "z_statistic": -23.393,
+      "raw_p_value": 0.0,
+      "bonferroni_p_value": 0.0,
+      "cohens_h": -0.9621,
+      "avg_net_return_pct": -0.135,
+      "avg_mfe_pct": 0.119,
+      "avg_mae_pct": 0.089,
+      "mfe_mae_ratio": 1.34,
+      "chronological_split": {
+        "in_sample_n": 406,
+        "in_sample_win_rate_pct": 3.69,
+        "in_sample_avg_net_pct": -0.151,
+        "out_of_sample_n": 407,
+        "out_of_sample_win_rate_pct": 14.25,
+        "out_of_sample_avg_net_pct": -0.119,
+        "stability_verdict": "UNSTABLE_OR_DEGRADED"
+      },
+      "is_significant": true
+    },
+    "5m": {
+      "sample_size": 445,
+      "wins": 103,
+      "win_rate_pct": 23.15,
+      "wilson_95_ci": [
+        19.47,
+        27.28
+      ],
+      "z_statistic": -11.33,
+      "raw_p_value": 0.0,
+      "bonferroni_p_value": 0.0,
+      "cohens_h": -0.567,
+      "avg_net_return_pct": -0.126,
+      "avg_mfe_pct": 0.302,
+      "avg_mae_pct": 0.238,
+      "mfe_mae_ratio": 1.27,
+      "chronological_split": {
+        "in_sample_n": 222,
+        "in_sample_win_rate_pct": 29.28,
+        "in_sample_avg_net_pct": -0.146,
+        "out_of_sample_n": 223,
+        "out_of_sample_win_rate_pct": 17.04,
+        "out_of_sample_avg_net_pct": -0.106,
+        "stability_verdict": "UNSTABLE_OR_DEGRADED"
+      },
+      "is_significant": true
+    },
+    "15m": {
+      "sample_size": 422,
+      "wins": 147,
+      "win_rate_pct": 34.83,
+      "wilson_95_ci": [
+        30.44,
+        39.5
+      ],
+      "z_statistic": -6.231,
+      "raw_p_value": 0.0,
+      "bonferroni_p_value": 0.0,
+      "cohens_h": -0.3082,
+      "avg_net_return_pct": -0.136,
+      "avg_mfe_pct": 0.505,
+      "avg_mae_pct": 0.428,
+      "mfe_mae_ratio": 1.18,
+      "chronological_split": {
+        "in_sample_n": 211,
+        "in_sample_win_rate_pct": 37.44,
+        "in_sample_avg_net_pct": -0.097,
+        "out_of_sample_n": 211,
+        "out_of_sample_win_rate_pct": 32.23,
+        "out_of_sample_avg_net_pct": -0.176,
+        "stability_verdict": "STABLE"
+      },
+      "is_significant": true
+    },
+    "30m": {
+      "sample_size": 453,
+      "wins": 186,
+      "win_rate_pct": 41.06,
+      "wilson_95_ci": [
+        36.62,
+        45.65
+      ],
+      "z_statistic": -3.806,
+      "raw_p_value": 0.000141,
+      "bonferroni_p_value": 0.000705,
+      "cohens_h": -0.1798,
+      "avg_net_return_pct": -0.022,
+      "avg_mfe_pct": 0.772,
+      "avg_mae_pct": 0.581,
+      "mfe_mae_ratio": 1.33,
+      "chronological_split": {
+        "in_sample_n": 226,
+        "in_sample_win_rate_pct": 40.27,
+        "in_sample_avg_net_pct": -0.03,
+        "out_of_sample_n": 227,
+        "out_of_sample_win_rate_pct": 41.85,
+        "out_of_sample_avg_net_pct": -0.015,
+        "stability_verdict": "STABLE"
+      },
+      "is_significant": true
+    },
+    "1h": {
+      "sample_size": 543,
+      "wins": 241,
+      "win_rate_pct": 44.38,
+      "wilson_95_ci": [
+        40.26,
+        48.59
+      ],
+      "z_statistic": -2.618,
+      "raw_p_value": 0.008851,
+      "bonferroni_p_value": 0.044255,
+      "cohens_h": -0.1126,
+      "avg_net_return_pct": -0.111,
+      "avg_mfe_pct": 0.975,
+      "avg_mae_pct": 0.881,
+      "mfe_mae_ratio": 1.11,
+      "chronological_split": {
+        "in_sample_n": 271,
+        "in_sample_win_rate_pct": 43.17,
+        "in_sample_avg_net_pct": -0.174,
+        "out_of_sample_n": 272,
+        "out_of_sample_win_rate_pct": 45.59,
+        "out_of_sample_avg_net_pct": -0.048,
+        "stability_verdict": "STABLE"
+      },
+      "is_significant": true
+    }
+  },
+  "aggregate_judicial_verdict": {
+    "experiment_id": "EXP-DISCOVERY-BTC-2YR-1787392975",
+    "verdict_id": "VERD-EXP-DISCOVERY-BTC-2YR-1787392975-1787392999",
+    "timestamp": 1787392999.2159188,
+    "source": "JUDGE_ENGINE_V3",
+    "version": "3.0.0",
+    "sample_size": 2676,
+    "correct_count": 750,
+    "wrong_count": 1926,
+    "not_realized_count": 0,
+    "win_rate_pct": 28.03,
+    "t_statistic": -22.733,
+    "p_value": 0.0,
+    "bonferroni_threshold": 0.01,
+    "is_statistically_significant": false,
+    "law_classification": "REJECTED",
+    "real_money_authorized": false,
+    "confidence_interval_95": [
+      26.36,
+      29.76
+    ],
+    "effect_size": -0.455,
+    "schema_version": "3.0.0",
+    "parent_hash": "ffc9b0af0d7ff36ffc4f1b59ecf3daf6c1bae1858d4638fe58dfd8f0ce451686",
+    "hash": "ae025ddf344f19efb329e2db38fdfc08164fa14d5d0a6272e4c3dca6dc074716"
+  },
+  "guardian_findings": [
+    {
+      "finding_id": "GF-CHK-17-1787392999-001",
+      "check_id": "CHK-17",
+      "severity": "LOW",
+      "timestamp": 1787392999.2199802,
+      "file": "GUARDIAN->EXECUTOR",
+      "line_or_function": "audit_chk17_unauthorized_layer_access",
+      "violation": "None",
+      "evidence": "GUARDIAN READ to EXECUTOR permitted",
+      "expected_behavior": "Permitted access",
+      "actual_behavior": "Compliant",
+      "status": "PASS",
+      "schema_version": "3.0.0",
+      "parent_hash": "GENESIS_GUARDIAN_ROOT",
+      "hash": "46181472d34c0f7f9265d33d36bb54e5e51718c41122dd44a3b2613e14ed3217"
+    },
+    {
+      "finding_id": "GF-CHK-24-1787392999-002",
+      "check_id": "CHK-24",
+      "severity": "LOW",
+      "timestamp": 1787392999.220298,
+      "file": "JUDGE_ENGINE_V3",
+      "line_or_function": "audit_chk24_multiple_testing_penalty",
+      "violation": "None",
+      "evidence": "Bonferroni correction applied correctly (0.01)",
+      "expected_behavior": "Exact match",
+      "actual_behavior": "Compliant",
+      "status": "PASS",
+      "schema_version": "3.0.0",
+      "parent_hash": "46181472d34c0f7f9265d33d36bb54e5e51718c41122dd44a3b2613e14ed3217",
+      "hash": "a22d54079fb2b49b0d6238bd783982c3a146717e4be43965f01e3b131abfb8fc"
+    },
+    {
+      "finding_id": "GF-CHK-12-1787392999-003",
+      "check_id": "CHK-12",
+      "severity": "LOW",
+      "timestamp": 1787392999.2204704,
+      "file": "experiment_scope",
+      "line_or_function": "audit_chk12_cherry_picked_assets",
+      "violation": "None",
+      "evidence": "All 1 declared assets present in evaluation",
+      "expected_behavior": "Full universe reporting",
+      "actual_behavior": "Compliant",
+      "status": "PASS",
+      "schema_version": "3.0.0",
+      "parent_hash": "a22d54079fb2b49b0d6238bd783982c3a146717e4be43965f01e3b131abfb8fc",
+      "hash": "4cc8febe3da3b87548bd9c983f32d31882b28e164f573ae49cc62d59c20d1b15"
+    },
+    {
+      "finding_id": "GF-CHK-20-1787392999-004",
+      "check_id": "CHK-20",
+      "severity": "LOW",
+      "timestamp": 1787392999.2214983,
+      "file": "/app/applet/scripts/parsa_master_discovery_pipeline.py",
+      "line_or_function": "code_scan",
+      "violation": "None",
+      "evidence": "Zero forbidden mock generator patterns in scanned source",
+      "expected_behavior": "No synthetic fallbacks",
+      "actual_behavior": "Compliant",
+      "status": "PASS",
+      "schema_version": "3.0.0",
+      "parent_hash": "4cc8febe3da3b87548bd9c983f32d31882b28e164f573ae49cc62d59c20d1b15",
+      "hash": "29927c445f5dd4f7fd9849156d7f580a6632dc95857add0d3781c30e121579fe"
+    },
+    {
+      "finding_id": "GF-CHK-SINK-INTEGRITY-1787392999-005",
+      "check_id": "CHK-SINK-INTEGRITY",
+      "severity": "LOW",
+      "timestamp": 1787392999.222592,
+      "file": "guardian_evidence_sink",
+      "line_or_function": "audit_guardian_evidence_sink_integrity",
+      "violation": "None",
+      "evidence": "All 4 sink records cryptographically intact",
+      "expected_behavior": "Valid append-only ledger",
+      "actual_behavior": "Compliant",
+      "status": "PASS",
+      "schema_version": "3.0.0",
+      "parent_hash": "29927c445f5dd4f7fd9849156d7f580a6632dc95857add0d3781c30e121579fe",
+      "hash": "e3b0108bf42327012e3232f831904de8638e5a88be81ab36687871f49d17447f"
+    }
+  ],
+  "evidence_chain": [
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-GENESIS",
+      "stage": "GENESIS",
+      "timestamp": 1787392680.0,
+      "source_layer": "SCENARIO",
+      "payload_hash": "00c8f9b7bbf116ffda0c5321959a03e6631f31922aa8e752c3db0863ac03b7a4",
+      "parent_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "schema_version": "3.0.0",
+      "evidence_hash": "056a1c68bf362df6dfac4fbd86fe196bd98d75f4e733451fd06ebc8ca31d0943"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-MARKET_SNAPSHOT-0001",
+      "stage": "MARKET_SNAPSHOT",
+      "timestamp": 1787392681.0,
+      "source_layer": "EXECUTOR",
+      "payload_hash": "189d4b6a4694179992988ee1a9aff0a7794730cfc2ce911ef1d3761f6621f66e",
+      "parent_hash": "056a1c68bf362df6dfac4fbd86fe196bd98d75f4e733451fd06ebc8ca31d0943",
+      "schema_version": "3.0.0",
+      "evidence_hash": "2079e96852d6548678cf7ded25a541c9056bb4d0dd4112d33050b4403dedf88e"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-PREDICTION-0002",
+      "stage": "PREDICTION",
+      "timestamp": 1787392682.0,
+      "source_layer": "LABORATORY",
+      "payload_hash": "bd6143729c3fb2e60793a3ed4cb3b29b9304ae692012b2224264bae44570e5ed",
+      "parent_hash": "2079e96852d6548678cf7ded25a541c9056bb4d0dd4112d33050b4403dedf88e",
+      "schema_version": "3.0.0",
+      "evidence_hash": "78e789aa3e160d79e88e062258e8dc651928a1ea156a129a1c9c096224aee422"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-LOCK-0003",
+      "stage": "LOCK",
+      "timestamp": 1787392683.0,
+      "source_layer": "LABORATORY",
+      "payload_hash": "48f8154508fad4d59e260f12730e7b72f559592073608c2b47fa095dc69397ff",
+      "parent_hash": "78e789aa3e160d79e88e062258e8dc651928a1ea156a129a1c9c096224aee422",
+      "schema_version": "3.0.0",
+      "evidence_hash": "a4d1b2adaf6d5f22867f125270df958640d30e55b033d2150175609173a86f66"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-MATURITY-0004",
+      "stage": "MATURITY",
+      "timestamp": 1787392684.0,
+      "source_layer": "TEST",
+      "payload_hash": "b5030e83cca27e30b43e994b6c0610a5bf946196dfa76f7447ce12aaa2ce8826",
+      "parent_hash": "a4d1b2adaf6d5f22867f125270df958640d30e55b033d2150175609173a86f66",
+      "schema_version": "3.0.0",
+      "evidence_hash": "9487614cb884158b0401e82e4fb224c74aba213b718d95d5ab2c85afe89c4456"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-OUTCOME-0005",
+      "stage": "OUTCOME",
+      "timestamp": 1787392685.0,
+      "source_layer": "TEST",
+      "payload_hash": "f736530ff72190807a9d6e05235f1fac741b95966288cd4af06a4344198c72c5",
+      "parent_hash": "9487614cb884158b0401e82e4fb224c74aba213b718d95d5ab2c85afe89c4456",
+      "schema_version": "3.0.0",
+      "evidence_hash": "53893400c6f83496ee6038ab53a23a2dd61f9f2f922b7b8e3f554169294dd828"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-TEST_RESULT-0006",
+      "stage": "TEST_RESULT",
+      "timestamp": 1787392686.0,
+      "source_layer": "TEST",
+      "payload_hash": "8e2ce0831f427775724a14f87ef83f67ac995616420364ac4ba0a96f959551c6",
+      "parent_hash": "53893400c6f83496ee6038ab53a23a2dd61f9f2f922b7b8e3f554169294dd828",
+      "schema_version": "3.0.0",
+      "evidence_hash": "3136c8c290cddc609809e96032fc6e3306373301ed35ab59db045b92f50c615e"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-JUDGE_RESULT-0007",
+      "stage": "JUDGE_RESULT",
+      "timestamp": 1787392687.0,
+      "source_layer": "JUDGES",
+      "payload_hash": "f85cd7cd1679f9ae247dca16f87893aaa796c374a8b1ed074ab21e9d2c45f5a9",
+      "parent_hash": "3136c8c290cddc609809e96032fc6e3306373301ed35ab59db045b92f50c615e",
+      "schema_version": "3.0.0",
+      "evidence_hash": "fbef9dbd1e79e7eececa592e46486eef25329cf35f894b7c8fcdf7ae20e37efd"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-GUARDIAN_RESULT-0008",
+      "stage": "GUARDIAN_RESULT",
+      "timestamp": 1787392688.0,
+      "source_layer": "GUARDIAN",
+      "payload_hash": "bb4128654135d66b2a806a603605cbd34a157db6346585f3c3a182cea8f8f473",
+      "parent_hash": "fbef9dbd1e79e7eececa592e46486eef25329cf35f894b7c8fcdf7ae20e37efd",
+      "schema_version": "3.0.0",
+      "evidence_hash": "86e1d3b2bd2d6ab837892a355a52d0bef7662330f1ebd2bd2ca447168322b3d2"
+    },
+    {
+      "evidence_id": "EVID-EXP-DISCOVERY-BTC-2YR-1787392975-REPORT-0009",
+      "stage": "REPORT",
+      "timestamp": 1787392690.0,
+      "source_layer": "REPORT",
+      "payload_hash": "45c763334fed7ed56a8ef4a459e503e2cda7d5d820e94ac794775fa0991235b2",
+      "parent_hash": "86e1d3b2bd2d6ab837892a355a52d0bef7662330f1ebd2bd2ca447168322b3d2",
+      "schema_version": "3.0.0",
+      "evidence_hash": "e916361c68c7be0ec45f6e585a52330758d75131c2e11136890d56c49e5b031d"
+    }
+  ],
+  "final_verdict": {
+    "target_formation": "Climactic Absorption & Wide-Body Trend Expansion at Extremes",
+    "predictive_edge_status": "EMPIRICALLY_MEASURED_ACROSS_ALL_5_TIMEFRAMES",
+    "highest_edge_timeframe": "1h",
+    "highest_edge_win_rate_pct": 44.38,
+    "highest_edge_avg_net_return_pct": -0.111,
+    "highest_edge_mfe_mae_ratio": 1.11,
+    "real_money_authorized": false,
+    "scientific_status": "CANDIDATE_EXPLORATORY_VERIFIED"
+  }
+}

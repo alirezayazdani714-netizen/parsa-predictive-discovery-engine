@@ -26,6 +26,7 @@ from parsa_layers.contracts.models import (
     JudgeResult,
     ReportRecord,
     MarketDataSnapshot,
+    DataUnavailableError,
     compute_sha256,
     unfreeze
 )
@@ -33,21 +34,219 @@ from parsa_layers.contracts.access_control import enforce_layer, ALLOWED_READ_MA
 
 
 class GuardianEngine:
-    """Independent Forensic Auditor and Guardian Inspector."""
+    """Independent Forensic Auditor and Guardian Inspector with persistent append-only sink."""
 
     def __init__(self, inspector_id: str = "GUARDIAN_CORE_V3", sink_path: Optional[str] = None):
         self.inspector_id = inspector_id
-        self.sink_path = sink_path
+        self.sink_path = sink_path if sink_path is not None else "guardian_evidence/guardian_findings.jsonl"
         self._findings: List[GuardianFinding] = []
         self._sink_chain: List[Dict[str, Any]] = []
+
+        # Auto-load existing records from persistent sink if available
+        if self.sink_path and os.path.exists(self.sink_path):
+            try:
+                self.load_sink_from_file(self.sink_path)
+            except Exception:
+                pass
 
     @property
     def findings(self) -> List[GuardianFinding]:
         return list(self._findings)
 
     def clear_findings(self) -> None:
+        """Clears in-memory cache only. Persistent disk sink is strictly preserved and never truncated."""
         self._findings.clear()
         self._sink_chain.clear()
+
+    def load_sink_from_file(self, path: Optional[str] = None) -> List[Dict[str, Any]]:
+        """Loads and parses persistent evidence sink from disk."""
+        target_path = path or self.sink_path
+        if not target_path or not os.path.exists(target_path):
+            return []
+
+        loaded_entries: List[Dict[str, Any]] = []
+        loaded_findings: List[GuardianFinding] = []
+
+        with open(target_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line_str = line.strip()
+                if not line_str:
+                    continue
+                entry = json.loads(line_str)
+                loaded_entries.append(entry)
+                
+                # Reconstruct GuardianFinding
+                finding = GuardianFinding(
+                    finding_id=entry["finding_id"],
+                    check_id=entry["check_id"],
+                    severity=entry["severity"],
+                    timestamp=float(entry["timestamp"]),
+                    file=entry.get("file", "unknown"),
+                    line_or_function=entry.get("line_or_function", "unknown"),
+                    violation=entry.get("violation", ""),
+                    evidence=entry.get("evidence", ""),
+                    expected_behavior=entry.get("expected_behavior", ""),
+                    actual_behavior=entry.get("actual_behavior", ""),
+                    status=entry["status"],
+                    parent_hash=entry.get("parent_hash", "")
+                )
+                loaded_findings.append(finding)
+
+        self._sink_chain = loaded_entries
+        self._findings = loaded_findings
+        return loaded_entries
+
+    def verify_sink_file(self, path: Optional[str] = None) -> GuardianFinding:
+        """
+        Forensically verifies that the persistent sink file on disk is authentic,
+        unbroken, and has not suffered line deletion, attribute mutation, or hash forgery.
+        """
+        target_path = path or self.sink_path
+        now = time.time()
+
+        if not target_path or not os.path.exists(target_path):
+            return GuardianFinding(
+                finding_id=f"GF-SINK-{int(now)}-000",
+                check_id="CHK-SINK-INTEGRITY",
+                severity="CRITICAL",
+                timestamp=now,
+                file=target_path or "none",
+                line_or_function="verify_sink_file",
+                violation="GUARDIAN_EVIDENCE_TAMPERED",
+                evidence="Persistent sink file missing or inaccessible",
+                expected_behavior="Valid JSONL evidence file on disk",
+                actual_behavior="File missing",
+                status="INVALID",
+                parent_hash="GENESIS_GUARDIAN_ROOT"
+            )
+
+        entries: List[Dict[str, Any]] = []
+        with open(target_path, "r", encoding="utf-8") as f:
+            for line_idx, line in enumerate(f):
+                line_str = line.strip()
+                if not line_str:
+                    continue
+                try:
+                    entry = json.loads(line_str)
+                    entries.append(entry)
+                except Exception as e:
+                    return GuardianFinding(
+                        finding_id=f"GF-SINK-{int(now)}-{line_idx:03d}",
+                        check_id="CHK-SINK-INTEGRITY",
+                        severity="CRITICAL",
+                        timestamp=now,
+                        file=target_path,
+                        line_or_function=f"line_{line_idx+1}",
+                        violation="GUARDIAN_EVIDENCE_TAMPERED",
+                        evidence=f"JSON corruption at line {line_idx+1}: {str(e)}",
+                        expected_behavior="Valid JSON record",
+                        actual_behavior="Corrupted JSON line",
+                        status="INVALID",
+                        parent_hash="BROKEN_SINK"
+                    )
+
+        if not entries:
+            return GuardianFinding(
+                finding_id=f"GF-SINK-{int(now)}-EMPTY",
+                check_id="CHK-SINK-INTEGRITY",
+                severity="LOW",
+                timestamp=now,
+                file=target_path,
+                line_or_function="verify_sink_file",
+                violation="None",
+                evidence="Empty evidence sink ledger",
+                expected_behavior="Valid ledger",
+                actual_behavior="Empty",
+                status="PASS",
+                parent_hash="GENESIS_GUARDIAN_ROOT"
+            )
+
+        # Forensic chain & integrity audit across all disk entries
+        prev_finding_hash = "GENESIS_GUARDIAN_ROOT"
+        for i, entry in enumerate(entries):
+            # 1. Check index ordering
+            if entry.get("index") != i:
+                return GuardianFinding(
+                    finding_id=f"GF-SINK-{int(now)}-{i:03d}",
+                    check_id="CHK-SINK-INTEGRITY",
+                    severity="CRITICAL",
+                    timestamp=now,
+                    file=target_path,
+                    line_or_function=f"entry_index_{i}",
+                    violation="GUARDIAN_EVIDENCE_TAMPERED",
+                    evidence=f"Entry index mismatch: expected {i}, got {entry.get('index')}. Possible line deletion.",
+                    expected_behavior=f"Sequential index {i}",
+                    actual_behavior=f"Found index {entry.get('index')}",
+                    status="INVALID",
+                    parent_hash=prev_finding_hash
+                )
+
+            # 2. Check previous finding hash linkage
+            if entry.get("previous_finding_hash") != prev_finding_hash:
+                return GuardianFinding(
+                    finding_id=f"GF-SINK-{int(now)}-{i:03d}",
+                    check_id="CHK-SINK-INTEGRITY",
+                    severity="CRITICAL",
+                    timestamp=now,
+                    file=target_path,
+                    line_or_function=f"linkage_idx_{i}",
+                    violation="GUARDIAN_EVIDENCE_TAMPERED",
+                    evidence=f"Previous finding hash mismatch at entry {i}: entry says '{entry.get('previous_finding_hash')}', expected '{prev_finding_hash}'",
+                    expected_behavior=f"Link to {prev_finding_hash}",
+                    actual_behavior=f"Severed linkage: {entry.get('previous_finding_hash')}",
+                    status="INVALID",
+                    parent_hash=prev_finding_hash
+                )
+
+            # 3. Recompute canonical finding hash
+            canonical_payload = {
+                "finding_id": entry["finding_id"],
+                "check_id": entry["check_id"],
+                "severity": entry["severity"],
+                "timestamp": entry["timestamp"],
+                "file": entry.get("file", "unknown"),
+                "line_or_function": entry.get("line_or_function", "unknown"),
+                "violation": entry.get("violation", ""),
+                "evidence": entry.get("evidence", ""),
+                "expected_behavior": entry.get("expected_behavior", ""),
+                "actual_behavior": entry.get("actual_behavior", ""),
+                "status": entry["status"],
+                "schema_version": "3.0.0",
+                "parent_hash": entry.get("parent_hash", "")
+            }
+            recomputed_hash = compute_sha256(canonical_payload)
+            if recomputed_hash != entry.get("finding_hash"):
+                return GuardianFinding(
+                    finding_id=f"GF-SINK-{int(now)}-{i:03d}",
+                    check_id="CHK-SINK-INTEGRITY",
+                    severity="CRITICAL",
+                    timestamp=now,
+                    file=target_path,
+                    line_or_function=f"hash_check_{i}",
+                    violation="GUARDIAN_EVIDENCE_TAMPERED",
+                    evidence=f"Tampered finding record at entry {i}: stored hash {entry.get('finding_hash')} != recomputed {recomputed_hash}",
+                    expected_behavior="Stored hash matches recomputed payload hash",
+                    actual_behavior="Record content/metadata tampered with",
+                    status="INVALID",
+                    parent_hash=prev_finding_hash
+                )
+
+            prev_finding_hash = entry.get("finding_hash")
+
+        return GuardianFinding(
+            finding_id=f"GF-SINK-{int(now)}-PASS",
+            check_id="CHK-SINK-INTEGRITY",
+            severity="LOW",
+            timestamp=now,
+            file=target_path,
+            line_or_function="verify_sink_file",
+            violation="None",
+            evidence=f"All {len(entries)} disk sink records verified authentic and unbroken",
+            expected_behavior="Intact append-only disk ledger",
+            actual_behavior="Compliant",
+            status="PASS",
+            parent_hash=prev_finding_hash
+        )
 
     @enforce_layer("GUARDIAN")
     def add_finding(
@@ -64,14 +263,11 @@ class GuardianEngine:
         parent_hash: str = ""
     ) -> GuardianFinding:
         now = time.time()
-        finding_id = f"GF-{check_id}-{int(now)}-{len(self._findings) + 1:03d}"
+        finding_id = f"GF-{check_id}-{int(now)}-{len(self._sink_chain) + 1:03d}"
         
-        # Link to previous finding hash if available
-        p_hash = parent_hash
-        if not p_hash and self._findings:
-            p_hash = self._findings[-1].hash
-        elif not p_hash:
-            p_hash = "GENESIS_GUARDIAN_ROOT"
+        # Link to previous finding hash in the chain
+        prev_finding_hash = self._sink_chain[-1]["finding_hash"] if self._sink_chain else "GENESIS_GUARDIAN_ROOT"
+        p_hash = parent_hash if parent_hash else prev_finding_hash
 
         finding = GuardianFinding(
             finding_id=finding_id,
@@ -89,26 +285,36 @@ class GuardianEngine:
         )
         self._findings.append(finding)
 
-        # Append to append-only sink ledger
+        # Build canonical sink record
         sink_entry = {
             "index": len(self._sink_chain),
             "finding_id": finding.finding_id,
+            "timestamp": finding.timestamp,
             "check_id": finding.check_id,
-            "status": finding.status,
             "severity": finding.severity,
-            "finding_hash": finding.hash,
-            "parent_hash": p_hash,
-            "timestamp": finding.timestamp
+            "file": finding.file,
+            "line_or_function": finding.line_or_function,
+            "violation": finding.violation,
+            "evidence": finding.evidence,
+            "expected_behavior": finding.expected_behavior,
+            "actual_behavior": finding.actual_behavior,
+            "status": finding.status,
+            "parent_hash": finding.parent_hash,
+            "previous_finding_hash": prev_finding_hash,
+            "finding_hash": finding.hash
         }
         self._sink_chain.append(sink_entry)
 
+        # Persistent append-only disk sink write (NEVER swallows write errors)
         if self.sink_path:
             try:
-                os.makedirs(os.path.dirname(os.path.abspath(self.sink_path)), exist_ok=True)
-                with open(self.sink_path, "a") as f:
-                    f.write(json.dumps(sink_entry) + "\n")
-            except Exception:
-                pass
+                dir_name = os.path.dirname(os.path.abspath(self.sink_path))
+                if dir_name:
+                    os.makedirs(dir_name, exist_ok=True)
+                with open(self.sink_path, "a", encoding="utf-8") as f:
+                    f.write(json.dumps(sink_entry, sort_keys=True) + "\n")
+            except Exception as e:
+                raise DataUnavailableError(f"STATUS = DATA_UNAVAILABLE: Guardian evidence persistence failure: {str(e)}")
 
         return finding
 
@@ -116,22 +322,42 @@ class GuardianEngine:
     # SINK SELF-AUDIT
     # -------------------------------------------------------------
     def audit_guardian_evidence_sink_integrity(self) -> GuardianFinding:
-        """Verifies that the Guardian evidence sink has not been tampered with or deleted."""
-        for i in range(1, len(self._sink_chain)):
-            prev_entry = self._sink_chain[i - 1]
-            curr_entry = self._sink_chain[i]
-            if curr_entry["parent_hash"] != prev_entry["finding_hash"]:
+        """Verifies that the Guardian evidence sink has not been tampered with, pruned, or modified."""
+        # 1. Check in-memory chain integrity
+        prev_finding_hash = "GENESIS_GUARDIAN_ROOT"
+        for i, entry in enumerate(self._sink_chain):
+            if entry.get("index") != i:
                 return self.add_finding(
                     check_id="CHK-SINK-INTEGRITY",
                     severity="CRITICAL",
                     file="guardian_evidence_sink",
-                    line_or_function="audit_guardian_evidence_sink_integrity",
-                    violation="Guardian Evidence Sink Tampering Detected (Severed Link)",
-                    evidence=f"Entry {i} parent_hash {curr_entry['parent_hash']} != Entry {i-1} hash {prev_entry['finding_hash']}",
+                    line_or_function=f"entry_index_{i}",
+                    violation="GUARDIAN_EVIDENCE_TAMPERED",
+                    evidence=f"In-memory index mismatch: expected {i}, got {entry.get('index')}. Finding deleted.",
+                    expected_behavior="Sequential unbroken indices",
+                    actual_behavior="Index sequence gap",
+                    status="INVALID"
+                )
+            if entry.get("previous_finding_hash") != prev_finding_hash and entry.get("parent_hash") != prev_finding_hash:
+                return self.add_finding(
+                    check_id="CHK-SINK-INTEGRITY",
+                    severity="CRITICAL",
+                    file="guardian_evidence_sink",
+                    line_or_function=f"linkage_{i}",
+                    violation="GUARDIAN_EVIDENCE_TAMPERED",
+                    evidence=f"In-memory sink linkage broken at entry {i}: entry has '{entry.get('previous_finding_hash')}', expected '{prev_finding_hash}'",
                     expected_behavior="Unbroken append-only sink linkage",
                     actual_behavior="Sink chain modified or pruned",
                     status="INVALID"
                 )
+            prev_finding_hash = entry.get("finding_hash", "")
+
+        # 2. Check disk sink integrity if file is configured and exists
+        if self.sink_path and os.path.exists(self.sink_path):
+            disk_res = self.verify_sink_file(self.sink_path)
+            if disk_res.status != "PASS":
+                return disk_res
+
         return self.add_finding(
             check_id="CHK-SINK-INTEGRITY",
             severity="LOW",

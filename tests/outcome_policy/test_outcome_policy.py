@@ -71,6 +71,33 @@ class TestOutcomePolicyDeterministic(unittest.TestCase):
         outcome, result = self.test_engine.evaluate_prediction_outcome(pred, candles, current_time=1900.0)
         self.assertEqual(result.status, "PREDICTION_NOT_REALIZED")
 
+    def test_gate10_horizon_window_boundary_enforcement(self):
+        """GATE 10: Candles beyond [T, T+H] or premature evaluation raise explicit violations."""
+        pred = PredictionRecord("EXP", "P5", 1000.0, "EXEC", "3.0.0", "BTC", "15m", 900, 1900.0, "LONG", {}, [], "h5")
+
+        # 1. Premature evaluation before maturity timestamp (1900.0) raises FutureDataAccessViolation
+        candles = [
+            {"open_time": 1000.0, "open": 100.0, "high": 105.0, "low": 99.0, "close": 102.0, "volume": 10.0}
+        ]
+        with self.assertRaises(FutureDataAccessViolation):
+            self.test_engine.evaluate_prediction_outcome(pred, candles, current_time=1500.0)
+
+        # 2. Candle timestamp beyond maturity window (> 1900.0) raises FutureDataAccessViolation
+        future_candles = [
+            {"open_time": 1000.0, "open": 100.0, "high": 105.0, "low": 99.0, "close": 102.0, "volume": 10.0},
+            {"open_time": 2000.0, "open": 102.0, "high": 106.0, "low": 101.0, "close": 105.0, "volume": 15.0}
+        ]
+        with self.assertRaises(FutureDataAccessViolation):
+            self.test_engine.evaluate_prediction_outcome(pred, future_candles, current_time=1900.0)
+
+        # 3. Candle timestamp prior to prediction timestamp (< 1000.0) raises DataUnavailableError
+        past_candles = [
+            {"open_time": 800.0, "open": 100.0, "high": 105.0, "low": 99.0, "close": 102.0, "volume": 10.0},
+            {"open_time": 1500.0, "open": 102.0, "high": 106.0, "low": 101.0, "close": 105.0, "volume": 15.0}
+        ]
+        with self.assertRaises(DataUnavailableError):
+            self.test_engine.evaluate_prediction_outcome(pred, past_candles, current_time=1900.0)
+
 
 if __name__ == "__main__":
     unittest.main()

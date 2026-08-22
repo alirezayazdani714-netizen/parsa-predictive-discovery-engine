@@ -11,6 +11,7 @@ from types import MappingProxyType
 import json
 import hashlib
 import time
+import math
 
 
 class ParsaArchitectureViolation(Exception):
@@ -133,7 +134,7 @@ class ExperimentScenario:
 
 @dataclass(frozen=True)
 class MarketDataSnapshot:
-    """Historical/Live market data strictly bounded at timestamp <= current_t with full candle hashing."""
+    """Historical/Live market data strictly bounded at timestamp <= current_t with full canonical candle hashing."""
     experiment_id: str
     timestamp: float
     source: str
@@ -145,28 +146,68 @@ class MarketDataSnapshot:
     hash: str = field(init=False)
 
     def __post_init__(self):
-        # Invariant check: candles must all have open_time <= timestamp
-        for c in self.candles:
-            candle_time = c.get("open_time", c.get("timestamp", 0))
-            if candle_time > self.timestamp * 1000 and candle_time > self.timestamp:
+        # 1. Reject NaN / Infinity in timestamp
+        if math.isnan(self.timestamp) or math.isinf(self.timestamp):
+            raise ParsaArchitectureViolation(f"NaN or Inf not permitted in snapshot timestamp ({self.timestamp})")
+
+        unfrozen_raw = [unfreeze(c) for c in self.candles]
+        
+        # 2. Invariant & OHLCV validation: candles must all have open_time <= timestamp and no NaN/Inf
+        for idx, c in enumerate(unfrozen_raw):
+            if not isinstance(c, dict):
+                raise ParsaArchitectureViolation(f"Candle at index {idx} is not a valid dictionary")
+            
+            raw_t = c.get("open_time", c.get("timestamp", c.get("time", 0)))
+            if raw_t is None:
+                raise ParsaArchitectureViolation(f"Candle at index {idx} missing timestamp")
+            
+            t_sec = float(raw_t) / 1000.0 if float(raw_t) > 1e11 else float(raw_t)
+            if math.isnan(t_sec) or math.isinf(t_sec):
+                raise ParsaArchitectureViolation(f"Candle at index {idx} has invalid NaN/Inf timestamp")
+
+            if t_sec > self.timestamp + 1.0:
                 raise FutureDataAccessViolation(
-                    f"MarketDataSnapshot contains future candle timestamp {candle_time} > snapshot allowed {self.timestamp}"
+                    f"MarketDataSnapshot contains future candle timestamp {t_sec} > snapshot allowed {self.timestamp}"
                 )
 
+            for k in ["open", "high", "low", "close", "volume"]:
+                if k in c:
+                    val = float(c[k])
+                    if math.isnan(val) or math.isinf(val):
+                        raise ParsaArchitectureViolation(f"Candle at index {idx} field '{k}' contains NaN or Inf")
+
+        # 3. Canonical sort of candles:
+        # Canonical sort by (normalized open_time, close_time, open, high, low, close, volume)
+        def canonical_sort_key(c: Dict[str, Any]) -> Tuple[float, float, float, float, float, float, float]:
+            t = c.get("open_time", c.get("timestamp", c.get("time", 0)))
+            t_norm = float(t) / 1000.0 if float(t) > 1e11 else float(t)
+            ct = c.get("close_time", 0)
+            ct_norm = float(ct) / 1000.0 if float(ct) > 1e11 else float(ct)
+            return (
+                round(t_norm, 6),
+                round(ct_norm, 6),
+                round(float(c.get("open", 0)), 8),
+                round(float(c.get("high", 0)), 8),
+                round(float(c.get("low", 0)), 8),
+                round(float(c.get("close", 0)), 8),
+                round(float(c.get("volume", 0)), 8)
+            )
+
+        sorted_canonical_candles = sorted(unfrozen_raw, key=canonical_sort_key)
+
         # Deep freeze candles
-        frozen_candles = deep_freeze(self.candles)
+        frozen_candles = deep_freeze(sorted_canonical_candles)
         object.__setattr__(self, "candles", frozen_candles)
 
-        # Canonical full-candle hashing: Every single candle is hashed in canonical order
-        canonical_candles = [unfreeze(c) for c in frozen_candles]
+        # Canonical full-candle hashing: Every single candle and all fields are hashed
         payload = {
             "experiment_id": self.experiment_id,
             "timestamp": self.timestamp,
             "source": self.source,
             "asset": self.asset,
             "timeframe": self.timeframe,
-            "candles_count": len(canonical_candles),
-            "candles": canonical_candles,
+            "candles_count": len(sorted_canonical_candles),
+            "candles": [unfreeze(c) for c in sorted_canonical_candles],
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash
         }

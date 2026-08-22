@@ -1,11 +1,13 @@
 """
-PARSA LAYER CONTRACTS & IMMUTABLE DATA MODELS
-============================================
-Immutable data structures, schemas, and runtime violations across the 7 PARSA layers.
+PARSA LAYER CONTRACTS & IMMUTABLE DATA MODELS (PHASE 3 HARDENED)
+================================================================
+Deeply immutable data structures, cryptographic hashing, and runtime violation contracts
+across the 7 PARSA layers.
 """
 
-from dataclasses import dataclass, field, asdict
-from typing import List, Dict, Any, Optional
+from dataclasses import dataclass, field
+from typing import List, Dict, Any, Optional, Tuple, Mapping
+from types import MappingProxyType
 import json
 import hashlib
 import time
@@ -41,16 +43,35 @@ class EvidenceChainBrokenError(ParsaArchitectureViolation):
     pass
 
 
+def deep_freeze(obj: Any) -> Any:
+    """Recursively converts mutable lists and dicts into immutable tuples and MappingProxyType."""
+    if isinstance(obj, dict):
+        return MappingProxyType({k: deep_freeze(v) for k, v in obj.items()})
+    elif isinstance(obj, (list, tuple)):
+        return tuple(deep_freeze(item) for item in obj)
+    return obj
+
+
+def unfreeze(obj: Any) -> Any:
+    """Recursively converts MappingProxyType and tuples back into standard dicts and lists."""
+    if isinstance(obj, (dict, MappingProxyType)):
+        return {k: unfreeze(v) for k, v in obj.items()}
+    elif isinstance(obj, (list, tuple)):
+        return [unfreeze(item) for item in obj]
+    return obj
+
+
 def compute_sha256(data: Any) -> str:
     """Deterministic SHA-256 computation over JSON-serialized payload."""
-    if isinstance(data, str):
-        payload = data.encode('utf-8')
-    elif isinstance(data, (dict, list)):
-        payload = json.dumps(data, sort_keys=True, separators=(',', ':')).encode('utf-8')
-    elif hasattr(data, "to_dict"):
-        payload = json.dumps(data.to_dict(), sort_keys=True, separators=(',', ':')).encode('utf-8')
+    data_unfrozen = unfreeze(data) if not isinstance(data, str) else data
+    if isinstance(data_unfrozen, str):
+        payload = data_unfrozen.encode('utf-8')
+    elif isinstance(data_unfrozen, (dict, list)):
+        payload = json.dumps(data_unfrozen, sort_keys=True, separators=(',', ':')).encode('utf-8')
+    elif hasattr(data_unfrozen, "to_dict"):
+        payload = json.dumps(data_unfrozen.to_dict(), sort_keys=True, separators=(',', ':')).encode('utf-8')
     else:
-        payload = str(data).encode('utf-8')
+        payload = str(data_unfrozen).encode('utf-8')
     return hashlib.sha256(payload).hexdigest()
 
 
@@ -61,24 +82,31 @@ class ExperimentScenario:
     timestamp: float
     source: str
     version: str
-    universe: List[str]
-    timeframes: List[str]
-    horizons_seconds: List[int]
+    universe: Any  # Tuple[str, ...]
+    timeframes: Any  # Tuple[str, ...]
+    horizons_seconds: Any  # Tuple[int, ...]
     friction_bps: float
     out_of_sample_split_timestamp: float
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = "GENESIS"
     hash: str = field(init=False)
 
     def __post_init__(self):
+        frozen_universe = tuple(self.universe)
+        frozen_timeframes = tuple(self.timeframes)
+        frozen_horizons = tuple(self.horizons_seconds)
+        object.__setattr__(self, "universe", frozen_universe)
+        object.__setattr__(self, "timeframes", frozen_timeframes)
+        object.__setattr__(self, "horizons_seconds", frozen_horizons)
+
         payload = {
             "experiment_id": self.experiment_id,
             "timestamp": self.timestamp,
             "source": self.source,
             "version": self.version,
-            "universe": self.universe,
-            "timeframes": self.timeframes,
-            "horizons_seconds": self.horizons_seconds,
+            "universe": list(frozen_universe),
+            "timeframes": list(frozen_timeframes),
+            "horizons_seconds": list(frozen_horizons),
             "friction_bps": self.friction_bps,
             "out_of_sample_split_timestamp": self.out_of_sample_split_timestamp,
             "schema_version": self.schema_version,
@@ -105,14 +133,14 @@ class ExperimentScenario:
 
 @dataclass(frozen=True)
 class MarketDataSnapshot:
-    """Historical/Live market data strictly bounded at timestamp <= current_t."""
+    """Historical/Live market data strictly bounded at timestamp <= current_t with full candle hashing."""
     experiment_id: str
     timestamp: float
     source: str
     asset: str
     timeframe: str
-    candles: List[Dict[str, Any]]
-    schema_version: str = "2.0.0"
+    candles: Any  # Tuple[MappingProxyType, ...]
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
@@ -124,15 +152,21 @@ class MarketDataSnapshot:
                 raise FutureDataAccessViolation(
                     f"MarketDataSnapshot contains future candle timestamp {candle_time} > snapshot allowed {self.timestamp}"
                 )
+
+        # Deep freeze candles
+        frozen_candles = deep_freeze(self.candles)
+        object.__setattr__(self, "candles", frozen_candles)
+
+        # Canonical full-candle hashing: Every single candle is hashed in canonical order
+        canonical_candles = [unfreeze(c) for c in frozen_candles]
         payload = {
             "experiment_id": self.experiment_id,
             "timestamp": self.timestamp,
             "source": self.source,
             "asset": self.asset,
             "timeframe": self.timeframe,
-            "candles_count": len(self.candles),
-            "first_candle": self.candles[0] if self.candles else None,
-            "last_candle": self.candles[-1] if self.candles else None,
+            "candles_count": len(canonical_candles),
+            "candles": canonical_candles,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash
         }
@@ -145,7 +179,7 @@ class MarketDataSnapshot:
             "source": self.source,
             "asset": self.asset,
             "timeframe": self.timeframe,
-            "candles": self.candles,
+            "candles": [unfreeze(c) for c in self.candles],
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash,
             "hash": self.hash
@@ -165,10 +199,10 @@ class PredictionRecord:
     horizon_seconds: int
     maturity_timestamp: float
     direction: str  # "LONG", "SHORT", "NEUTRAL"
-    predicted_range: Dict[str, float]
-    model_identifiers: List[str]
+    predicted_range: Any  # MappingProxyType[str, float]
+    model_identifiers: Any  # Tuple[str, ...]
     input_data_hash: str
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     prediction_hash: str = field(init=False)
 
@@ -177,6 +211,12 @@ class PredictionRecord:
             raise ParsaArchitectureViolation(
                 f"Maturity timestamp ({self.maturity_timestamp}) must be strictly greater than prediction timestamp ({self.prediction_timestamp})"
             )
+
+        frozen_range = deep_freeze(self.predicted_range)
+        frozen_models = tuple(self.model_identifiers)
+        object.__setattr__(self, "predicted_range", frozen_range)
+        object.__setattr__(self, "model_identifiers", frozen_models)
+
         payload = {
             "experiment_id": self.experiment_id,
             "prediction_id": self.prediction_id,
@@ -188,8 +228,8 @@ class PredictionRecord:
             "horizon_seconds": self.horizon_seconds,
             "maturity_timestamp": self.maturity_timestamp,
             "direction": self.direction,
-            "predicted_range": self.predicted_range,
-            "model_identifiers": self.model_identifiers,
+            "predicted_range": unfreeze(frozen_range),
+            "model_identifiers": list(frozen_models),
             "input_data_hash": self.input_data_hash,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash
@@ -208,7 +248,7 @@ class PredictionRecord:
             "horizon_seconds": self.horizon_seconds,
             "maturity_timestamp": self.maturity_timestamp,
             "direction": self.direction,
-            "predicted_range": dict(self.predicted_range),
+            "predicted_range": unfreeze(self.predicted_range),
             "model_identifiers": list(self.model_identifiers),
             "input_data_hash": self.input_data_hash,
             "schema_version": self.schema_version,
@@ -233,7 +273,7 @@ class OutcomeRecord:
     actual_return_pct: float
     max_favorable_excursion_pct: float
     max_adverse_excursion_pct: float
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
@@ -292,7 +332,7 @@ class TestResult:
     friction_bps: float
     mfe_pct: float
     mae_pct: float
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
@@ -350,13 +390,18 @@ class JudgeResult:
     p_value: float
     bonferroni_threshold: float
     is_statistically_significant: bool
-    law_classification: str  # "CLASS_A", "CLASS_B", "CANDIDATE", "REJECTED", "INSUFFICIENT_SAMPLE"
-    real_money_authorized: bool
-    schema_version: str = "2.0.0"
+    law_classification: str  # "INSUFFICIENT_SAMPLE", "NOT_SIGNIFICANT", "CANDIDATE_EXPLORATORY", "REJECTED"
+    real_money_authorized: bool  # Strictly False
+    confidence_interval_95: Any = field(default_factory=lambda: (0.0, 0.0))  # (ci_lower, ci_upper)
+    effect_size: float = 0.0
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
     def __post_init__(self):
+        frozen_ci = tuple(self.confidence_interval_95)
+        object.__setattr__(self, "confidence_interval_95", frozen_ci)
+
         payload = {
             "experiment_id": self.experiment_id,
             "verdict_id": self.verdict_id,
@@ -374,6 +419,8 @@ class JudgeResult:
             "is_statistically_significant": self.is_statistically_significant,
             "law_classification": self.law_classification,
             "real_money_authorized": self.real_money_authorized,
+            "confidence_interval_95": list(frozen_ci),
+            "effect_size": self.effect_size,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash
         }
@@ -397,6 +444,8 @@ class JudgeResult:
             "is_statistically_significant": self.is_statistically_significant,
             "law_classification": self.law_classification,
             "real_money_authorized": self.real_money_authorized,
+            "confidence_interval_95": list(self.confidence_interval_95),
+            "effect_size": self.effect_size,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash,
             "hash": self.hash
@@ -417,7 +466,7 @@ class GuardianFinding:
     expected_behavior: str
     actual_behavior: str
     status: str  # "PASS", "WARNING", "FAIL", "INVALID", "DATA_UNAVAILABLE", "UNVERIFIED"
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
@@ -467,13 +516,16 @@ class ReportRecord:
     version: str
     title: str
     summary: str
-    verdicts_summary: Dict[str, Any]
+    verdicts_summary: Any  # MappingProxyType
     guardian_status: str
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     parent_hash: str = ""
     hash: str = field(init=False)
 
     def __post_init__(self):
+        frozen_summary = deep_freeze(self.verdicts_summary)
+        object.__setattr__(self, "verdicts_summary", frozen_summary)
+
         payload = {
             "report_id": self.report_id,
             "timestamp": self.timestamp,
@@ -481,7 +533,7 @@ class ReportRecord:
             "version": self.version,
             "title": self.title,
             "summary": self.summary,
-            "verdicts_summary": self.verdicts_summary,
+            "verdicts_summary": unfreeze(frozen_summary),
             "guardian_status": self.guardian_status,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash
@@ -496,7 +548,7 @@ class ReportRecord:
             "version": self.version,
             "title": self.title,
             "summary": self.summary,
-            "verdicts_summary": self.verdicts_summary,
+            "verdicts_summary": unfreeze(self.verdicts_summary),
             "guardian_status": self.guardian_status,
             "schema_version": self.schema_version,
             "parent_hash": self.parent_hash,
@@ -513,7 +565,7 @@ class EvidenceRecord:
     source_layer: str
     payload_hash: str
     parent_hash: str
-    schema_version: str = "2.0.0"
+    schema_version: str = "3.0.0"
     evidence_hash: str = field(init=False)
 
     def __post_init__(self):

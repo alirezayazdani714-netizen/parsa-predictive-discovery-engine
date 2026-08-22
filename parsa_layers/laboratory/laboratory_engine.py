@@ -1,6 +1,6 @@
 """
-PARSA LABORATORY LAYER (LAYER 1)
-================================
+PARSA LABORATORY LAYER (LAYER 1 - PHASE 3 HARDENED)
+===================================================
 Encapsulates hypothesis formulation, mathematical signal functions, and pattern extractors.
 Must NOT access data past the permitted in-sample training cutoff.
 """
@@ -11,6 +11,7 @@ from parsa_layers.contracts.models import (
     FutureDataAccessViolation,
     UnauthorizedLayerAccessViolation
 )
+from parsa_layers.contracts.access_control import enforce_layer
 
 
 class LaboratoryEngine:
@@ -30,6 +31,7 @@ class LaboratoryEngine:
                     f"Laboratory accessed data at timestamp {t_sec} > in-sample cutoff {self.cutoff_timestamp}"
                 )
 
+    @enforce_layer("LABORATORY")
     def compute_trend_momentum_signal(self, candles: List[Dict[str, Any]]) -> Dict[str, Any]:
         """Calculates a directional signal using bounded historical candles."""
         self.validate_in_sample_boundary(candles)

@@ -1,6 +1,6 @@
 """
-PARSA EXECUTOR LAYER (LAYER 2)
-==============================
+PARSA EXECUTOR LAYER (LAYER 2 - PHASE 3 HARDENED)
+=================================================
 Handles live & bounded historical market data ingestion, runtime boundary enforcement,
 and immutable cryptographic prediction locking at time T.
 
@@ -8,6 +8,7 @@ CRITICAL INVARIANTS:
 1. Runtime Guard: If any ingested market data timestamp > current allowed timestamp T, raise FutureDataAccessViolation.
 2. Absolute NO-MOCK Rule: If data source is unavailable, raise DataUnavailableError. No synthetic/mock fallback.
 3. Cannot score its own predictions or read Test/Judge/Report outcomes.
+4. Exception Handling: Never swallow or mask FutureDataAccessViolation or DataUnavailableError.
 """
 
 from typing import List, Dict, Any, Optional
@@ -23,15 +24,17 @@ from parsa_layers.contracts.models import (
     UnauthorizedLayerAccessViolation,
     compute_sha256
 )
+from parsa_layers.contracts.access_control import LayerAccessController, LayerContext, enforce_layer
 
 
 class ExecutorEngine:
     """Bounded Execution and Prediction Locking Engine."""
 
-    def __init__(self, experiment_id: str, version: str = "2.0.0"):
+    def __init__(self, experiment_id: str, version: str = "3.0.0"):
         self.experiment_id = experiment_id
         self.version = version
 
+    @enforce_layer("EXECUTOR")
     def ingest_live_binance_candles(
         self,
         symbol: str,
@@ -51,7 +54,7 @@ class ExecutorEngine:
         try:
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "PARSA-Execution-Engine/2.0"}
+                headers={"User-Agent": "PARSA-Execution-Engine/3.0"}
             )
             ctx = ssl.create_default_context()
             with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
@@ -59,6 +62,9 @@ class ExecutorEngine:
                     raise DataUnavailableError(f"Binance API returned HTTP status {response.status}")
                 raw_data = response.read().decode('utf-8')
                 raw_candles = json.loads(raw_data)
+        except (FutureDataAccessViolation, DataUnavailableError):
+            # Critical architecture exceptions must propagate directly
+            raise
         except Exception as e:
             # ABSOLUTE NO-MOCK: Never fall back to mock data
             raise DataUnavailableError(
@@ -109,6 +115,7 @@ class ExecutorEngine:
             candles=parsed_candles
         )
 
+    @enforce_layer("EXECUTOR")
     def generate_and_lock_prediction(
         self,
         snapshot: MarketDataSnapshot,
@@ -130,7 +137,7 @@ class ExecutorEngine:
             experiment_id=self.experiment_id,
             prediction_id=prediction_id,
             prediction_timestamp=now,
-            source="EXECUTOR_ENGINE_V2",
+            source="EXECUTOR_ENGINE_V3",
             version=self.version,
             asset=snapshot.asset,
             timeframe=snapshot.timeframe,

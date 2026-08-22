@@ -1,6 +1,6 @@
 """
-PARSA REPORT LAYER (LAYER 6)
-============================
+PARSA REPORT LAYER (LAYER 6 - PHASE 3 HARDENED)
+===============================================
 Synthesizes verified Judge and Guardian results into presentation formats and Markdown reports.
 Cannot create, modify, or project unverified scientific claims.
 """
@@ -14,15 +14,17 @@ from parsa_layers.contracts.models import (
     UnauthorizedLayerAccessViolation,
     compute_sha256
 )
+from parsa_layers.contracts.access_control import enforce_layer
 
 
 class ReportEngine:
     """Presentation and Report Synthesis Engine."""
 
-    def __init__(self, experiment_id: str, version: str = "2.0.0"):
+    def __init__(self, experiment_id: str, version: str = "3.0.0"):
         self.experiment_id = experiment_id
         self.version = version
 
+    @enforce_layer("REPORT")
     def generate_report(
         self,
         title: str,
@@ -52,15 +54,18 @@ class ReportEngine:
             "win_rate_pct": judge_result.win_rate_pct,
             "t_statistic": judge_result.t_statistic,
             "p_value": judge_result.p_value,
+            "bonferroni_threshold": judge_result.bonferroni_threshold,
             "is_significant": judge_result.is_statistically_significant,
             "law_classification": judge_result.law_classification,
-            "real_money_authorized": judge_result.real_money_authorized
+            "real_money_authorized": judge_result.real_money_authorized,
+            "confidence_interval_95": list(judge_result.confidence_interval_95),
+            "effect_size": judge_result.effect_size
         }
 
         return ReportRecord(
             report_id=report_id,
             timestamp=now,
-            source="REPORT_ENGINE_V2",
+            source="REPORT_ENGINE_V3",
             version=self.version,
             title=title,
             summary=summary_text,
@@ -69,10 +74,12 @@ class ReportEngine:
             parent_hash=judge_result.hash
         )
 
+    @enforce_layer("REPORT")
     def render_markdown(self, report: ReportRecord) -> str:
         """Renders the report in clean Markdown."""
         vs = report.verdicts_summary
-        md = f"""# 📊 PARSA EXPERIMENTAL EVALUATION REPORT
+        ci = vs.get('confidence_interval_95', [0.0, 0.0])
+        md = f"""# 📊 PARSA EXPERIMENTAL EVALUATION REPORT (PHASE 3 HARDENED)
 **Report ID:** `{report.report_id}`  
 **Title:** {report.title}  
 **Timestamp:** {report.timestamp}  
@@ -80,16 +87,19 @@ class ReportEngine:
 
 ---
 
-### 1. Statistical Summary
+### 1. Statistical Adjudication Summary
 - **Sample Size ($N$):** {vs.get('sample_size')}
 - **Correct Outcomes:** {vs.get('correct_count')}
 - **Wrong Outcomes:** {vs.get('wrong_count')}
 - **Not Realized / Neutral:** {vs.get('not_realized_count')}
 - **Directional Win Rate:** {vs.get('win_rate_pct')}%
-- **Statistical t-statistic:** {vs.get('t_statistic')}
+- **95% Wilson Confidence Interval:** [{ci[0]}%, {ci[1]}%]
+- **Effect Size (Cohen's $h$):** {vs.get('effect_size')}
+- **Statistical Test (z / t-statistic):** {vs.get('t_statistic')}
 - **p-value:** {vs.get('p_value')}
+- **Bonferroni Alpha Threshold:** {vs.get('bonferroni_threshold')}
 - **Statistically Significant:** {vs.get('is_significant')}
-- **Law Classification:** `{vs.get('law_classification')}`
+- **Scientific Law Classification:** `{vs.get('law_classification')}`
 - **Real-Money Trading Authorization:** `{vs.get('real_money_authorized')}`
 
 ---
